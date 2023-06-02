@@ -1,2 +1,2 @@
-﻿image url,API key,date,address,,,parcel_num,floors_num,bedrooms_num,bathrooms_num,basement,heating,cooling,yr_built,own_v_rent,age_tenants,tenants_num,type_property,sqft,curr_price,prev_price,city
-,,"Aug, 2022",2906 Lincoln Way,,,,,,,,,,,,,,,,,,
+﻿image url,API key,date,address,,,parcel_num,floors_num,bedrooms_num,bathrooms_num,basement,heating,cooling,yr_built,own_v_rent,age_tenants,tenants_num,type_property,sqft,curr_price,prev_price,city,county
+,,"Aug, 2022",2906 Lincoln Way,,,,,,,,,,,,,,,,,,,

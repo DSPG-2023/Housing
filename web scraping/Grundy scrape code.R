@@ -21,8 +21,8 @@ webpage_grundy <- read_html(zillow_url_grundy)
 addresses <- webpage_grundy %>%
   html_nodes(xpath = "/html/body/div[1]/div[5]/div/div/div[1]/div[1]/ul/li//div/div/article/div/div[1]/a/address") %>%
   html_text()
-
 print(addresses)
+
 
 # gathers image links
 image_urls <- webpage_grundy %>%
@@ -54,14 +54,38 @@ for (j in seq_along(image_urls)) {
 
 
 #This was my attempt to use the search bar on the homepage
+install.packages("wdman")
+library(wdman)
 driver <- rsDriver(browser = "chrome", chromever = "114.0.5735.90", port = 4444L, chromedriver = "C:/Users/BlueD/Documents/chromedriver_win32/chromedriver.exe")
-remote_driver <- driver$client
+
+driver <- rsDriver(browser = "chrome")
+remote_driver <- driver[["client"]]
+remote_driver$navigate("https://www.zillow.com/")
+searchInput <- remDr$findElement(using = "css selector", value = "#search-box-input")
+searchInput$clearElement()
+address <- "New Hampton IA"
+searchInput$sendKeysToElement(list(address, key = "enter"))
+Sys.sleep(5)
+searchResults <- remDr$findElements(using = "css selector", value = ".list-card")
+print(length(searchResults))
+remDr$close()
+rD$server$stop()
+
+
+
+
 zillow_url <- "https://www.zillow.com/"
 zillow_webpage <- read_html(zillow_url)
 searchbar_input_select <- "input#search-box-input"
-searchbar_input <- zillow_webpage %>% html_node(searchbar_input_select)
+searchbar_input <- html_nodes(zillow_webpage, searchbar_input_select)
 location <- "New Hampton IA"
 searchbar_input <- html_attr(searchbar_input, location)
+zillow_search <- html_form(zillow_webpage)[[1]]
+zillow_search <- set_values(zillow_search, "input#search-box-input" = location)
+zillow_webpage <- submit_form(zillow_webpage, zillow_search)
+search_results_link <- html_nodes(zillow_webpage, "a.list-card-link")
+search_links <- html_attr(search_results_link, "href")
+print(search_links)
 zillow_webpage <- close(zillow_webpage)
 
 

@@ -1,11 +1,13 @@
 
 #I think first 4 are neccesary for reading one webpage Rselenium may be needed for using search bars
-install.packages(c("readr", "rvest", "magrittr", "xm12", "RSelenium"))
+install.packages(c("readr", "rvest", "magrittr", "xml2", "RSelenium"))
 library(readr)
 library(rvest)
 library(magrittr)
-library(xm12)
+library(xml2)
 library(RSelenium)
+
+
 
 # reads in csv data
 sample_addresses <- read.csv("sample_addresses_as_csv.csv")
@@ -52,12 +54,15 @@ for (j in seq_along(image_urls)) {
 
 
 #This was my attempt to use the search bar on the homepage
-zillow_url <- "https://www.zillow.com/"
 driver <- rsDriver(browser = "chrome", chromever = "114.0.5735.90", port = 4444L, chromedriver = "C:/Users/BlueD/Documents/chromedriver_win32/chromedriver.exe")
 remote_driver <- driver$client
-
-
-
+zillow_url <- "https://www.zillow.com/"
+zillow_webpage <- read_html(zillow_url)
+searchbar_input_select <- "input#search-box-input"
+searchbar_input <- zillow_webpage %>% html_node(searchbar_input_select)
+location <- "New Hampton IA"
+searchbar_input <- html_attr(searchbar_input, location)
+zillow_webpage <- close(zillow_webpage)
 
 
 

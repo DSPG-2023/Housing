@@ -1,0 +1,78 @@
+---
+title: "Scott County"
+author: "Liesl"
+date: "2023-06-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(readxl)
+```
+
+
+#Read data file  
+#Note - the Excel file had "/" characters in field names so I replaced those with "_" in Excel before reading the file
+
+```{r}
+scott_co <- read_excel("R:/users/leathing/DSPG/2-cama data - cert - base prop data.xlsx")
+
+```
+
+
+## Select columns of interest
+
+```{r}
+df <- scott_co %>%
+dplyr::select(
+  Parcel,
+  Class,
+  Class_Descr,
+  Cnty_City,
+  Location_Descr,
+  Twp_City,
+  Prop_Street,
+  Prop_Hse_Num,
+  Land_Total_Acres,
+  Total_Bldg_Count,
+  Total_Units,
+  Ttl_Res_Bldg_Count,
+  Res_Occpcy,
+  Res_Style,
+  Res_Arch,
+  Res_Yr_Blt,
+  Res_Age,
+  Res_Fndtn,
+  Res_Roof,
+  Res_Total_Bdrms,
+  Res_Total_Bthrms,
+  Grg_Cnt,
+  Last_Sale_Date,
+  Last_Sale_Amnt,
+  Val_Yr,
+  Net_Assessed_Value_w__Exmptn) #%>%
+
+```
+
+
+#filter for residential properties in LeClaire
+
+```{r}
+leclaire_res <- df %>%
+  filter(Location_Descr == "CITY" & Cnty_City == "LECLAIRE" & Class_Descr=="Residential")
+```
+
+
+
+
+
+
+
+

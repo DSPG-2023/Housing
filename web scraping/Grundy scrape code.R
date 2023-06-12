@@ -24,7 +24,7 @@ addresses <- webpage_grundy %>%
 print(addresses)
 
 
-# gathers image links
+# gathers image links. Similair method as above
 image_urls <- webpage_grundy %>%
   html_nodes(xpath = '//*[@id="swipeable"]/div[1]/a/div/img') %>%
   html_attr("src")

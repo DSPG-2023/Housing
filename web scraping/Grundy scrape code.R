@@ -1,4 +1,4 @@
-#DO NOT ALTER USE AS EXAMPLE
+
 #I think first 4 are neccesary for reading one webpage Rselenium may be needed for using search bars
 install.packages(c("readr", "rvest", "magrittr", "xml2", "RSelenium"))
 library(readr)
@@ -8,25 +8,23 @@ library(xml2)
 library(RSelenium)
 
 
-# webpage to scrape. This specific link brings you to the grundy center houses for sale.
+
+# reads in csv data
+sample_addresses <- read.csv("sample_addresses_as_csv.csv")
+#print(addresses)
+
+# webpage to scrape
 zillow_url_grundy <- "https://www.zillow.com/grundy-center-ia/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22usersSearchTerm%22%3A%22Grundy%20Center%2C%20IA%22%2C%22mapBounds%22%3A%7B%22west%22%3A-93.21166512207031%2C%22east%22%3A-92.40828987792969%2C%22south%22%3A42.153050722920995%2C%22north%22%3A42.55594363773797%7D%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A24980%2C%22regionType%22%3A6%7D%5D%2C%22isMapVisible%22%3Afalse%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22days%22%7D%2C%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%2C%22mapZoom%22%3A11%7D"
 webpage_grundy <- read_html(zillow_url_grundy)
 
-# gathers addresses. This xpath can be obtained by right clicking on the address you want and clicking inspect.
-# you then must navigate to the html section that contains the text. right click again and go to copy -> full xpath
-# to gather all addresses on page the full xpath must be altered for example this xpath below has li// which signifies select all children where the original xpath would just have li/...
+# gathers addresses
 addresses <- webpage_grundy %>%
   html_nodes(xpath = "/html/body/div[1]/div[5]/div/div/div[1]/div[1]/ul/li//div/div/article/div/div[1]/a/address") %>%
   html_text()
 print(addresses)
 
-<<<<<<< Updated upstream
 
-# gathers image links. Similair method as above
-=======
-### IMPORTANT
 # gathers image links
->>>>>>> Stashed changes
 image_urls <- webpage_grundy %>%
   html_nodes(xpath = '//*[@id="swipeable"]/div[1]/a/div/img') %>%
   html_attr("src")
@@ -36,10 +34,7 @@ print(image_urls)
 #downloads first item
 #download.file(image_urls[1], "image.png", mode = "wb")
 
-# creates folder for images scraped then iterativly names each image (1-9 in this case).
-# More specifically it takes the image links gathered above, goes to each link, and downloads the image
-# dir.create makes a new folder. You only need to run this once.Everytime you do file.path to that folder it will add newly downloaded images to that folder
-# This method simply names each image 1 - number of images
+# creates folder for images scraped then iterativly names each image (1-9 in this case)
 dir.create("images_grundy_sale")
 for (i in seq_along(image_urls)) {
   file_path <- file.path("images_grundy_sale", paste0("image_", i, ".png"))
@@ -48,11 +43,6 @@ for (i in seq_along(image_urls)) {
 }
 
 #creates folder for images scraped then names them based on address they were scraped with
-# same as above except for how the images are named. for each image the address grabbed earlier is printed as the name.
-# this returns (image_ 123 main st) for example
-# you can alter this to return our naming convention (source_city_address_) by replacing "image_" with the source and city
-# for example if you are pulling slater images from zillow it will be paste0("Z_S_", address, "_.png") which will print the titles of images as Z_S_123 main st_.png
-# Z (Zillow) G (Google) V (Vanguard) B (Beacon) :: S (Slater) H (New Hampton) D (Independence) G (Grundy Center)
 dir.create("images_grundy_sale_addresses")
 for (j in seq_along(image_urls)) {
   address <- addresses[j]
@@ -61,15 +51,6 @@ for (j in seq_along(image_urls)) {
   download.file(image_urls[j], file_path, mode = "wb")
   print(file_path)
 }
-
-
-
-
-#IGNORE EVERYTHING BELOW
-
-# reads in csv data. 
-sample_addresses <- read.csv("sample_addresses_as_csv.csv")
-#print(addresses)
 
 
 #This was my attempt to use the search bar on the homepage

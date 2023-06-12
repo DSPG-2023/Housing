@@ -99,13 +99,59 @@ ss_image_urls <- ss %>% html_nodes(xpath = "//article//img") %>%
   html_attr("src")
 print(ss_image_urls)
 
-
-# WHAT WAS WRONG: YOU KEEP OVERWRITING YOUR ADDRESSES !!!!
-## try it again !!!
+# 
 for (j in seq_along(ss_image_urls)) {
   s_address <- ss_address[j]
   file_name <- paste0("Z_S_", s_address, "_.png")
   file_path <- file.path("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/Web Scraping/images_slater_sale_addresses", file_name)
   download.file(ss_image_urls[j], file_path, mode = "wb")
+  print(file_path)
+}
+
+# slide 2
+library(rvest)
+library(tidyverse)
+
+slide2 = "https://www.zillow.com/slater-ia/sold/2_p/?searchQueryState=%7B%22mapBounds%22%3A%7B%22north%22%3A41.930365556704984%2C%22east%22%3A-93.55027834838869%2C%22south%22%3A41.782563414617314%2C%22west%22%3A-93.76760165161134%7D%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22days%22%7D%2C%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22fsba%22%3A%7B%22value%22%3Afalse%7D%2C%22fsbo%22%3A%7B%22value%22%3Afalse%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%2C%22cmsn%22%3A%7B%22value%22%3Afalse%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value%22%3Afalse%7D%2C%22rs%22%3A%7B%22value%22%3Atrue%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%2C%22mapZoom%22%3A12%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A20522%2C%22regionType%22%3A6%7D%5D%2C%22pagination%22%3A%7B%22currentPage%22%3A2%7D%7D"
+ss = read_html(slide2)
+
+ss2_address <- ss %>% html_elements(xpath = "/html/body/div[1]/div[5]/div/div/div/div[1]/ul/li//div/div/article/div/div[1]/a/address") %>% html_text()
+print(ss2_address)
+
+
+ss2_image_urls <- ss %>% html_nodes(xpath = "//article//img") %>% 
+  html_attr("src")
+print(ss2_image_urls)
+
+# 
+for (j in seq_along(ss2_image_urls)) {
+  s2_address <- ss2_address[j]
+  file_name <- paste0("Z_S_", s2_address, "_.png")
+  file_path <- file.path("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/GitHub/Housing/web scraping/images_slater_addresses", file_name)
+  download.file(ss2_image_urls[j], file_path, mode = "wb")
+  print(file_path)
+}
+
+# slide 3
+library(rvest)
+library(tidyverse)
+
+slide3 = "https://www.zillow.com/slater-ia/sold/3_p/?searchQueryState=%7B%22mapBounds%22%3A%7B%22north%22%3A41.930365556704984%2C%22east%22%3A-93.55027834838869%2C%22south%22%3A41.782563414617314%2C%22west%22%3A-93.76760165161134%7D%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22days%22%7D%2C%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22fsba%22%3A%7B%22value%22%3Afalse%7D%2C%22fsbo%22%3A%7B%22value%22%3Afalse%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%2C%22cmsn%22%3A%7B%22value%22%3Afalse%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value%22%3Afalse%7D%2C%22rs%22%3A%7B%22value%22%3Atrue%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%2C%22mapZoom%22%3A12%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A20522%2C%22regionType%22%3A6%7D%5D%2C%22pagination%22%3A%7B%22currentPage%22%3A3%7D%7D"
+ss3 = read_html(slide3)
+
+ss3_address <- ss3 %>% html_elements(xpath = "/html/body/div[1]/div[5]/div/div/div/div[1]/ul/li//div/div/article/div/div[1]/a/address") %>% html_text()
+print(ss3_address)
+
+
+ss3_image_urls <- ss3 %>% html_nodes(xpath = "//article//img") %>% 
+  html_attr("src")
+print(ss3_image_urls)
+
+# 
+for (j in seq_along(ss3_image_urls)) {
+  s3_address <- ss3_address[j]
+  file_name <- paste0("Z_S_", s3_address, "_.png")
+  file_path <- file.path("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/GitHub/Housing/web scraping/images_slater_addresses", file_name)
+  download.file(ss3_image_urls[j], file_path, mode = "wb")
   print(file_path)
 }

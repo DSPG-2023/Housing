@@ -1,4 +1,4 @@
-﻿Address,City,Source,City ID,Image Name,image url,API Key,date,parcel_num,floors_num,bedrooms_num,bathrooms_num,basement,heating,cooling,yr_built,own_v_rent,age_tenants,tenants_num,type_property,sqft,curr_price,prev_price,county
+Address,City,Source,City ID,Image Name,image url,API Key,date,parcel_num,floors_num,bedrooms_num,bathrooms_num,basement,heating,cooling,yr_built,own_v_rent,age_tenants,tenants_num,type_property,sqft,curr_price,prev_price,county
  701 BENTON CIR ,Slater,G,S,G_S_701 BENTON CIR.png,"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=701+BENTON+CIR,+SLATER+IOWA",,,,,,,,,,,,,,,,,,
  637 GREENE ST ,Slater,G,S,G_S_637 GREENE ST.png,"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=637+GREENE+ST,+SLATER+IOWA",,,,,,,,,,,,,,,,,,
  705 TAMA CIR ,Slater,G,S,G_S_705 TAMA CIR.png,"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=705+TAMA+CIR,+SLATER+IOWA",,,,,,,,,,,,,,,,,,
@@ -199,3 +199,15 @@
  942 TRAIL DR ,Slater,G,S,G_S_942 TRAIL DR.png,"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=942+TRAIL+DR,+SLATER+IOWA",,,,,,,,,,,,,,,,,,
  602 STORY ST ,Slater,G,S,G_S_602 STORY ST.png,"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=602+STORY+ST,+SLATER+IOWA",,,,,,,,,,,,,,,,,,
  704 PARK CIR ,Slater,G,S,G_S_704 PARK CIR.png,"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=704+PARK+CIR,+SLATER+IOWA",,,,,,,,,,,,,,,,,,
+=======,,,,,,,,,,,,,,,,,,,,,,,
+﻿image_url,api_key,date,address,parcel_num,floors_num,bedrooms_num,bathrooms_num,basement,heating,cooling,yr_built,own_v_rent,age_tenants,tenants_num,type_property,sqft,curr_price,prev_price,city,county,,,
+"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=2094+Jamestown+Ave,+Independence+IA",,,,,,,,,,,,,,,,,,,,,,,
+" https://maps.googleapis.com/maps/api/streetview?size=800x800&location=1403+6th+Ave+NE,+Indepedence+IA",,,,,,,,,,,,,,,,,,,,,,,
+"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=1500+North+RIDGE+CT+NE,+Indepedence+IA",,,,,,,,,,,,,,,,,,,,,,,
+"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=1402+6Th+AVE+NE,+Indepedence+IA",,,,,,,,,,,,,,,,,,,,,,,
+"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=1501+North+RIDGE+CT+NE,+Indepedence+IA",,,,,,,,,,,,,,,,,,,,,,,
+"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=1500+6Th+AVE+NE,+Indepedence+IA",,,,,,,,,,,,,,,,,,,,,,,
+"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=1502+North+RIDGE+CT+NE,+Indepedence+IA",,,,,,,,,,,,,,,,,,,,,,,
+"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=1503+North+RIDGE+CT+NE,+Indepedence+IA",,,,,,,,,,,,,,,,,,,,,,,
+"https://maps.googleapis.com/maps/api/streetview?size=800x800&location=502+14Th+ST+NE,+Indepedence+IA",,,,,,,,,,,,,,,,,,,,,,,
+>>>>>>> e50cb500dd5c4448063b48412955a3229384750e,,,,,,,,,,,,,,,,,,,,,,,

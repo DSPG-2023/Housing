@@ -130,11 +130,32 @@ else:
 
 
 
-### TODO new vegetation model
+### new vegetation model
+img = cv2.imread("no_veg_test.png")
+resize = tf.image.resize(img, (180,180))
+
+new_model = load_model(os.path.join('model_new_vegetation', 'vegetation_quality_classifier.h5'))
+
+img_array = tf.keras.utils.img_to_array(resize)
+tf.keras.preprocessing.image.array_to_img(img_array).show()
+img_array = tf.expand_dims(img_array, 0)
+
+predictions = new_model.predict(img_array)
+score = tf.nn.softmax(predictions[0])
+class_names = ['garden_present', 'no_garden', 'overgrown']
+print(
+    "This image most likely belongs to {} with a {:.2f} percent confidence."
+    .format(class_names[np.argmax(score)], 100 * np.max(score))
+)
+if (np.argmax(score) == 0):
+    vegetation = class_names[0]
+elif (np.argmax(score) == 1):
+    vegetation = class_names[1]
+else:
+    vegetation = class_names[2]
 
 
-
-### TODO siding model
+### siding model
 # is there good siding
 # replace generic image with image being read in.
 img = cv2.imread("no_veg_test.png")

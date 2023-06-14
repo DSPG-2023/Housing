@@ -24,7 +24,7 @@ for(i in seq_along(urls_full_api_key)) {
 
 # INDEPENDENCE
 independence_data <- read.csv("~/GitHub/Housing/complete links/Independence_urls.csv")
-urls_start <- independence_data[, 1]
+urls_start <- independence_data[, 9]
 urls_full <- paste(urls_start, "&key=", sep = "")
 urls_full_api_key <- paste(urls_full, api_key, sep = "")
 
@@ -40,7 +40,7 @@ for(i in seq_along(urls_full_api_key)) {
 
 # NEW HAMPTON
 hampton_data <- read.csv("~/GitHub/Housing/complete links/New_Hampton_urls.csv")
-urls_start <- hampton_data[, 1]
+urls_start <- hampton_data[, 12]
 urls_full <- paste(urls_start, "&key=", sep = "")
 urls_full_api_key <- paste(urls_full, api_key, sep = "")
 

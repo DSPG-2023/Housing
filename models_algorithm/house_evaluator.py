@@ -3,11 +3,22 @@
 # Contributers: Angelina Evans, Gavin Fisher, and Kailyn Hogan
 
 
-# note to self: when installing these in terminal I had to say py instead of python
+# note to self: when installing some of these in terminal I had to say py instead of python
+# py -m pip install matplotlib as an example
+# not all of these are needed but I grabbed every import used for the AI model in case something needs to be edited here
 import cv2
 import os
 import sys
 import csv
+import matplotlib.pyplot as plt
+import imghdr
+import numpy as np
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
+from tensorflow.keras.models import load_model
+
 
 # access to the folder with images that must be evaluated
 # currently only a single houses images can be evaluated
@@ -95,8 +106,30 @@ else:
     clear_image_evaluate = img_list[0]
 
 
-### TODO Vegetation model
-# is there vegetation present
+### TODO Vegetation model example
+img = cv2.imread("no_veg_test.png")
+plt.imshow(img)
+#plt.show()
+resize = tf.image.resize(img, (256,256))
+plt.imshow(resize.numpy().astype(int))
+#plt.show()
+
+new_model = load_model(os.path.join('model_vegetation', 'vegetationclassifier.h5'))
+
+yhat = new_model.predict(np.expand_dims(resize/255, 0))
+yhat
+if yhat > 0.5: 
+    print(f'Predicted class is vegetation')
+    vegetation = True
+else:
+    print(f'Predicted class is non-vegetation')
+    vegetation = False
+
+
+
+### TODO new vegetation model
+
+
 
 ### TODO siding model
 # is there good siding

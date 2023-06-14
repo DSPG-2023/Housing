@@ -43,6 +43,9 @@ randomly_selected_image = False
 vegetation = None
 siding = None
 gutter = None
+# if there is not a clear image to use variable remains and returns false into the csv
+clear_image_available = False
+
 
 # based on the source letter at the beginning of the name the image is assigned to a variable
 for file in image_files:
@@ -106,24 +109,24 @@ else:
     clear_image_evaluate = img_list[0]
 
 
-### TODO Vegetation model example
-img = cv2.imread("no_veg_test.png")
-plt.imshow(img)
-#plt.show()
-resize = tf.image.resize(img, (256,256))
-plt.imshow(resize.numpy().astype(int))
-#plt.show()
+### EXAMPLE Vegetation model example
+# img = cv2.imread("no_veg_test.png")
+# plt.imshow(img)
+# #plt.show()
+# resize = tf.image.resize(img, (256,256))
+# plt.imshow(resize.numpy().astype(int))
+# #plt.show()
 
-new_model = load_model(os.path.join('model_vegetation', 'vegetationclassifier.h5'))
+# new_model = load_model(os.path.join('model_vegetation', 'vegetationclassifier.h5'))
 
-yhat = new_model.predict(np.expand_dims(resize/255, 0))
-yhat
-if yhat > 0.5: 
-    print(f'Predicted class is vegetation')
-    vegetation = True
-else:
-    print(f'Predicted class is non-vegetation')
-    vegetation = False
+# yhat = new_model.predict(np.expand_dims(resize/255, 0))
+# yhat
+# if yhat > 0.5: 
+#     print(f'Predicted class is vegetation')
+#     vegetation = True
+# else:
+#     print(f'Predicted class is non-vegetation')
+#     vegetation = False
 
 
 
@@ -133,6 +136,29 @@ else:
 
 ### TODO siding model
 # is there good siding
+# replace generic image with image being read in.
+img = cv2.imread("no_veg_test.png")
+resize = tf.image.resize(img, (180,180))
+
+new_model = load_model(os.path.join('model_siding', 'siding_quality_classifier.h5'))
+
+img_array = tf.keras.utils.img_to_array(resize)
+tf.keras.preprocessing.image.array_to_img(img_array).show()
+img_array = tf.expand_dims(img_array, 0)
+
+predictions = new_model.predict(img_array)
+score = tf.nn.softmax(predictions[0])
+class_names = ['chipped_paint', 'good_siding', 'poor_siding']
+print(
+    "This image most likely belongs to {} with a {:.2f} percent confidence."
+    .format(class_names[np.argmax(score)], 100 * np.max(score))
+)
+if (np.argmax(score) == 0):
+    siding = class_names[0]
+elif (np.argmax(score) == 1):
+    siding = class_names[1]
+else:
+    siding = class_names[2]
 
 ### TODO gutter model
 # is there a good gutter
@@ -142,14 +168,12 @@ else:
 ### TODO write information to a csv file after evaluating
 # return whether there was a clear image to use, if image was selected randomly, vegetation, siding, gutter, address(?), image(?) 
 # TEST: pushes to the house_attributes_test csv
-clear_image = True
-rand_select = False
-vegetation = True
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
 csv_file_path = os.path.join(script_dir, 'house_attributes_test.csv')
 csv_exists = os.path.isfile(csv_file_path)
 with open(csv_file_path, 'a', newline='') as file:
     writer = csv.writer(file)
     if not csv_exists:
-        writer.writerow(['clear_image', 'rand_select', 'vegetation'])
-    writer.writerow([clear_image, rand_select, vegetation])
+        writer.writerow(['clear_image_available', 'rand_select', 'vegetation', 'siding', 'gutter'])
+    writer.writerow([clear_image_available, randomly_selected_image, vegetation, siding, gutter])

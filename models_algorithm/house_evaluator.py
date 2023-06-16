@@ -18,6 +18,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
 from tensorflow.keras.models import load_model
+import random
 
 
 # access to the folder with images that must be evaluated
@@ -95,10 +96,19 @@ img_list = [google_img, zillow_img, vanguard_img, beacon_img, other_img]
 ### TODO multiple house model
 # are there multiple houses in the image? if other images exist remove these
 
+
+
 ### TODO date/random picker
 # if more than 1 image is remaining meaning they were good images we must choose one
 # first look at the dates if available for all images if one is newer choose it
 # if not randomly pick one of the images and set randomly_selected_image to true
+# INSERT DATE CHECKER HERE
+if len(img_list) > 1 :
+    random_index = random.randint(0, len(img_list) -1)
+    random_item = img_list[random_index]
+    #this will hold the name and image of the index in img_list
+    img_list = [random_item]
+    randomly_selected_image = True
 
 # assuming one image is remaining
 # either set to clear_image_evaluate to be ran through other models or returns program asking for better images

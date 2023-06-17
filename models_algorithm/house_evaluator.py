@@ -68,7 +68,7 @@ for file in image_files:
 img_list = [google_img, zillow_img, vanguard_img, beacon_img, other_img]
 
 
-#TEST: this exports the images to a new folder to make sure they saved to variables correctly
+# TEST: this exports the images to a new folder to make sure they saved to variables correctly
 # new_folder = os.path.join(image_folder, 'new_folder_test')
 # os.makedirs(new_folder, exist_ok = True)
 # if google_img is not None:
@@ -87,22 +87,71 @@ img_list = [google_img, zillow_img, vanguard_img, beacon_img, other_img]
 # only delete todos when you finish the algorithm or if it mostly works
 # the first three house picture quality models should have one image remaining after running(house present, clear image, and multiple houses)
 # when an image does not pass our evaluations it should be removed from the list for example img_list.remove(google_img)
-### TODO is house present model
+# TODO check the first 3 houses checkers return the correct picture meaning check the binary values returned are the ones we want
+# is house present model
 # Is house present in image? Images not of houses and blurry images should be removed
+temp_img_list = []
+for image in img_list:    
+    resize = tf.image.resize(image, (256,256)) 
 
-### TODO clear image model
+    new_model = load_model(os.path.join('model_house_present', 'house_present_classifier.h5'))
+    
+    yhat = new_model.predict(np.expand_dims(resize/255, 0))
+    # house present
+    if yhat < 0.5: 
+        temp_img_list.append(image)
+    # else no house present
+    
+if len(temp_img_list) < len(img_list):
+    img_list = temp_img_list
+# test if removing properly
+# print(img_list)
+# print(len(img_list))
+# sys.exit()
+
+# clear image model
 # can you see the house well? very poorly obstructed houses should be removed. very small images may be removed as well
+if len(img_list) > 1:
+    temp_img_list = []
+    for image in img_list:    
+        resize = tf.image.resize(image, (256,256)) 
 
-### TODO multiple house model
+        new_model = load_model(os.path.join('model_clear_images', 'clear_image_classifier.h5'))
+        
+        yhat = new_model.predict(np.expand_dims(resize/255, 0))
+        # TODO clear image has 3 characteristics so non obstructed and partially need to pass while obstructed does not
+        # ['Not Obstructed', 'Obstructed', 'Partially Obstructed']
+        # clear image
+        if yhat < 0.5: 
+            temp_img_list.append(image)
+        # else not clear
+        
+    if len(temp_img_list) < len(img_list):
+        img_list = temp_img_list
+
+# multiple house model
 # are there multiple houses in the image? if other images exist remove these
+if len(img_list) > 1:
+    temp_img_list = []
+    for image in img_list:    
+        resize = tf.image.resize(image, (256,256)) 
+
+        new_model = load_model(os.path.join('model_multiple_houses', 'multiple_houses_classifier.h5'))
+        
+        yhat = new_model.predict(np.expand_dims(resize/255, 0))
+        # one house?
+        if yhat < 0.5: 
+            temp_img_list.append(image)
+        # else multiple houses?
+        
+    if len(temp_img_list) < len(img_list):
+        img_list = temp_img_list
 
 
-
-### TODO date/random picker
 # if more than 1 image is remaining meaning they were good images we must choose one
 # first look at the dates if available for all images if one is newer choose it
 # if not randomly pick one of the images and set randomly_selected_image to true
-# INSERT DATE CHECKER HERE
+# TODO INSERT DATE CHECKER HERE
 if len(img_list) > 1 :
     random_index = random.randint(0, len(img_list) -1)
     random_item = img_list[random_index]

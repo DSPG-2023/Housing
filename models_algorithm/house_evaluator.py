@@ -98,7 +98,7 @@ for image in img_list:
     
     yhat = new_model.predict(np.expand_dims(resize/255, 0))
     # house present
-    if yhat < 0.5: 
+    if yhat > 0.5: 
         temp_img_list.append(image)
     # else no house present
     
@@ -140,7 +140,7 @@ if len(img_list) > 1:
         
         yhat = new_model.predict(np.expand_dims(resize/255, 0))
         # one house?
-        if yhat < 0.5: 
+        if yhat > 0.5: 
             temp_img_list.append(image)
         # else multiple houses?
         
@@ -240,9 +240,12 @@ elif (np.argmax(score) == 1):
 else:
     siding = class_names[2]
 
-### TODO gutter model
+# TODO gutter model
 # is there a good gutter
 
+# TODO roof model
+# I do not think 2023 will touch this...
+# however people for next year, there was a decision in fulcrum to sort on roof quality (good, fair, poor) with no option of roof age
 
 
 ### TODO write information to a csv file after evaluating
@@ -255,5 +258,5 @@ csv_exists = os.path.isfile(csv_file_path)
 with open(csv_file_path, 'a', newline='') as file:
     writer = csv.writer(file)
     if not csv_exists:
-        writer.writerow(['clear_image_available', 'rand_select', 'vegetation', 'siding', 'gutter'])
+        writer.writerow(['clear_image', 'rand_select', 'vegetation', 'siding', 'gutter'])
     writer.writerow([clear_image_available, randomly_selected_image, vegetation, siding, gutter])

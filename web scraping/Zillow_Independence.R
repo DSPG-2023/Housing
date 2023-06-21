@@ -9,7 +9,7 @@ library(xml2)
 library(RSelenium)
 
 
-# webpage to scrape. This link is for Independence houses for sale
+# webpage to scrape. This link is for Independence houses FOR SALE
 zillow_url_inde <- "https://www.zillow.com/independence-ia/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22mapBounds%22%3A%7B%22north%22%3A42.88681926308871%2C%22east%22%3A-91.15901076171875%2C%22south%22%3A42.12347499742446%2C%22west%22%3A-92.61469923828125%7D%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A12037%2C%22regionType%22%3A6%7D%5D%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22sort%22%3A%7B%22value%22%3A%22days%22%7D%2C%22schm%22%3A%7B%22value%22%3Afalse%7D%2C%22schh%22%3A%7B%22value%22%3Afalse%7D%2C%22schu%22%3A%7B%22value%22%3Afalse%7D%2C%22schp%22%3A%7B%22value%22%3Afalse%7D%2C%22schr%22%3A%7B%22value%22%3Afalse%7D%2C%22sche%22%3A%7B%22value%22%3Afalse%7D%2C%22schc%22%3A%7B%22value%22%3Afalse%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%2C%22mapZoom%22%3A9%7D"
 webpage_inde <- read_html(zillow_url_inde)
 

@@ -1,16 +1,1 @@
-﻿clear_image,rand_select,vegetation
-TRUE,FALSE,TRUE
-TRUE,FALSE,TRUE
-True,False,True
-True,False,True
-True,False,True
-True,False,True
-True,False,True
-True,False,
-True,False,
-False,False,,chipped_paint,
-False,False,garden_present,chipped_paint,
-False,False,garden_present,chipped_paint,
-False,True,garden_present,chipped_paint,
-False,True,garden_present,chipped_paint,
-False,True,garden_present,chipped_paint,
+﻿address,city,state,source,city_id,image_name,image_url,date,parcel_num,floors_num,bedrooms_num,bathrooms_num,basement,heating,cooling,yr_built,own_v_rent,age_tenants,tenants_num,type_property,sqft,curr_price,prev_price,county,clear_image,rand_select,vegetation,siding,gutter

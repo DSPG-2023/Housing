@@ -1,6 +1,6 @@
 # This file was made by the DSPG AI Housing team summer of 2023
 # House images can be fed into this script and evaluated to return characteristics about the house (multiple pics from one house)
-# Contributers: Angelina Evans, Gavin Fisher, and Kailyn Hogan
+# Contributers: Angelina Evans, Gavin Fisher, and Kailyn Hogan, Mohammad Sadat
 
 
 # note to self: when installing some of these in terminal I had to say py instead of python
@@ -21,20 +21,24 @@ from tensorflow.keras.models import load_model
 import random
 import pandas as pd
 
+image_folder_parent = "house_image_inputs_test"
+image_folder_address = [i.path for i in os.scandir(image_folder_parent) if i.is_dir()]
 
 # access to the folder with images that must be evaluated
 # currently only a single houses images can be evaluated
 image_folder = "single_house_image_inputs"
-
 # creates a list of the images in the folder and only grabs png jpg jpeg files
 image_files = [os.path.join(image_folder, file) for file in os.listdir(image_folder) if file.endswith(('png', 'jpg', 'jpeg'))]
-
 # initialize source image variables. These can be changed
 google_img = None
 zillow_img = None
 vanguard_img = None
 beacon_img = None
 other_img = None
+# list of images
+img_list = []
+# address needed from images to write to csv correctly
+address = None
 # once images evaluated this variable is used for the one image selected
 clear_image_evaluate = None
 # if multiple quality images remain we will randomly choose which one to evaluate 
@@ -47,7 +51,10 @@ siding = None
 gutter = None
 # if there is not a clear image to use variable remains and returns false into the csv
 clear_image_available = False
-
+# confidence of AI guesses
+vegetation_confidence = 0
+siding_confidence = 0
+gutter_confidence = 0
 
 # based on the source letter at the beginning of the name the image is assigned to a variable
 for file in image_files:
@@ -66,8 +73,10 @@ for file in image_files:
         other_img = image
 
 # remove images from list as it runs through first few evaluator models
-img_list = [google_img, zillow_img, vanguard_img, beacon_img, other_img]
-
+temp_list = [google_img, zillow_img, vanguard_img, beacon_img, other_img]
+for image in temp_list:
+    if image is not None:
+        img_list.append(image)
 
 # TEST: this exports the images to a new folder to make sure they saved to variables correctly
 # new_folder = os.path.join(image_folder, 'new_folder_test')
@@ -167,6 +176,7 @@ if (img_list is None or len(img_list) == 0):
     sys.exit("No images provided or poor images provided")
 else:
     clear_image_evaluate = img_list[0]
+    clear_image_available = True
 
 
 ### EXAMPLE Vegetation model example
@@ -190,8 +200,9 @@ else:
 
 
 
-### new vegetation model
-img = cv2.imread("no_veg_test.png")
+# new vegetation model
+# img = cv2.imread("no_veg_test.png")
+img = clear_image_evaluate
 resize = tf.image.resize(img, (180,180))
 
 new_model = load_model(os.path.join('model_new_vegetation', 'vegetation_quality_classifier.h5'))
@@ -208,6 +219,7 @@ print(
     "This image most likely belongs to {} with a {:.2f} percent confidence."
     .format(class_names[np.argmax(score)], 100 * np.max(score))
 )
+vegetation_confidence = round(100 * np.max(score), 2)
 if (np.argmax(score) == 0):
     vegetation = class_names[0]
 elif (np.argmax(score) == 1):
@@ -216,10 +228,9 @@ else:
     vegetation = class_names[2]
 
 
-### siding model
+# siding model
 # is there good siding
-# replace generic image with image being read in.
-img = cv2.imread("no_veg_test.png")
+img = clear_image_evaluate
 resize = tf.image.resize(img, (180,180))
 
 new_model = load_model(os.path.join('model_siding', 'siding_quality_classifier.h5'))
@@ -236,6 +247,7 @@ print(
     "This image most likely belongs to {} with a {:.2f} percent confidence."
     .format(class_names[np.argmax(score)], 100 * np.max(score))
 )
+siding_confidence = round(100 * np.max(score), 2)
 if (np.argmax(score) == 0):
     siding = class_names[0]
 elif (np.argmax(score) == 1):
@@ -312,7 +324,7 @@ gutter = False
 ##loading the csv file
 df = pd.read_csv('house_attributes_test.csv')
 
-## check if the columns (clear_image, rand_select, vegetation) exists
+## check if the columns exist
 
 if ('clear_image' in list(df.columns)):
    pass
@@ -329,19 +341,37 @@ if ('vegetation' in list(df.columns)):
 else:
     df['vegetation'] = None
 
+if ('vegetation_confidence' in list(df.columns)):
+    pass
+else:
+    df['vegetation_confidence'] = None
+
 if ('siding' in list(df.columns)):
     pass
 else:
     df['siding'] = None
+
+if ('siding_confidence' in list(df.columns)):
+    pass
+else:
+    df['siding_confidence'] = None
 
 if ('gutter' in list(df.columns)):
     pass
 else:
     df['gutter'] = None
 
+if ('gutter_confidence' in list(df.columns)):
+    pass
+else:
+    df['gutter_confidence'] = None
+
 
 ## Assign the address that needs to be found
-address = '701 BENTON CIR'
+# address = '701 BENTON CIR'
+text_split = image_folder_address[0].split("\\")
+address = text_split[1]
+print(text_split[1])
 
 ## Locate the target row for the address and insert the attribute
 if (sum(df['address'] == address) != 0):
@@ -350,8 +380,11 @@ if (sum(df['address'] == address) != 0):
         df.at[i,'clear_image'] = clear_image_available
         df.at[i, 'rand_select'] = randomly_selected_image
         df.at[i, 'vegetation'] = vegetation
+        df.at[i, 'vegetation_confidence'] = vegetation_confidence
         df.at[i, 'siding'] = siding
+        df.at[i, 'siding_confidence'] = siding_confidence
         df.at[i, 'gutter'] = gutter
+        df.at[i, 'gutter_confidence'] = gutter_confidence
 
 ##Write the Dataframe the CSV file
 df.to_csv('house_attributes_test.csv', index=False)

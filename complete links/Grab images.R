@@ -14,7 +14,7 @@ urls_full_api_key <- paste(urls_full, api_key, sep = "")
 # creates folder and downloads all images
 dir.create("des_moines_google_images_folder")
 for(i in seq_along(urls_full_api_key)) {
-  file_path <- file.path("des_moines_google_images_folder", paste0("DM_G_", dm_data[i,14], "_.png"))
+  file_path <- file.path("des_moines_google_images_folder", paste0("G_DM_", dm_data[i,14], "_.png"))
   download.file(urls_full_api_key[i], file_path, mode = "wb")
   print(file_path)
   print(i)
@@ -30,7 +30,7 @@ urls_full_api_key <- paste(urls_full, api_key, sep = "")
 dir.create("des_moines_google_images_folder")
 for(i in seq_along(urls_full_api_key)) {
   if (urls_start[i] != ""){
-    file_path <- file.path("des_moines_poor_google_images_folder", paste0("DM_G_", dm_data[i,14], "_.png"))
+    file_path <- file.path("des_moines_poor_google_images_folder", paste0("G_DM_", dm_data[i,14], "_.png"))
     download.file(urls_full_api_key[i], file_path, mode = "wb")
     print(file_path)
   }

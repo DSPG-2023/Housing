@@ -19,6 +19,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropou
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
 from tensorflow.keras.models import load_model
 import random
+import pandas as pd
 
 
 # access to the folder with images that must be evaluated
@@ -196,7 +197,8 @@ resize = tf.image.resize(img, (180,180))
 new_model = load_model(os.path.join('model_new_vegetation', 'vegetation_quality_classifier.h5'))
 
 img_array = tf.keras.utils.img_to_array(resize)
-tf.keras.preprocessing.image.array_to_img(img_array).show()
+# tf.keras.preprocessing.image.array_to_img(img_array).show()
+tf.keras.preprocessing.image.array_to_img(img_array)
 img_array = tf.expand_dims(img_array, 0)
 
 predictions = new_model.predict(img_array)
@@ -223,7 +225,8 @@ resize = tf.image.resize(img, (180,180))
 new_model = load_model(os.path.join('model_siding', 'siding_quality_classifier.h5'))
 
 img_array = tf.keras.utils.img_to_array(resize)
-tf.keras.preprocessing.image.array_to_img(img_array).show()
+# tf.keras.preprocessing.image.array_to_img(img_array).show()
+tf.keras.preprocessing.image.array_to_img(img_array)
 img_array = tf.expand_dims(img_array, 0)
 
 predictions = new_model.predict(img_array)
@@ -242,21 +245,117 @@ else:
 
 # TODO gutter model
 # is there a good gutter
+gutter = False
 
 # TODO roof model
 # I do not think 2023 will touch this...
 # however people for next year, there was a decision in fulcrum to sort on roof quality (good, fair, poor) with no option of roof age
+# will probably need two models, one that will assess age and one that will assess quality(meaning worn down or not for age and damaged or not)
+
+# TODO window model
+# identifies boarded up windows or broken windows
 
 
-### TODO write information to a csv file after evaluating
+# write information to a csv file after evaluating
 # return whether there was a clear image to use, if image was selected randomly, vegetation, siding, gutter, address(?), image(?) 
-# TEST: pushes to the house_attributes_test csv
+# This code will print values to an empty csv file. will not search for existing columns
+# script_dir = os.path.dirname(os.path.abspath(__file__))
+# csv_file_path = os.path.join(script_dir, 'house_attributes_test.csv')
+# csv_exists = os.path.isfile(csv_file_path)
+# with open(csv_file_path, 'a', newline='') as file:
+#     writer = csv.writer(file)
+#     if not csv_exists:
+#         writer.writerow(['clear_image', 'rand_select', 'vegetation', 'siding', 'gutter'])
+#     writer.writerow([clear_image_available, randomly_selected_image, vegetation, siding, gutter])
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-csv_file_path = os.path.join(script_dir, 'house_attributes_test.csv')
-csv_exists = os.path.isfile(csv_file_path)
-with open(csv_file_path, 'a', newline='') as file:
-    writer = csv.writer(file)
-    if not csv_exists:
-        writer.writerow(['clear_image', 'rand_select', 'vegetation', 'siding', 'gutter'])
-    writer.writerow([clear_image_available, randomly_selected_image, vegetation, siding, gutter])
+
+# will search for column names and print for every row
+# def find_column(csv_file, column_name, attribute, address):
+#     with open(csv_file, 'r') as file:
+#         lines = list(csv.reader(file))
+#         header = lines[0]
+#         for index, column in enumerate(header):
+#             if column == column_name:
+#                 column_number = index
+#                 for row in lines[1:]:
+#                     row[column_number] = attribute
+#                 with open(csv_file, 'w', newline='') as file:
+#                     writer = csv.writer(file)
+#                     writer.writerows(lines)
+#                 return column_number + 1
+#         return -1  
+
+# csv_file = 'house_attributes_test.csv'
+# address = '1225 LINCOLN WAY'
+# column_name = 'clear_image'
+# column_number = find_column(csv_file, column_name, clear_image_available, address)
+
+# column_name = 'rand_select'
+# column_number = find_column(csv_file, column_name, randomly_selected_image, address)
+
+# column_name = 'vegetation'
+# column_number = find_column(csv_file, column_name, vegetation, address)
+
+# column_name = 'siding'
+# column_number = find_column(csv_file, column_name, siding, address)
+
+# column_name = 'gutter'
+# column_number = find_column(csv_file, column_name, gutter, address)
+
+# if column_number != -1:
+#     print(f"The column '{column_name}' is located in column number {column_number}.")
+# else:
+#     print(f"The column '{column_name}' was not found in the CSV file.")
+
+
+
+##loading the csv file
+df = pd.read_csv('house_attributes_test.csv')
+
+## check if the columns (clear_image, rand_select, vegetation) exists
+
+if ('clear_image' in list(df.columns)):
+   pass
+else:
+    df['clear_image'] = None
+
+if ('rand_select' in list(df.columns)):
+   pass
+else:
+    df['rand_select'] = None
+
+if ('vegetation' in list(df.columns)):
+   pass
+else:
+    df['vegetation'] = None
+
+if ('siding' in list(df.columns)):
+    pass
+else:
+    df['siding'] = None
+
+if ('gutter' in list(df.columns)):
+    pass
+else:
+    df['gutter'] = None
+
+
+## Assign the address that needs to be found
+address = '701 BENTON CIR'
+
+## Locate the target row for the address and insert the attribute
+if (sum(df['address'] == address) != 0):
+    idx = df.index[df['address'] == address].tolist()
+    for i in idx:
+        df.at[i,'clear_image'] = clear_image_available
+        df.at[i, 'rand_select'] = randomly_selected_image
+        df.at[i, 'vegetation'] = vegetation
+        df.at[i, 'siding'] = siding
+        df.at[i, 'gutter'] = gutter
+
+##Write the Dataframe the CSV file
+df.to_csv('house_attributes_test.csv', index=False)
+
+
+
+

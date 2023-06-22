@@ -3,7 +3,7 @@ address,city,state,source,city_id,image_name,image_url,date,parcel_num,floors_nu
 123 MAIN ST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 559 BARCLAY DR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 1225 LINCOLN WAY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-701 BENTON CIR,,,,,,,,,,,,,,,,,,,,,,,,True,False,garden_present,43.07,poor_siding,38.55,False,0.0
+701 BENTON CIR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 1203 COMPUTER DR,,,,,,,,,,,,,,,,,,,,,,,,True,False,garden_present,43.07,poor_siding,38.55,False,0.0
 Not an Address,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 2594 LINDSY CIR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

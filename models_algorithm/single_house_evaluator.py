@@ -320,10 +320,10 @@ gutter = False
 
 
 
-##loading the csv file
+# loading the csv file
 df = pd.read_csv('house_attributes_test.csv')
 
-## check if the columns exist
+# check if the columns exist
 
 if ('clear_image' in list(df.columns)):
    pass

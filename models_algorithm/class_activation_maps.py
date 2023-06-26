@@ -1,3 +1,5 @@
+# CAM just made for testing the concept
+
 from __future__ import print_function, division
 from builtins import range, input
 from keras.models import Model
@@ -18,9 +20,9 @@ plt.show()
 
 resnet = ResNet50(input_shape = (224, 224, 3), weights = 'imagenet', include_top = True)
 resnet.summary()
-activation_layer = resnet.get_layer('conv5_block3_out')
+activation_layer = resnet.get_layer('conv5_block3_out') # last activation layer
 model = Model(inputs = resnet.input, outputs = activation_layer.output)
-final_dense = resnet.get_layer('predictions')
+final_dense = resnet.get_layer('predictions') # last dense layer
 W = final_dense.get_weights()[0]
 
 while True:

@@ -88,7 +88,7 @@ def evaluate_houses(image_files):
         # house present
         if yhat < 0.5: 
             temp_img_list.append(image)
-            print("passed house present model")
+            # print("passed house present model")
         # else no house present
         else:
             print("Did not pass house present model")
@@ -112,7 +112,7 @@ def evaluate_houses(image_files):
             # ['Not Obstructed', 'Obstructed', 'Partially Obstructed']
             if guess_index == 0 or guess_index == 2:
                 temp_img_list.append(image)
-                print("passed clear image model")
+                # print("passed clear image model")
             else:
                 print("did not pass clear image model")
             
@@ -138,7 +138,7 @@ def evaluate_houses(image_files):
             # one house?
             if yhat > 0.5: 
                 temp_img_list.append(image)
-                print("passed single house model")
+                # print("passed single house model")
             # else multiple houses?
             else: 
                 print("failed multiple houses classifier")

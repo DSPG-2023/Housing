@@ -50,6 +50,7 @@ def evaluate_houses(image_files):
     vegetation_confidence = 0
     siding_confidence = 0
     gutter_confidence = 0
+    test_failed = 'None'
 
     # based on the source letter at the beginning of the name the image is assigned to a variable
     for file in image_files:
@@ -94,6 +95,8 @@ def evaluate_houses(image_files):
         
     if len(temp_img_list) < len(img_list):
         img_list = temp_img_list
+    if len(img_list) == 0:
+        test_failed = 'house_present'
 
     # clear image model
     if len(img_list) > 1:
@@ -116,8 +119,11 @@ def evaluate_houses(image_files):
             
             
             
-        if len(temp_img_list) < len(img_list) & len(temp_img_list) != 0:
+        if len(temp_img_list) < len(img_list):
             img_list = temp_img_list
+
+        if len(img_list) == 0:
+            test_failed = 'clear_image'
 
     # multiple house model
     # are there multiple houses in the image? if other images exist remove these
@@ -137,9 +143,11 @@ def evaluate_houses(image_files):
             else: 
                 print("failed multiple houses classifier")
             
-        if len(temp_img_list) < len(img_list) & len(temp_img_list) != 0:
+        if len(temp_img_list) < len(img_list):
             img_list = temp_img_list
 
+        if len(img_list) == 0:
+            test_failed = 'multi_house'
 
     # if more than 1 image is remaining meaning they were good images we must choose one
     # first look at the dates if available for all images if one is newer choose it
@@ -157,7 +165,18 @@ def evaluate_houses(image_files):
     # either set to clear_image_evaluate to be ran through other models or returns program asking for better images
     # if we want to run a file of multiple houses images this will need to set a variable instead of exiting
     if (img_list is None or len(img_list) == 0):
-        sys.exit("No images provided or poor images provided")
+        print("No images provided or poor images provided")
+        return {
+        "clear_image": False,
+        "test_failed": test_failed,
+        "rand_select": False,
+        "vegetation": None,
+        "vegetation_confidence": 0,
+        "siding": None,
+        "siding_confidence": 0,
+        "gutter": None,
+        "gutter_confidence": 0
+    }
     else:
         clear_image_evaluate = img_list[0]
         clear_image_available = True
@@ -230,6 +249,7 @@ def evaluate_houses(image_files):
 
     return {
         "clear_image": clear_image_available,
+        "test_failed": test_failed,
         "rand_select": randomly_selected_image,
         "vegetation": vegetation,
         "vegetation_confidence": vegetation_confidence,

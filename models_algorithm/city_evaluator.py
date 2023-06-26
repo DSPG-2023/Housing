@@ -9,7 +9,9 @@ import pandas as pd
 import house_evaluator
 import sys 
 
-main_folder = 'house_image_inputs_test'
+# main_folder = 'house_image_inputs_test'
+main_folder = os.path.expanduser("~/Documents/parent_folder_holder/address_folder_test")
+
 image_folder_address = [i.path for i in os.scandir(main_folder) if i.is_dir()]
 folder_address_num = 0
 # ['house_image_inputs_test\\1203 COMPUTER DR', 'house_image_inputs_test\\2594 LINDSY CIR', 'house_image_inputs_test\\3997 LINCOLN ST']
@@ -24,6 +26,7 @@ for folder_name in os.listdir(main_folder):
         attributes = house_evaluator.evaluate_houses(address_folder_path)
 
         clear_image = attributes.get("clear_image")
+        test_failed = attributes.get("test_failed")
         rand_select = attributes.get("rand_select")
         vegetation = attributes.get("vegetation")
         vegetation_confidence = attributes.get("vegetation_confidence")
@@ -44,6 +47,11 @@ for folder_name in os.listdir(main_folder):
            pass
         else:
             df['clear_image'] = None
+
+        if ('test_failed' in list(df.columns)):
+            pass
+        else:
+            df['test_failed'] = None
 
         if ('rand_select' in list(df.columns)):
            pass
@@ -92,6 +100,7 @@ for folder_name in os.listdir(main_folder):
             idx = df.index[df['address'] == address].tolist()
             for i in idx:
                 df.at[i,'clear_image'] = clear_image
+                df.at[i, 'test_failed'] = test_failed
                 df.at[i, 'rand_select'] = rand_select
                 df.at[i, 'vegetation'] = vegetation
                 df.at[i, 'vegetation_confidence'] = vegetation_confidence

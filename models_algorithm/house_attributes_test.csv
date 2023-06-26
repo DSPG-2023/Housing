@@ -1,10 +1,14 @@
-address,city,state,source,city_id,image_name,image_url,date,parcel_num,floors_num,bedrooms_num,bathrooms_num,basement,heating,cooling,yr_built,own_v_rent,age_tenants,tenants_num,type_property,sqft,curr_price,prev_price,county,clear_image,rand_select,vegetation,vegetation_confidence,siding,siding_confidence,gutter,gutter_confidence
-504 LINN ST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-123 MAIN ST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-559 BARCLAY DR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1225 LINCOLN WAY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-701 BENTON CIR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1203 COMPUTER DR,,,,,,,,,,,,,,,,,,,,,,,,True,False,garden_present,41.52,poor_siding,36.62,False,0.0
-Not an Address,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-2594 LINDSY CIR,,,,,,,,,,,,,,,,,,,,,,,,True,True,garden_present,46.99,poor_siding,36.93,False,0.0
-3997 LINCOLN ST,,,,,,,,,,,,,,,,,,,,,,,,True,True,garden_present,41.65,poor_siding,36.71,False,0.0
+address,city,state,source,city_id,image_name,image_url,date,parcel_num,floors_num,bedrooms_num,bathrooms_num,basement,heating,cooling,yr_built,own_v_rent,age_tenants,tenants_num,type_property,sqft,curr_price,prev_price,county,clear_image,rand_select,vegetation,vegetation_confidence,siding,siding_confidence,gutter,gutter_confidence,test_failed
+504 LINN ST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+123 MAIN ST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+559 BARCLAY DR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1225 LINCOLN WAY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+701 BENTON CIR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1203 COMPUTER DR,,,,,,,,,,,,,,,,,,,,,,,,True,False,garden_present,41.52,poor_siding,36.62,False,0.0,
+Not an Address,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2594 LINDSY CIR,,,,,,,,,,,,,,,,,,,,,,,,True,True,garden_present,46.99,poor_siding,36.93,False,0.0,
+3997 LINCOLN ST,,,,,,,,,,,,,,,,,,,,,,,,True,True,garden_present,41.65,poor_siding,36.71,False,0.0,
+502 15th AVE NE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+502 GREEN HAVEN CT,,,,,,,,,,,,,,,,,,,,,,,,True,False,garden_present,41.1,poor_siding,37.49,False,0.0,
+504 2ND AVE NE,,,,,,,,,,,,,,,,,,,,,,,,False,False,,0.0,,0.0,,0.0,house_present
+505 8TH AVE NE,,,,,,,,,,,,,,,,,,,,,,,,False,False,,0.0,,0.0,,0.0,house_present

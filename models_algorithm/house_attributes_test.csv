@@ -6,5 +6,5 @@ address,city,state,source,city_id,image_name,image_url,date,parcel_num,floors_nu
 701 BENTON CIR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 1203 COMPUTER DR,,,,,,,,,,,,,,,,,,,,,,,,True,False,garden_present,41.52,poor_siding,36.62,False,0.0
 Not an Address,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-2594 LINDSY CIR,,,,,,,,,,,,,,,,,,,,,,,,True,True,garden_present,41.44,poor_siding,36.17,False,0.0
-3997 LINCOLN ST,,,,,,,,,,,,,,,,,,,,,,,,True,True,garden_present,39.03,good_siding,35.6,False,0.0
+2594 LINDSY CIR,,,,,,,,,,,,,,,,,,,,,,,,True,True,garden_present,46.99,poor_siding,36.93,False,0.0
+3997 LINCOLN ST,,,,,,,,,,,,,,,,,,,,,,,,True,True,garden_present,41.65,poor_siding,36.71,False,0.0

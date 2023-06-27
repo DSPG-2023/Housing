@@ -290,7 +290,28 @@ def evaluate_houses(image_files):
 
     # TODO gutter model
     # is there a good gutter
-    gutter = False
+    img = clear_image_evaluate
+    resize = tf.image.resize(img, (180,180))
+
+    new_model = load_model(os.path.join('model_gutter', 'gutter_quality_model.h5'))
+
+    img_array = tf.keras.utils.img_to_array(resize)
+    # tf.keras.preprocessing.image.array_to_img(img_array).show()
+    tf.keras.preprocessing.image.array_to_img(img_array)
+    img_array = tf.expand_dims(img_array, 0)
+
+    predictions = new_model.predict(img_array)
+    score = tf.nn.softmax(predictions[0])
+    class_names = ['poor/no_gutter', 'good_gutter']
+    print(
+        "This image most likely belongs to {} with a {:.2f} percent confidence."
+        .format(class_names[np.argmax(score)], 100 * np.max(score))
+    )
+    gutter_confidence = round(100 * np.max(score), 2)
+    if (np.argmax(score) == 0):
+        gutter = class_names[0]
+    elif (np.argmax(score) == 1):
+        gutter = class_names[1]
 
     # TODO roof model
     # I do not think 2023 will touch this...

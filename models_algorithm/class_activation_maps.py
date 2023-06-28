@@ -11,7 +11,9 @@ import matplotlib.pyplot as plt
 from glob import glob
 from PIL import Image
 
-image_files = glob('../models_algorithm/panda_data/*')
+# image_files = glob('../models_algorithm/panda_data/*')
+image_files = glob('../models_algorithm/single_house_image_inputs/*')
+
 # print(len(image_files))
 
 # keras.preprocessing image does not seem do be loading in so I used PIL instead

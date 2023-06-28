@@ -12,9 +12,11 @@ import sys
 # main_folder = 'house_image_inputs_test'
 # main_folder = os.path.expanduser("~/Documents/parent_folder_holder/address_folder_test")
 # main_folder = os.path.expanduser("~/Documents/parent_folder_holder/hampton_address_image")
-# main_folder = os.path.expanduser("~/Documents/parent_folder_holder/independence_address_image")3
-main_folder = os.path.expanduser("~/Documents/parent_folder_holder/grundy_address_image")
+# main_folder = os.path.expanduser("~/Documents/parent_folder_holder/independence_address_image")
+# main_folder = os.path.expanduser("~/Documents/parent_folder_holder/grundy_address_image")
 # main_folder = os.path.expanduser("~/Documents/parent_folder_holder/slater_address_image")
+main_folder = os.path.expanduser("~/Documents/parent_folder_holder/ogden_address_image")
+
 
 
 image_folder_address = [i.path for i in os.scandir(main_folder) if i.is_dir()]
@@ -51,8 +53,10 @@ for folder_name in os.listdir(main_folder):
         # df = pd.read_csv('house_attributes_test.csv')
         # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/New_Hampton_database.csv'))
         # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Independence_database.csv'))
-        df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Grundy_Center_database.csv'))
+        # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Grundy_Center_database.csv'))
         # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Slater_database.csv'))
+        df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'))
+
 
         # check if the columns exist
         if ('clear_image' in list(df.columns)):
@@ -143,8 +147,9 @@ for folder_name in os.listdir(main_folder):
             # df.to_csv('house_attributes_test.csv', index = False)
             # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/New_Hampton_database.csv'), index = False)
             # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Independence_database.csv'), index = False)
-            df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Grundy_Center_database.csv'), index = False)
+            # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Grundy_Center_database.csv'), index = False)
             # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Slater_database.csv'), index = False)
+            df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'), index = False)
 
 
         folder_address_num += 1

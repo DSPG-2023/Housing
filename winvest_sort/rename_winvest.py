@@ -3,29 +3,35 @@
 # made by Gavin
 
 import os
-import pandas as pd
 import shutil
 import csv
 
 
+address_full_column = None
+photos_column = None
+
 img_loc = os.path.expanduser("~/Documents/downloaded_winvest_images/winvest_hampton")
-csv_loc = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/winvest_sort/winvest_new_hampton_2023.csv'))
+csv_loc = os.path.expanduser('~/Documents/GitHub/Housing/winvest_sort/winvest_new_hampton_2023.csv')
 named_img_loc = os.path.expanduser('~/Documents/winvest_images_renamed/win_re_hampton')
+image_files = [os.path.join(img_loc, file) for file in os.listdir(img_loc) if file.endswith(('png', 'jpg', 'jpeg'))]
 
-with open(csv_loc, 'r') as csv_file:
-    reader = csv.reader(csv_file)
-    header = next(reader)
 
-    # search for image name and address
 
-    for row in reader:
-        image_name = row[0]
-        address = row[1]
 
-        image_path = os.path.join(img_loc, image_name)
-
-        if os.path.isfile(image_path):
-            rename = os.path.join(named_img_loc, address + '.jpg')
-
-            shutil.copy2(image_path, rename)
-
+for file in image_files:
+    image_name = os.path.splitext(os.path.basename(file))[0]
+    with open(csv_loc, 'r') as column:
+        reader = csv.DictReader(column)
+        for row in reader:
+            photos = row['photos']
+            address_combined = row['address_combined']
+            if photos == image_name:
+                rename = f'W_H_{address_combined}_'
+                if rename == 'W_H_ _':
+                    break
+                new_name = rename + os.path.splitext(file)[1]
+                new_folder = os.path.join(named_img_loc, new_name)
+                shutil.copy2(file, new_folder)
+                
+                
+    

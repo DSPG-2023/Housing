@@ -7,22 +7,35 @@ import shutil
 import csv
 import sys
 
+# this number can be replaced to choose which city is being evaluated (same accross all files that need directories)
+# This is to prevent commenting and uncommenting lines of code while choosing to redo cities
+# DNE = Does Not Exist for this file
+# DNE = test file
 
+# 1 = New Hampton
+# 2 = Independence
+# 3 = Grundy Center
 
-# New Hampton
-# img_loc = os.path.expanduser("~/Documents/downloaded_winvest_images/winvest_hampton")
-# csv_loc = os.path.expanduser('~/Documents/GitHub/Housing/winvest_sort/winvest_new_hampton_2023.csv')
-# named_img_loc = os.path.expanduser('~/Documents/winvest_images_renamed/win_re_hampton')
+# DNE = Slater
+# DNE = Ogden
 
-# Grundy center
-# img_loc = os.path.expanduser("~/Documents/downloaded_winvest_images/winvest_grundy")
-# csv_loc = os.path.expanduser('~/Documents/GitHub/Housing/winvest_sort/winvest_grundy_2023.csv')
-# named_img_loc = os.path.expanduser('~/Documents/winvest_images_renamed/win_re_grundy')
+city_being_evaluated = 1
 
-# independence
-img_loc = os.path.expanduser("~/Documents/downloaded_winvest_images/winvest_independence")
-csv_loc = os.path.expanduser('~/Documents/GitHub/Housing/winvest_sort/winvest_indep_2023.csv')
-named_img_loc = os.path.expanduser('~/Documents/winvest_images_renamed/win_re_ind')
+if city_being_evaluated == 1:
+    img_loc = os.path.expanduser("~/Documents/downloaded_winvest_images/winvest_hampton")
+    csv_loc = os.path.expanduser('~/Documents/GitHub/Housing/winvest_sort/winvest_new_hampton_2023.csv')
+    named_img_loc = os.path.expanduser('~/Documents/winvest_images_renamed/win_re_hampton')    
+elif city_being_evaluated == 2: 
+    img_loc = os.path.expanduser("~/Documents/downloaded_winvest_images/winvest_independence")
+    csv_loc = os.path.expanduser('~/Documents/GitHub/Housing/winvest_sort/winvest_indep_2023.csv')
+    named_img_loc = os.path.expanduser('~/Documents/winvest_images_renamed/win_re_ind')
+elif city_being_evaluated == 3:
+    img_loc = os.path.expanduser("~/Documents/downloaded_winvest_images/winvest_grundy")
+    csv_loc = os.path.expanduser('~/Documents/GitHub/Housing/winvest_sort/winvest_grundy_2023.csv')
+    named_img_loc = os.path.expanduser('~/Documents/winvest_images_renamed/win_re_grundy')
+else:
+    print("Please enter a valid number from above")
+    sys.exit()
 
 image_files = [os.path.join(img_loc, file) for file in os.listdir(img_loc) if file.endswith(('png', 'jpg', 'jpeg'))]
 

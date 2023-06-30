@@ -11,11 +11,11 @@ import sys
 
 # main_folder = 'house_image_inputs_test'
 # main_folder = os.path.expanduser("~/Documents/parent_folder_holder/address_folder_test")
-# main_folder = os.path.expanduser("~/Documents/parent_folder_holder/hampton_address_image")
+main_folder = os.path.expanduser("~/Documents/parent_folder_holder/hampton_address_image")
 # main_folder = os.path.expanduser("~/Documents/parent_folder_holder/independence_address_image")
 # main_folder = os.path.expanduser("~/Documents/parent_folder_holder/grundy_address_image")
 # main_folder = os.path.expanduser("~/Documents/parent_folder_holder/slater_address_image")
-main_folder = os.path.expanduser("~/Documents/parent_folder_holder/ogden_address_image")
+# main_folder = os.path.expanduser("~/Documents/parent_folder_holder/ogden_address_image")
 
 
 
@@ -24,7 +24,6 @@ folder_address_num = 0
 # ['house_image_inputs_test\\1203 COMPUTER DR', 'house_image_inputs_test\\2594 LINDSY CIR', 'house_image_inputs_test\\3997 LINCOLN ST']
 # print(image_folder_address)
 # sys.exit()
-
 
 
 for folder_name in os.listdir(main_folder):
@@ -45,17 +44,19 @@ for folder_name in os.listdir(main_folder):
         roof = attributes.get("roof")
         roof_confidence = attributes.get("roof_confidence")
 
+        
+
         # print("city_eval values BELOW")
         # print(clear_image, rand_select, vegetation, vegetation_confidence, siding, siding_confidence, gutter, gutter_confidence)
 
 
         # load csv file
         # df = pd.read_csv('house_attributes_test.csv')
-        # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/New_Hampton_database.csv'))
+        df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/New_Hampton_database.csv'))
         # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Independence_database.csv'))
         # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Grundy_Center_database.csv'))
         # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Slater_database.csv'))
-        df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'))
+        # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'))
 
 
         # check if the columns exist
@@ -145,11 +146,11 @@ for folder_name in os.listdir(main_folder):
 
             ##Write the Dataframe the CSV file
             # df.to_csv('house_attributes_test.csv', index = False)
-            # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/New_Hampton_database.csv'), index = False)
+            df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/New_Hampton_database.csv'), index = False)
             # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Independence_database.csv'), index = False)
             # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Grundy_Center_database.csv'), index = False)
             # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Slater_database.csv'), index = False)
-            df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'), index = False)
+            # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'), index = False)
 
 
         folder_address_num += 1

@@ -97,10 +97,11 @@ def evaluate_houses(image_files):
         if image is not None:
             img_list.append(image)
             img_name_list.append(temp_name_list[iterate])
-            iterate += 1
+        iterate += 1
+        
     
-    # print(img_name_list)
     
+
     # the first three house picture quality models should have one image remaining after running(house present, clear image, and multiple houses)
     # TODO check the first 3 houses checkers return the correct picture meaning check the binary values returned are the ones we want
     # is house present model

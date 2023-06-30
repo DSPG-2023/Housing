@@ -36,10 +36,14 @@ import sys
 
 
 
+
 # Grundy Center graber
 
 # # raw image file
+# # Google 
 # img_loc = os.path.expanduser("~/Documents/downloaded google images/grundy_google_images_folder")
+# # Winvest
+# img_loc = os.path.expanduser('~/Documents/winvest_images_renamed/win_re_grundy')
 # # folder that is storing all city address image folders
 # parent_folder = os.path.expanduser("~/Documents/parent_folder_holder")
 # # folder for address folder to be added with image
@@ -61,11 +65,12 @@ import sys
 
 
 
-
-
 # Independence graber
 # # raw image file
+# # Google
 # img_loc = os.path.expanduser("~/Documents/downloaded google images/independence_google_images_folder_new")
+# # Winvest
+# img_loc = os.path.expanduser('~/Documents/winvest_images_renamed/win_re_ind')
 # # folder that is storing all city address image folders
 # parent_folder = os.path.expanduser("~/Documents/parent_folder_holder")
 # # folder for address folder to be added with image
@@ -87,31 +92,30 @@ import sys
 
 
 
-
-
 # New Hampton graber
-# # raw image file
+# raw image file
+# Google
 # img_loc = os.path.expanduser("~/Documents/downloaded google images/new_hampton_google_images_folder_new")
-# # folder that is storing all city address image folders
-# parent_folder = os.path.expanduser("~/Documents/parent_folder_holder")
-# # folder for address folder to be added with image
-# address_folders = os.path.expanduser("~/Documents/parent_folder_holder/hampton_address_image")
+# Winvest
+img_loc = os.path.expanduser('~/Documents/winvest_images_renamed/win_re_hampton')
+# folder that is storing all city address image folders
+parent_folder = os.path.expanduser("~/Documents/parent_folder_holder")
+# folder for address folder to be added with image
+address_folders = os.path.expanduser("~/Documents/parent_folder_holder/hampton_address_image")
 
-# files = os.listdir(img_loc)
+files = os.listdir(img_loc)
 
-# for img in files:
-#     # ignore source and city, take the thrid (2) element seperated by _ then replace space with _ for folder address name
-#     # reminder naming convention is source_city_address_ for example image from google of 123 main st in new hampton is G_H_123 main st_
+for img in files:
+    # ignore source and city, take the thrid (2) element seperated by _ then replace space with _ for folder address name
+    # reminder naming convention is source_city_address_ for example image from google of 123 main st in new hampton is G_H_123 main st_
     
-#     address = img.split("_")[2]
-#     new_address_folder = os.path.join(parent_folder, address_folders, address)
-#     os.makedirs(new_address_folder, exist_ok=True)
+    address = img.split("_")[2]
+    new_address_folder = os.path.join(parent_folder, address_folders, address)
+    os.makedirs(new_address_folder, exist_ok=True)
     
-#     source_path = os.path.join(img_loc, img)
-#     destination_path = os.path.join(new_address_folder, img)
-#     shutil.copyfile(source_path, destination_path)
-
-
+    source_path = os.path.join(img_loc, img)
+    destination_path = os.path.join(new_address_folder, img)
+    shutil.copyfile(source_path, destination_path)
 
 
 # Slater graber
@@ -139,19 +143,17 @@ import sys
 #     shutil.copyfile(source_path, destination_path)
 
 
-
-
 # Ogden graber
-img_loc = os.path.expanduser("~/Documents/downloaded google images/ogden_google_images_folder")
-parent_folder = os.path.expanduser("~/Documents/parent_folder_holder")
-address_folders = os.path.expanduser("~/Documents/parent_folder_holder/ogden_address_image")
+# img_loc = os.path.expanduser("~/Documents/downloaded google images/ogden_google_images_folder")
+# parent_folder = os.path.expanduser("~/Documents/parent_folder_holder")
+# address_folders = os.path.expanduser("~/Documents/parent_folder_holder/ogden_address_image")
 
-files = os.listdir(img_loc)
+# files = os.listdir(img_loc)
 
-for img in files:
-    address = img.split("_")[2].strip()
-    new_address_folder = os.path.join(parent_folder, address_folders, address)
-    os.makedirs(new_address_folder, exist_ok=True)
-    source_path = os.path.join(img_loc, img)
-    destination_path = os.path.join(new_address_folder, img)
-    shutil.copyfile(source_path, destination_path)
+# for img in files:
+#     address = img.split("_")[2].strip()
+#     new_address_folder = os.path.join(parent_folder, address_folders, address)
+#     os.makedirs(new_address_folder, exist_ok=True)
+#     source_path = os.path.join(img_loc, img)
+#     destination_path = os.path.join(new_address_folder, img)
+#     shutil.copyfile(source_path, destination_path)

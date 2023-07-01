@@ -15,7 +15,7 @@ import sys
 # 3 = Grundy Center
 # 4 = Slater
 # 5 = Ogden
-city_being_evaluated = 1
+city_being_evaluated = 3
 
 # Sources sorting from
 # 0 = test
@@ -24,7 +24,7 @@ city_being_evaluated = 1
 # 3 = Zillow
 # 4 = Vanguard
 # 5 = Beacon
-image_source = 1
+image_source = 2
 
 # if the source is not yet collected (as of right now zillow vanguard beacon) will return with these lines.
 def source_not_available():

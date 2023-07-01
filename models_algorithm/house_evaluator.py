@@ -171,6 +171,8 @@ def evaluate_houses(image_files):
     if len(img_list) > 1:
         temp_img_list = []
         temp_img_name_list = []
+        backup_img_list = img_list
+        backup_img_name_list = img_name_list
         iterate = 0
         for image in img_list:    
             resize = tf.image.resize(image, (256,256)) 
@@ -194,6 +196,9 @@ def evaluate_houses(image_files):
 
         if len(img_list) == 0:
             test_failed = 'multi_house'
+            img_list = backup_img_list
+            img_name_list = backup_img_name_list
+        
 
     # if more than 1 image is remaining meaning they were good images we must choose one
     # first look at the dates if available for all images if one is newer choose it
@@ -318,7 +323,28 @@ def evaluate_houses(image_files):
     # I do not think 2023 will touch this...
     # however people for next year, there was a decision in fulcrum to sort on roof quality (good, fair, poor) with no option of roof age
     # will probably need two models, one that will assess age and one that will assess quality(meaning worn down or not for age and damaged or not)
-    roof = False
+    img = clear_image_evaluate
+    resize = tf.image.resize(img, (180,180))
+
+    new_model = load_model(os.path.join('model_roof', 'roof_quality_classifier.h5'))
+
+    img_array = tf.keras.utils.img_to_array(resize)
+    # tf.keras.preprocessing.image.array_to_img(img_array).show()
+    tf.keras.preprocessing.image.array_to_img(img_array)
+    img_array = tf.expand_dims(img_array, 0)
+
+    predictions = new_model.predict(img_array)
+    score = tf.nn.softmax(predictions[0])
+    class_names = ['bad_roof', 'good_roof']
+    print(
+        "This image most likely belongs to {} with a {:.2f} percent confidence."
+        .format(class_names[np.argmax(score)], 100 * np.max(score))
+    )
+    roof_confidence = round(100 * np.max(score), 2)
+    if (np.argmax(score) == 0):
+        roof = class_names[0]
+    elif (np.argmax(score) == 1):
+        roof = class_names[1]
 
     # TODO window model
     # identifies boarded up windows or broken windows

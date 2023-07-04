@@ -9,14 +9,34 @@ import pandas as pd
 import house_evaluator
 import sys 
 
-# main_folder = 'house_image_inputs_test'
-# main_folder = os.path.expanduser("~/Documents/parent_folder_holder/address_folder_test")
-# main_folder = os.path.expanduser("~/Documents/parent_folder_holder/hampton_address_image")
-# main_folder = os.path.expanduser("~/Documents/parent_folder_holder/independence_address_image")
-# main_folder = os.path.expanduser("~/Documents/parent_folder_holder/grundy_address_image")
-# main_folder = os.path.expanduser("~/Documents/parent_folder_holder/slater_address_image")
-main_folder = os.path.expanduser("~/Documents/parent_folder_holder/ogden_address_image")
 
+# this number can be replaced to choose which city is being evaluated (same accross all files that need directories)
+# This is to prevent commenting and uncommenting lines of code while choosing to redo cities
+# 0 = test file
+# 1 = New Hampton
+# 2 = Independence
+# 3 = Grundy Center
+# 4 = Slater
+# 5 = Ogden
+city_being_evaluated = 3
+
+
+if city_being_evaluated == 0:
+    # main_folder = 'house_image_inputs_test'
+    main_folder = os.path.expanduser("~/Documents/parent_folder_holder/address_folder_test")
+elif city_being_evaluated == 1:
+    main_folder = os.path.expanduser("~/Documents/parent_folder_holder/hampton_address_image")
+elif city_being_evaluated == 2:
+    main_folder = os.path.expanduser("~/Documents/parent_folder_holder/independence_address_image")
+elif city_being_evaluated == 3:
+    main_folder = os.path.expanduser("~/Documents/parent_folder_holder/grundy_address_image")
+elif city_being_evaluated == 4:
+    main_folder = os.path.expanduser("~/Documents/parent_folder_holder/slater_address_image")
+elif city_being_evaluated == 5:
+    main_folder = os.path.expanduser("~/Documents/parent_folder_holder/ogden_address_image")
+else:
+    print("Please enter a valid number from above")
+    sys.exit()
 
 
 image_folder_address = [i.path for i in os.scandir(main_folder) if i.is_dir()]
@@ -24,7 +44,6 @@ folder_address_num = 0
 # ['house_image_inputs_test\\1203 COMPUTER DR', 'house_image_inputs_test\\2594 LINDSY CIR', 'house_image_inputs_test\\3997 LINCOLN ST']
 # print(image_folder_address)
 # sys.exit()
-
 
 
 for folder_name in os.listdir(main_folder):
@@ -45,17 +64,26 @@ for folder_name in os.listdir(main_folder):
         roof = attributes.get("roof")
         roof_confidence = attributes.get("roof_confidence")
 
+        
+
         # print("city_eval values BELOW")
         # print(clear_image, rand_select, vegetation, vegetation_confidence, siding, siding_confidence, gutter, gutter_confidence)
 
 
         # load csv file
-        # df = pd.read_csv('house_attributes_test.csv')
-        # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/New_Hampton_database.csv'))
-        # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Independence_database.csv'))
-        # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Grundy_Center_database.csv'))
-        # df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Slater_database.csv'))
-        df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'))
+        if city_being_evaluated == 0:
+            df = pd.read_csv('house_attributes_test.csv')
+        elif city_being_evaluated == 1:
+            df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/New_Hampton_database.csv'))
+        elif city_being_evaluated == 2:
+            df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Independence_database.csv'))
+        elif city_being_evaluated == 3:
+            df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Grundy_Center_database.csv'))
+        elif city_being_evaluated == 4:
+            df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Slater_database.csv'))
+        elif city_being_evaluated == 5:
+            df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'))
+
 
 
         # check if the columns exist
@@ -126,7 +154,7 @@ for folder_name in os.listdir(main_folder):
         address = text_split[-1]
         print(address)
 
-        ## Locate the target row for the address and insert the attribute
+        # Locate the target row for the address and insert the attribute
         if (sum(df['address'] == address) != 0):
             idx = df.index[df['address'] == address].tolist()
             for i in idx:
@@ -143,13 +171,19 @@ for folder_name in os.listdir(main_folder):
                 df.at[i, 'roof'] = roof
                 df.at[i, 'roof_confidence'] = roof_confidence
 
-            ##Write the Dataframe the CSV file
-            # df.to_csv('house_attributes_test.csv', index = False)
-            # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/New_Hampton_database.csv'), index = False)
-            # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Independence_database.csv'), index = False)
-            # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Grundy_Center_database.csv'), index = False)
-            # df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Slater_database.csv'), index = False)
-            df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'), index = False)
+            # Write the Dataframe the CSV file
+            if city_being_evaluated == 0:
+                df.to_csv('house_attributes_test.csv', index = False)
+            elif city_being_evaluated == 1:
+                df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/New_Hampton_database.csv'), index = False)           
+            elif city_being_evaluated == 2:
+                df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Independence_database.csv'), index = False)
+            elif city_being_evaluated == 3:
+                df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Grundy_Center_database.csv'), index = False)
+            elif city_being_evaluated == 4:
+                df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Slater_database.csv'), index = False)
+            elif city_being_evaluated == 5:
+                df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'), index = False)
 
 
         folder_address_num += 1

@@ -18,7 +18,8 @@ import sys
 # 3 = Grundy Center
 # 4 = Slater
 # 5 = Ogden
-city_being_evaluated = 5
+# 6 = Elkhart
+city_being_evaluated = 6
 
 
 if city_being_evaluated == 0:
@@ -34,6 +35,8 @@ elif city_being_evaluated == 4:
     main_folder = os.path.expanduser("~/Documents/parent_folder_holder/slater_address_image")
 elif city_being_evaluated == 5:
     main_folder = os.path.expanduser("~/Documents/parent_folder_holder/ogden_address_image")
+elif city_being_evaluated == 6:
+    main_folder = os.path.expanduser("~/Documents/parent_folder_holder/elkhart_address_image")
 else:
     print("Please enter a valid number from above")
     sys.exit()
@@ -83,6 +86,8 @@ for folder_name in os.listdir(main_folder):
             df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Slater_database.csv'))
         elif city_being_evaluated == 5:
             df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'))
+        elif city_being_evaluated == 6:
+            df = pd.read_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/elkhart_database.csv'))
 
 
 
@@ -184,6 +189,8 @@ for folder_name in os.listdir(main_folder):
                 df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/Slater_database.csv'), index = False)
             elif city_being_evaluated == 5:
                 df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/ogden_database.csv'), index = False)
+            elif city_being_evaluated == 6:
+                df.to_csv(os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/elkhart_database.csv'), index = False)
 
 
         folder_address_num += 1

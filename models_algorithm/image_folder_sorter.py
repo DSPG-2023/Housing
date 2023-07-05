@@ -15,7 +15,8 @@ import sys
 # 3 = Grundy Center
 # 4 = Slater
 # 5 = Ogden
-city_being_evaluated = 3
+# 6 = Elkhart
+city_being_evaluated = 6
 
 # Sources sorting from
 # 0 = test
@@ -24,7 +25,7 @@ city_being_evaluated = 3
 # 3 = Zillow
 # 4 = Vanguard
 # 5 = Beacon
-image_source = 2
+image_source = 1
 
 # if the source is not yet collected (as of right now zillow vanguard beacon) will return with these lines.
 def source_not_available():
@@ -218,6 +219,36 @@ elif city_being_evaluated == 5:
     
     parent_folder = os.path.expanduser("~/Documents/parent_folder_holder")
     address_folders = os.path.expanduser("~/Documents/parent_folder_holder/ogden_address_image")
+
+    files = os.listdir(img_loc)
+
+    for img in files:
+        address = img.split("_")[2].strip()
+        new_address_folder = os.path.join(parent_folder, address_folders, address)
+        os.makedirs(new_address_folder, exist_ok=True)
+        source_path = os.path.join(img_loc, img)
+        destination_path = os.path.join(new_address_folder, img)
+        shutil.copyfile(source_path, destination_path)
+
+elif city_being_evaluated == 6:
+    if image_source == 0:
+        source_not_available()
+    elif image_source == 1:
+        img_loc = os.path.expanduser("~/Documents/downloaded google images/elkhart_google_images_folder")
+    elif image_source == 2:
+        source_not_available()
+    elif image_source == 3:
+        source_not_available()
+    elif image_source == 4:
+        source_not_available()
+    elif image_source == 5:
+        source_not_available()
+    else:
+        print("Please enter a valid number from above")
+        sys.exit()
+    
+    parent_folder = os.path.expanduser("~/Documents/parent_folder_holder")
+    address_folders = os.path.expanduser("~/Documents/parent_folder_holder/elkhart_address_image")
 
     files = os.listdir(img_loc)
 

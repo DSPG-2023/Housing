@@ -7,6 +7,23 @@ library(magrittr)
 
 
 
+# Elkhart
+eh_data <- read.csv("~/GitHub/Housing/complete links/elkhart_urls.csv")
+urls_start <- eh_data[, 1]
+urls_full <- paste(urls_start, "&key=", sep = "")
+urls_full_api_key <- paste(urls_full, api_key, sep = "")
+dir.create("elkhart_google_images_folder")
+for(i in seq_along(urls_full_api_key)) {
+  file_path <- file.path("elkhart_google_images_folder", paste0("G_EH_", eh_data[i,5], "_.png"))
+  download.file(urls_full_api_key[i], file_path, mode = "wb")
+  print(file_path)
+  print(i)
+}
+
+
+
+
+
 # Ogden
 og_data <- read.csv("~/GitHub/Housing/complete links/ogden_urls.csv")
 urls_start <- og_data[, 1]

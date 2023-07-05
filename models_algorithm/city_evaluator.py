@@ -18,7 +18,7 @@ import sys
 # 3 = Grundy Center
 # 4 = Slater
 # 5 = Ogden
-city_being_evaluated = 3
+city_being_evaluated = 5
 
 
 if city_being_evaluated == 0:

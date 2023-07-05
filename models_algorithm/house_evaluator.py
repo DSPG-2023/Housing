@@ -281,7 +281,7 @@ def evaluate_houses(image_files):
 
     predictions = new_model.predict(img_array)
     score = tf.nn.softmax(predictions[0])
-    class_names = ['chipped_paint', 'good_siding', 'poor_siding']
+    class_names = ['chipped_paint', 'poor_siding', 'good_siding']
     print(
         "This image most likely belongs to {} with a {:.2f} percent confidence."
         .format(class_names[np.argmax(score)], 100 * np.max(score))

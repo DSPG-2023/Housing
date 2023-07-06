@@ -18,8 +18,12 @@ import sys
 # 3 = Grundy Center
 # 4 = Slater
 # 5 = Ogden
+<<<<<<< Updated upstream
 # 6 = Elkhart
 city_being_evaluated = 1
+=======
+city_being_evaluated = 5
+>>>>>>> Stashed changes
 
 
 if city_being_evaluated == 0:

@@ -1,0 +1,34 @@
+# DSPG 2023 AI Housing team
+# Made by Gavin
+
+This folder is meant to be used to show a general idea of how the AI models are preforming. Each house represents what would be an address. So for example house_1 could represent 123 main st. Our test case for 123 main st is whether there is a house present in the image. I do not care if the images in the house_1 folder are the same house because we are simply testing the model. 
+
+Let's say I want two images for this test case, I can find any two images on the internet as long as one image has a house visible and one does not (whether the house is blurred, obstructed, or it is an image of something else). It's probably wise not to use images used for training the models and instead to search for images in the image folders that were downloaded from somewhere. 
+
+Below I list the test cases I came up with for house 1-13. If you make more test cases please add them to the list below so others can easily find which house is which test case. Some test cases may need multiple versions to properly test how well the models are preforming.
+
+House 1; number of pictures = 1; [image of a house with a bad gutter]; model we are testing = gutter
+
+H2; #P=3; [Clear Image], [Partially Obstructed image(mostly see house with a minor block such as tree or electric post)], [Poorly Obstructed image(barely see house in image)]; house_present
+
+H3; #P=2; [Good Image], [Good Image]; random function
+
+H4; #P=1; [Overgrown bushes]; vegetation
+
+H5; #P=1; [chipped paint on house]; siding
+
+H6; #P=1; [poor siding (broken panels or holes)]; siding
+
+H7; #P=2; [one house visible], [multiple houses visible]; multi house
+
+H8; #P=1; [Good Image]; overall program
+
+H9; #P=1; [No house in image]; house present
+
+H10; #P=2; [good image], [no house in image]; house present
+
+H11; #P=1; [old roof (faded maybe)]; roof
+
+H12; #P=1; [new roof]; roof
+
+H13; #P=1; [damaged roof]; roof

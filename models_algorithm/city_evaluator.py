@@ -19,8 +19,12 @@ import sys
 # 4 = Slater
 # 5 = Ogden
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # 6 = Elkhart
 city_being_evaluated = 1
+=======
+city_being_evaluated = 5
+>>>>>>> Stashed changes
 =======
 city_being_evaluated = 5
 >>>>>>> Stashed changes

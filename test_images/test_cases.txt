@@ -1,5 +1,6 @@
 # DSPG 2023 AI Housing team
 # Made by Gavin
+# I realized empty folders don't show up in github i just have house_i folders
 
 This folder is meant to be used to show a general idea of how the AI models are preforming. Each house represents what would be an address. So for example house_1 could represent 123 main st. Our test case for 123 main st is whether there is a house present in the image. I do not care if the images in the house_1 folder are the same house because we are simply testing the model. 
 

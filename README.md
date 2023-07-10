@@ -1,8 +1,7 @@
 # AI-Driven Housing Evaluation for Rural Community Development
 
-![Housing Team Cover](CoverPhoto/Housing_Cover_Photo.jpg)
-
 <img src="CoverPhoto/Housing_Cover_Photo.jpg" alt="drawing" style="width:800px;"/>
+<body style="background-color:aquamarine;">
 
 ## Project Members
 + Project Interns: Angelina Evans, Gavin Fisher, Kailyn Hogan

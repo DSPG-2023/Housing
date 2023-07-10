@@ -19,6 +19,9 @@ The goal of the project is to investigate the condition of existing housing stoc
 
 ## Structure of Project Folders
 
+
+To see more details about the content of each folder in the Housing repository, see the [folder content explanation file.]Housing/folder_contents.txt
+
 ## Presentation Blog
 
 [Link to final presentation](https://morenikeope.github.io/Atejioye_Blog/posts/Report_Draft/Report_Draft.html).

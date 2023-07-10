@@ -1,7 +1,7 @@
 # AI-Driven Housing Evaluation for Rural Community Development
 
 
-<img src="CoverPhoto/Housing_Cover_Photo.jpg" alt="Housing cover photo" style="width:800px"; class="center"/>
+<img src="CoverPhoto/Housing_Cover_Photo.jpg" alt="Housing cover photo" style="width:800px" class="center";/>
 
 
 

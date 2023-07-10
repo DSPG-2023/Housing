@@ -2,7 +2,7 @@
 
 ![Housing Team Cover](CoverPhoto/Housing_Cover_Photo.jpg)
 
-<img src="CoverPhoto/Housing_Cover_Photo.jpg" alt="drawing" style="width:200px;"/>
+<img src="CoverPhoto/Housing_Cover_Photo.jpg" alt="drawing" style="width:800px;"/>
 
 ## Project Members
 + Project Interns: Angelina Evans, Gavin Fisher, Kailyn Hogan

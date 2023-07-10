@@ -1,18 +1,6 @@
 # create a large database with all filtering characteristics
 
-iowa # name of aggregated database
 
-iowa <- pop %>% 
-  left_join(housing, by = c("GEOID","NAME")) %>% 
-  left_join(taxable_prop_values, by = "NAME") %>% 
-  left_join(unemployment, by = c("GEOID","NAME")) %>% 
-  left_join(prc_travel, by = c("GEOID","NAME")) %>% 
-  left_join(wac_rac, by = "NAME") %>% 
-  left_join(income, by  = c("GEOID","NAME"))
-# only shows the first 50 columns ...
-
-# Export as CSV.
-write.csv(iowa, "analysing_iowa_communities.csv", row.names = FALSE)
 
 library(tidycensus)
 library(tidyverse)
@@ -89,7 +77,7 @@ male <- male %>%
   #mutate(prc_under18E = under18E / totalE) %>% 
   #mutate(prc_under18M = moe_ratio(under18E, totalE, under18M, totalM)) %>% 
   mutate(over65E = a65to66E + a67to69E + a70to74E + a75to79E + a80to84E + over85E) %>%
-  mutate(over65M =  sqrt(a65to66M^2 + a67to69M^2 + a70to74M^2 + a75to79M^2 + a80to84M^2 + over85M^2)) %>% 
+  mutate(over65M =  sqrt(a65to66M^2 + a67to69M^2 + a70to74M^2 + a75to79M^2 + a80to84M^2 + over85M^2))
  # mutate(prc_over65E = over65E / totalE) %>% 
   #mutate(prc_over65M = moe_ratio(over65E, totalE, over65M, totalM)) 
 
@@ -116,7 +104,7 @@ female <- female %>%
   #mutate(prc_under18E = under18E / totalE) %>% 
  #mutate(prc_under18M = moe_ratio(under18E, totalE, under18M, totalM)) %>% 
   mutate(over65E = a65to66E + a67to69E + a70to74E + a75to79E + a80to84E + over85E) %>%
-  mutate(over65M =  sqrt(a65to66M^2 + a67to69M^2 + a70to74M^2 + a75to79M^2 + a80to84M^2 + over85M^2)) %>% 
+  mutate(over65M =  sqrt(a65to66M^2 + a67to69M^2 + a70to74M^2 + a75to79M^2 + a80to84M^2 + over85M^2)) 
   #mutate(prc_over65E = over65E / totalE) %>% 
   #mutate(prc_over65M = moe_ratio(over65E, totalE, over65M, totalM)) 
 
@@ -201,7 +189,7 @@ housing <- housing %>%
 
 #link to data: https://data.iowa.gov/Local-Government-Finance/Taxable-Property-Values-in-Iowa-by-Tax-District-an/ig9g-pba5
 
-taxable.csv <- read.csv("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/GitHub/Housing/demographics analysis/Community Profile Datasets/Taxable_Property_Values_in_Iowa_by_Tax_District_and_Year.csv")
+taxable.csv <- read.csv("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/GitHub/Housing/demographics/demographic analysis/Datasets/Taxable_Property_Values_in_Iowa_by_Tax_District_and_Year.csv")
 # City name is stored in City.Name as all caps
 # for census data, only the first letter is capitalized and city, Iowa is attached
 # need to lowercase taxable_prop_values and remove city, Iowa from housing and pop
@@ -217,11 +205,11 @@ taxable.csv <- taxable.csv %>%
 # aggregated the column based on City.Name
 # function = sum to get the sum of all values
 # na.rm = TRUE, means the NAs get ignored
-residential <- aggregate(Residential ~ City.Name, data = taxable_prop_values, FUN = sum, na.rm = TRUE)
-ag_land <- aggregate(Ag.Land ~ City.Name, taxable_prop_values, FUN = sum, na.rm = TRUE)
-ag_building <- aggregate(Ag.Building ~ City.Name, taxable_prop_values, FUN = sum, na.rm = TRUE)
-commercial <- aggregate(Commercial ~ City.Name, taxable_prop_values, FUN = sum, na.rm = TRUE)
-industrial <- aggregate(Industrial ~ City.Name, taxable_prop_values, FUN = sum, na.rm = TRUE)
+residential <- aggregate(Residential ~ City.Name, data = taxable.csv, FUN = sum, na.rm = TRUE)
+ag_land <- aggregate(Ag.Land ~ City.Name, taxable.csv, FUN = sum, na.rm = TRUE)
+ag_building <- aggregate(Ag.Building ~ City.Name, taxable.csv, FUN = sum, na.rm = TRUE)
+commercial <- aggregate(Commercial ~ City.Name, taxable.csv, FUN = sum, na.rm = TRUE)
+industrial <- aggregate(Industrial ~ City.Name, taxable.csv, FUN = sum, na.rm = TRUE)
 
 taxable_prop_values <- residential %>%
   left_join(ag_land, by = "City.Name") %>%
@@ -252,7 +240,7 @@ iowa <- iowa %>%
 
 # downloaded the data as .csv
 # need to read in the .csv file with read.csv()
-ia_rac.csv <- read.csv("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/GitHub/Housing/demographics analysis/Community Profile Datasets/ia_rac_S000_JT00_2020.csv")
+ia_rac.csv <- read.csv("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/GitHub/Housing/demographics/demographic analysis/Datasets/ia_rac_S000_JT00_2020.csv")
 
 # rename w_geocode to geocode so it can easily be combined with geography2 dataframe
 ia_rac.csv <- ia_rac.csv %>%
@@ -260,7 +248,7 @@ ia_rac.csv <- ia_rac.csv %>%
 
 # this .csv file contains the geography for the wac and rac data
 # need to join to wac and rac files so we can aggregate by city
-geography <- read.csv("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/GitHub/Housing/demographics analysis/Community Profile Datasets/ia_xwalk.csv")
+geography <- read.csv("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/GitHub/Housing/demographics/demographic analysis/Datasets/ia_xwalk.csv")
 # tabblk2020 = h_geocode 
 #ctyname = county
 #cbsaname = metropolitan area name
@@ -276,10 +264,10 @@ geography2 <- geography %>%
   select(-stplcname)
 
 # use geography2 to assign city NAME to ia_rac.csv
-ia_rac.csv <- geography2 %>% 
+rac_data <- geography2 %>% 
   left_join(ia_rac.csv, by = "geocode")
 # remove all empty rows
-rac_data <- ia_rac.csv %>% 
+rac_data <- rac_data %>% 
   filter(GEOID != 9999999)
 
 # aggregate by city name
@@ -288,7 +276,7 @@ rac_data <- aggregate(. ~ NAME, data = rac_data[, !(names(rac_data) %in% c("geoc
 
 # downloaded the data as .csv
 # need to read in the .csv file with read.csv()
-ia_wac.csv <- read.csv("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/GitHub/Housing/demographics analysis/Community Profile Datasets/ia_wac_S000_JT00_2020.csv")
+ia_wac.csv <- read.csv("C:/Users/Kailyn Hogan/OneDrive - Iowa State University/Documents/GitHub/Housing/demographics/demographic analysis/Datasets/ia_wac_S000_JT00_2020.csv")
 
 # rename w_geocode to geocode so it can easily be combined with geography2 dataframe
 ia_wac.csv <- ia_wac.csv %>%

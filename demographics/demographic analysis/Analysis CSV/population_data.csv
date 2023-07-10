@@ -1,0 +1,2992 @@
+,GEOID,NAME,pop,year
+1,1954750,"Mount Sterling CDP, Iowa",33,2020
+2,1954795,"Mount Union CDP, Iowa",120,2020
+3,1954840,"Mount Vernon city, Iowa",4527,2020
+4,1954930,"Moville city, Iowa",1687,2020
+5,1955065,"Murray city, Iowa",684,2020
+6,1955110,"Muscatine city, Iowa",23797,2020
+7,1955200,"Mystic city, Iowa",322,2020
+8,1955335,"Nashua city, Iowa",1551,2020
+9,1955515,"Nemaha city, Iowa",66,2020
+10,1955560,"Neola city, Iowa",918,2020
+11,1955695,"Nevada city, Iowa",6925,2020
+12,1955785,"New Albin city, Iowa",432,2020
+13,1955965,"Newell city, Iowa",906,2020
+14,1956055,"Newhall city, Iowa",876,2020
+15,1956100,"New Hampton city, Iowa",3494,2020
+16,1956145,"New Hartford city, Iowa",570,2020
+17,1956190,"New Haven CDP, Iowa",77,2020
+18,1956280,"New Liberty city, Iowa",138,2020
+19,1956325,"New London city, Iowa",1910,2020
+20,1956370,"New Market city, Iowa",385,2020
+21,1956415,"New Providence city, Iowa",236,2020
+22,1956460,"New Sharon city, Iowa",1262,2020
+23,1956505,"Newton city, Iowa",15760,2020
+24,1956550,"New Vienna city, Iowa",382,2020
+25,1956595,"New Virginia city, Iowa",498,2020
+26,1956685,"Nichols city, Iowa",340,2020
+27,1956865,"Nodaway city, Iowa",74,2020
+28,1956910,"Nora Springs city, Iowa",1369,2020
+29,1957045,"Northboro city, Iowa",52,2020
+30,1957135,"North Buena Vista city, Iowa",109,2020
+31,1957225,"North English city, Iowa",1065,2020
+32,1957360,"North Liberty city, Iowa",20479,2020
+33,1957495,"North Washington city, Iowa",112,2020
+34,1957630,"Northwood city, Iowa",2072,2020
+35,1957675,"Norwalk city, Iowa",12799,2020
+36,1957720,"Norway city, Iowa",466,2020
+37,1957945,"Numa city, Iowa",68,2020
+38,1958048,"Oak Hills CDP, Iowa",186,2020
+39,1958080,"Oakland city, Iowa",1524,2020
+40,1958170,"Oakland Acres city, Iowa",176,2020
+41,1958395,"Oakville city, Iowa",200,2020
+42,1954705,"Mount Pleasant city, Iowa",9274,2020
+43,1958530,"Ocheyedan city, Iowa",439,2020
+44,1958575,"Odebolt city, Iowa",994,2020
+45,1958620,"Oelwein city, Iowa",5920,2020
+46,1958665,"Ogden city, Iowa",2007,2020
+47,1958710,"Okoboji city, Iowa",768,2020
+48,1958890,"Olds city, Iowa",192,2020
+49,1958980,"Olin city, Iowa",651,2020
+50,1959070,"Ollie city, Iowa",201,2020
+51,1959115,"Onawa city, Iowa",2906,2020
+52,1959250,"Onslow city, Iowa",201,2020
+53,1959475,"Orange City city, Iowa",6267,2020
+54,1959520,"Orchard city, Iowa",68,2020
+55,1959565,"Orient city, Iowa",368,2020
+56,1959655,"Orleans city, Iowa",521,2020
+57,1959745,"Osage city, Iowa",3627,2020
+58,1959835,"Osceola city, Iowa",5415,2020
+59,1959925,"Oskaloosa city, Iowa",11558,2020
+60,1959970,"Ossian city, Iowa",802,2020
+61,1960015,"Osterdock city, Iowa",43,2020
+62,1960105,"Otho city, Iowa",429,2020
+63,1960240,"Oto city, Iowa",72,2020
+64,1960285,"Otranto CDP, Iowa",27,2020
+65,1960420,"Ottosen city, Iowa",40,2020
+66,1960465,"Ottumwa city, Iowa",25529,2020
+67,1960555,"Owasa city, Iowa",34,2020
+68,1960645,"Oxford city, Iowa",722,2020
+69,1960690,"Oxford Junction city, Iowa",424,2020
+70,1960780,"Oyens city, Iowa",92,2020
+71,1960825,"Pacific Junction city, Iowa",96,2020
+72,1960915,"Packwood city, Iowa",183,2020
+73,1961050,"Palmer city, Iowa",138,2020
+74,1961230,"Palo city, Iowa",1407,2020
+75,1961275,"Panama city, Iowa",235,2020
+76,1961320,"Panora city, Iowa",1091,2020
+77,1961365,"Panorama Park city, Iowa",139,2020
+78,1961590,"Parkersburg city, Iowa",2015,2020
+79,1961725,"Park View CDP, Iowa",2709,2020
+80,1961770,"Parnell city, Iowa",194,2020
+81,1961815,"Paton city, Iowa",221,2020
+82,1961860,"Patterson city, Iowa",176,2020
+83,1961905,"Paullina city, Iowa",982,2020
+84,1962040,"Pella city, Iowa",10464,2020
+85,1962130,"Peosta city, Iowa",1908,2020
+86,1962175,"Percival CDP, Iowa",53,2020
+87,1962355,"Perry city, Iowa",7836,2020
+88,1962445,"Persia city, Iowa",297,2020
+89,1962625,"Peterson city, Iowa",322,2020
+90,1962760,"Pierson city, Iowa",337,2020
+91,1962850,"Pilot Mound city, Iowa",163,2020
+92,1962985,"Pioneer city, Iowa",4,2020
+93,1963075,"Pisgah city, Iowa",249,2020
+94,1963210,"Plainfield city, Iowa",393,2020
+95,1963300,"Plainview CDP, Iowa",19,2020
+96,1963345,"Plano city, Iowa",59,2020
+97,1963525,"Pleasant Hill city, Iowa",10147,2020
+98,1963570,"Pleasanton city, Iowa",32,2020
+99,1963615,"Pleasant Plain city, Iowa",84,2020
+100,1963750,"Pleasantville city, Iowa",1676,2020
+101,1963840,"Plover city, Iowa",50,2020
+102,1963885,"Plymouth city, Iowa",375,2020
+103,1963975,"Pocahontas city, Iowa",1867,2020
+104,1964020,"Polk City city, Iowa",5543,2020
+105,1964065,"Pomeroy city, Iowa",526,2020
+106,1964110,"Popejoy city, Iowa",77,2020
+107,1964155,"Portland CDP, Iowa",28,2020
+108,1964200,"Portsmouth city, Iowa",182,2020
+109,1964290,"Postville city, Iowa",2503,2020
+110,1964425,"Prairieburg city, Iowa",160,2020
+111,1964470,"Prairie City city, Iowa",1700,2020
+112,1964560,"Prescott city, Iowa",191,2020
+113,1964605,"Preston city, Iowa",949,2020
+114,1964650,"Primghar city, Iowa",896,2020
+115,1964740,"Princeton city, Iowa",923,2020
+116,1964875,"Promise City city, Iowa",88,2020
+117,1965010,"Protivin city, Iowa",269,2020
+118,1965055,"Pulaski city, Iowa",264,2020
+119,1965280,"Quimby city, Iowa",249,2020
+120,1965370,"Radcliffe city, Iowa",555,2020
+121,1965415,"Rake city, Iowa",186,2020
+122,1965505,"Ralston city, Iowa",81,2020
+123,1965550,"Randalia city, Iowa",50,2020
+124,1965595,"Randall city, Iowa",154,2020
+125,1965640,"Randolph city, Iowa",189,2020
+126,1965730,"Rathbun city, Iowa",43,2020
+127,1965820,"Raymond city, Iowa",759,2020
+128,1965910,"Readlyn city, Iowa",845,2020
+129,1965955,"Reasnor city, Iowa",152,2020
+130,1966000,"Redding city, Iowa",63,2020
+131,1966045,"Redfield city, Iowa",731,2020
+132,1966135,"Red Oak city, Iowa",5596,2020
+133,1966315,"Reinbeck city, Iowa",1662,2020
+134,1966360,"Rembrandt city, Iowa",209,2020
+135,1966405,"Remsen city, Iowa",1678,2020
+136,1966450,"Renwick city, Iowa",234,2020
+137,1966540,"Rhodes city, Iowa",271,2020
+138,1966585,"Riceville city, Iowa",806,2020
+139,1966720,"Richland city, Iowa",542,2020
+140,1966810,"Rickardsville city, Iowa",202,2020
+141,1966855,"Ricketts city, Iowa",109,2020
+142,1967035,"Ridgeway city, Iowa",275,2020
+143,1967125,"Rinard city, Iowa",38,2020
+144,1967170,"Ringsted city, Iowa",365,2020
+145,1967215,"Rippey city, Iowa",220,2020
+146,1967350,"Riverdale city, Iowa",379,2020
+147,1967440,"Riverside city, Iowa",1060,2020
+148,1967530,"River Sioux CDP, Iowa",42,2020
+149,1967575,"Riverton city, Iowa",245,2020
+150,1967800,"Robins city, Iowa",3353,2020
+151,1967890,"Rochester CDP, Iowa",142,2020
+152,1968025,"Rock Falls city, Iowa",150,2020
+153,1968070,"Rockford city, Iowa",758,2020
+154,1968160,"Rock Rapids city, Iowa",2611,2020
+155,1968205,"Rock Valley city, Iowa",4059,2020
+156,1968250,"Rockwell city, Iowa",1071,2020
+157,1968295,"Rockwell City city, Iowa",2240,2020
+158,1968340,"Rodman city, Iowa",31,2020
+159,1965235,"Quasqueton city, Iowa",570,2020
+160,1968385,"Rodney city, Iowa",45,2020
+161,1968475,"Roland city, Iowa",1362,2020
+162,1968520,"Rolfe city, Iowa",509,2020
+163,1968565,"Rome city, Iowa",114,2020
+164,1968700,"Rose Hill city, Iowa",157,2020
+165,1968800,"Roseville CDP, Iowa",39,2020
+166,1968925,"Rossie city, Iowa",49,2020
+167,1969015,"Rowan city, Iowa",123,2020
+168,1969060,"Rowley city, Iowa",270,2020
+169,1969105,"Royal city, Iowa",379,2020
+170,1969195,"Rudd city, Iowa",358,2020
+171,1969240,"Runnells city, Iowa",457,2020
+172,1969285,"Russell city, Iowa",472,2020
+173,1969330,"Ruthven city, Iowa",725,2020
+174,1969375,"Rutland city, Iowa",113,2020
+175,1969465,"Ryan city, Iowa",350,2020
+176,1969510,"Sabula city, Iowa",506,2020
+177,1969645,"Sac City city, Iowa",2063,2020
+178,1969690,"Sageville city, Iowa",95,2020
+179,1969780,"St. Anthony city, Iowa",76,2020
+180,1969825,"St. Benedict CDP, Iowa",31,2020
+181,1969915,"St. Charles city, Iowa",640,2020
+182,1969960,"St. Donatus city, Iowa",120,2020
+183,1970005,"St. Joseph CDP, Iowa",51,2020
+184,1970050,"St. Lucas city, Iowa",167,2020
+185,1970095,"St. Marys city, Iowa",108,2020
+186,1970140,"St. Olaf city, Iowa",106,2020
+187,1970185,"St. Paul city, Iowa",109,2020
+188,1970230,"Salem city, Iowa",394,2020
+189,1970320,"Salix city, Iowa",295,2020
+190,1970410,"Sanborn city, Iowa",1392,2020
+191,1970545,"Sandusky CDP, Iowa",297,2020
+192,1970590,"Sandyville city, Iowa",58,2020
+193,1970995,"Saylorville CDP, Iowa",3584,2020
+194,1971040,"Scarville city, Iowa",74,2020
+195,1971085,"Schaller city, Iowa",729,2020
+196,1971130,"Schleswig city, Iowa",830,2020
+197,1971310,"Scranton city, Iowa",511,2020
+198,1971355,"Searsboro city, Iowa",129,2020
+199,1971625,"Sergeant Bluff city, Iowa",5015,2020
+200,1971715,"Sexton CDP, Iowa",46,2020
+201,1971760,"Seymour city, Iowa",634,2020
+202,1971895,"Shambaugh city, Iowa",159,2020
+203,1971940,"Shannon City city, Iowa",73,2020
+204,1972075,"Sharpsburg city, Iowa",72,2020
+205,1972210,"Sheffield city, Iowa",1130,2020
+206,1972300,"Shelby city, Iowa",727,2020
+207,1972345,"Sheldahl city, Iowa",297,2020
+208,1972390,"Sheldon city, Iowa",5512,2020
+209,1972435,"Shell Rock city, Iowa",1268,2020
+210,1972480,"Shellsburg city, Iowa",961,2020
+211,1972525,"Shenandoah city, Iowa",4925,2020
+212,1972660,"Sherrill city, Iowa",189,2020
+213,1972840,"Shueyville city, Iowa",731,2020
+214,1972975,"Sibley city, Iowa",2860,2020
+215,1973065,"Sidney city, Iowa",1070,2020
+216,1973110,"Sigourney city, Iowa",2004,2020
+217,1973155,"Silver City city, Iowa",245,2020
+218,1973290,"Sioux Center city, Iowa",8229,2020
+219,1969735,"St. Ansgar city, Iowa",1160,2020
+220,1973335,"Sioux City city, Iowa",85797,2020
+221,1973425,"Sioux Rapids city, Iowa",748,2020
+222,1973515,"Slater city, Iowa",1543,2020
+223,1973605,"Sloan city, Iowa",1042,2020
+224,1973650,"Smithland city, Iowa",181,2020
+225,1973785,"Soldier city, Iowa",184,2020
+226,1973875,"Solon city, Iowa",3018,2020
+227,1973920,"Somers city, Iowa",128,2020
+228,1973965,"South Amana CDP, Iowa",165,2020
+229,1974055,"South English city, Iowa",202,2020
+230,1974280,"Spencer city, Iowa",11325,2020
+231,1974325,"Sperry CDP, Iowa",124,2020
+232,1974370,"Spillville city, Iowa",385,2020
+233,1974415,"Spirit Lake city, Iowa",5439,2020
+234,1974460,"Spragueville city, Iowa",92,2020
+235,1974505,"Springbrook city, Iowa",143,2020
+236,1974685,"Spring Hill city, Iowa",68,2020
+237,1974775,"Springville city, Iowa",1154,2020
+238,1900190,"Ackley city, Iowa",1599,2020
+239,1900235,"Ackworth city, Iowa",115,2020
+240,1900370,"Adair city, Iowa",791,2020
+241,1900505,"Adel city, Iowa",6153,2020
+242,1900595,"Afton city, Iowa",874,2020
+243,1900640,"Agency city, Iowa",620,2020
+244,1900730,"Ainsworth city, Iowa",511,2020
+245,1900775,"Akron city, Iowa",1558,2020
+246,1900865,"Albert City city, Iowa",677,2020
+247,1900910,"Albia city, Iowa",3721,2020
+248,1900955,"Albion city, Iowa",448,2020
+249,1901000,"Alburnett city, Iowa",675,2020
+250,1901045,"Alden city, Iowa",763,2020
+251,1901090,"Alexander city, Iowa",164,2020
+252,1901135,"Algona city, Iowa",5487,2020
+253,1901180,"Alleman city, Iowa",423,2020
+254,1901270,"Allerton city, Iowa",430,2020
+255,1901315,"Allison city, Iowa",966,2020
+256,1901495,"Alta city, Iowa",2087,2020
+257,1901540,"Alta Vista city, Iowa",227,2020
+258,1901585,"Alton city, Iowa",1248,2020
+259,1901630,"Altoona city, Iowa",19565,2020
+260,1901675,"Alvord city, Iowa",206,2020
+261,1901720,"Amana CDP, Iowa",388,2020
+262,1901855,"Ames city, Iowa",66427,2020
+263,1901990,"Anamosa city, Iowa",5450,2020
+264,1902035,"Anderson CDP, Iowa",37,2020
+265,1902080,"Andover city, Iowa",109,2020
+266,1902125,"Andrew city, Iowa",380,2020
+267,1902260,"Anita city, Iowa",963,2020
+268,1902305,"Ankeny city, Iowa",67887,2020
+269,1902350,"Anthon city, Iowa",545,2020
+270,1902395,"Aplington city, Iowa",1116,2020
+271,1902485,"Arcadia city, Iowa",525,2020
+272,1902530,"Archer city, Iowa",117,2020
+273,1902620,"Aredale city, Iowa",62,2020
+274,1902665,"Argo CDP, Iowa",44,2020
+275,1902710,"Argyle CDP, Iowa",91,2020
+276,1902755,"Arion city, Iowa",97,2020
+277,1902800,"Arispe city, Iowa",96,2020
+278,1902845,"Arlington city, Iowa",419,2020
+279,1902935,"Armstrong city, Iowa",875,2020
+280,1903025,"Arnolds Park city, Iowa",1110,2020
+281,1903115,"Arthur city, Iowa",222,2020
+282,1903160,"Asbury city, Iowa",5943,2020
+283,1903295,"Ashton city, Iowa",436,2020
+284,1903340,"Aspinwall city, Iowa",33,2020
+285,1974820,"Stacyville city, Iowa",458,2020
+286,1974910,"Stanhope city, Iowa",364,2020
+287,1974955,"Stanley city, Iowa",81,2020
+288,1975000,"Stanton city, Iowa",678,2020
+289,1975045,"Stanwood city, Iowa",637,2020
+290,1975135,"State Center city, Iowa",1391,2020
+291,1975180,"Steamboat Rock city, Iowa",264,2020
+292,1975405,"Stockport city, Iowa",272,2020
+293,1975450,"Stockton city, Iowa",176,2020
+294,1975540,"Stone City CDP, Iowa",186,2020
+295,1975630,"Storm Lake city, Iowa",11269,2020
+296,1975675,"Story City city, Iowa",3352,2020
+297,1975720,"Stout city, Iowa",191,2020
+298,1975810,"Stratford city, Iowa",707,2020
+299,1975855,"Strawberry Point city, Iowa",1155,2020
+300,1975945,"Struble city, Iowa",67,2020
+301,1975990,"Stuart city, Iowa",1782,2020
+302,1976035,"Sully city, Iowa",881,2020
+303,1976260,"Sumner city, Iowa",2030,2020
+304,1976415,"Sun Valley Lake CDP, Iowa",187,2020
+305,1976440,"Superior city, Iowa",132,2020
+306,1976485,"Sutherland city, Iowa",629,2020
+307,1976620,"Swaledale city, Iowa",144,2020
+308,1976665,"Swan city, Iowa",76,2020
+309,1976755,"Swea City city, Iowa",566,2020
+310,1976800,"Swedesburg CDP, Iowa",99,2020
+311,1976890,"Swisher city, Iowa",914,2020
+312,1976935,"Tabor city, Iowa",1014,2020
+313,1977115,"Tama city, Iowa",3130,2020
+314,1977340,"Templeton city, Iowa",352,2020
+315,1977430,"Tennant city, Iowa",78,2020
+316,1977520,"Terril city, Iowa",334,2020
+317,1977565,"Thayer city, Iowa",51,2020
+318,1977745,"Thompson city, Iowa",495,2020
+319,1977790,"Thor city, Iowa",181,2020
+320,1977835,"Thornburg city, Iowa",45,2020
+321,1977880,"Thornton city, Iowa",400,2020
+322,1977970,"Thurman city, Iowa",167,2020
+323,1978060,"Tiffin city, Iowa",4512,2020
+324,1978195,"Tingley city, Iowa",136,2020
+325,1978285,"Tipton city, Iowa",3149,2020
+326,1978330,"Titonka city, Iowa",511,2020
+327,1978465,"Toeterville CDP, Iowa",53,2020
+328,1978510,"Toledo city, Iowa",2369,2020
+329,1978600,"Toronto city, Iowa",102,2020
+330,1978735,"Traer city, Iowa",1583,2020
+331,1978780,"Trenton CDP, Iowa",74,2020
+332,1978825,"Treynor city, Iowa",1032,2020
+333,1978915,"Tripoli city, Iowa",1191,2020
+334,1979095,"Truesdale city, Iowa",69,2020
+335,1979140,"Truro city, Iowa",509,2020
+336,1979185,"Turin city, Iowa",72,2020
+337,1979335,"Twin Lakes CDP, Iowa",316,2020
+338,1979410,"Udell city, Iowa",28,2020
+339,1979500,"Underwood city, Iowa",954,2020
+340,1979545,"Union city, Iowa",399,2020
+341,1979680,"Unionville city, Iowa",75,2020
+342,1979770,"University Heights city, Iowa",1228,2020
+343,1979815,"University Park city, Iowa",487,2020
+344,1979905,"Urbana city, Iowa",1554,2020
+345,1903385,"Atalissa city, Iowa",296,2020
+346,1903430,"Athelstan CDP, Iowa",6,2020
+347,1903475,"Atkins city, Iowa",2056,2020
+348,1903520,"Atlantic city, Iowa",6792,2020
+349,1903610,"Auburn city, Iowa",265,2020
+350,1903655,"Audubon city, Iowa",2053,2020
+351,1903700,"Augusta CDP, Iowa",51,2020
+352,1903745,"Aurelia city, Iowa",968,2020
+353,1903835,"Aurora city, Iowa",169,2020
+354,1903970,"Avoca city, Iowa",1683,2020
+355,1904105,"Ayrshire city, Iowa",133,2020
+356,1904195,"Badger city, Iowa",522,2020
+357,1904240,"Bagley city, Iowa",233,2020
+358,1904330,"Baldwin city, Iowa",99,2020
+359,1904375,"Balltown city, Iowa",79,2020
+360,1904420,"Bancroft city, Iowa",699,2020
+361,1904510,"Bankston city, Iowa",23,2020
+362,1904555,"Barnes City city, Iowa",156,2020
+363,1904645,"Barnum city, Iowa",175,2020
+364,1904735,"Bartlett CDP, Iowa",5,2020
+365,1904780,"Bassett city, Iowa",45,2020
+366,1904825,"Batavia city, Iowa",430,2020
+367,1904870,"Battle Creek city, Iowa",700,2020
+368,1904915,"Baxter city, Iowa",962,2020
+369,1904960,"Bayard city, Iowa",405,2020
+370,1905050,"Beacon city, Iowa",445,2020
+371,1905095,"Beaconsfield city, Iowa",15,2020
+372,1905140,"Beaman city, Iowa",161,2020
+373,1905185,"Beaver city, Iowa",46,2020
+374,1905200,"Beaverdale CDP, Iowa",880,2020
+375,1905365,"Bedford city, Iowa",1508,2020
+376,1905590,"Belle Plaine city, Iowa",2330,2020
+377,1905635,"Bellevue city, Iowa",2363,2020
+378,1905680,"Belmond city, Iowa",2463,2020
+379,1905770,"Bennett city, Iowa",347,2020
+380,1905870,"Bentley CDP, Iowa",93,2020
+381,1905905,"Benton city, Iowa",39,2020
+382,1906040,"Berkley city, Iowa",23,2020
+383,1906085,"Bernard city, Iowa",114,2020
+384,1906175,"Bertram city, Iowa",269,2020
+385,1906355,"Bettendorf city, Iowa",39102,2020
+386,1906490,"Bevington city, Iowa",57,2020
+387,1906535,"Big Rock CDP, Iowa",49,2020
+388,1906625,"Birmingham city, Iowa",367,2020
+389,1906760,"Blairsburg city, Iowa",176,2020
+390,1906805,"Blairstown city, Iowa",713,2020
+391,1906850,"Blakesburg city, Iowa",274,2020
+392,1906895,"Blanchard city, Iowa",29,2020
+393,1906940,"Blencoe city, Iowa",233,2020
+394,1906985,"Blockton city, Iowa",125,2020
+395,1907030,"Bloomfield city, Iowa",2682,2020
+396,1907075,"Blue Grass city, Iowa",1666,2020
+397,1907210,"Bode city, Iowa",302,2020
+398,1907255,"Bolan CDP, Iowa",32,2020
+399,1907345,"Bonaparte city, Iowa",359,2020
+400,1907390,"Bondurant city, Iowa",7365,2020
+401,1907480,"Boone city, Iowa",12460,2020
+402,1907660,"Bouton city, Iowa",127,2020
+403,1907750,"Boxholm city, Iowa",181,2020
+404,1907840,"Boyden city, Iowa",701,2020
+405,1979950,"Urbandale city, Iowa",45580,2020
+406,1979995,"Ute city, Iowa",338,2020
+407,1980130,"Vail city, Iowa",396,2020
+408,1980175,"Valeria city, Iowa",39,2020
+409,1980400,"Van Horne city, Iowa",774,2020
+410,1980445,"Van Meter city, Iowa",1484,2020
+411,1980490,"Van Wert city, Iowa",178,2020
+412,1980535,"Varina city, Iowa",68,2020
+413,1980580,"Ventura city, Iowa",711,2020
+414,1980805,"Victor city, Iowa",875,2020
+415,1980985,"Villisca city, Iowa",1132,2020
+416,1981075,"Vincent city, Iowa",130,2020
+417,1981120,"Vining city, Iowa",54,2020
+418,1981210,"Vinton city, Iowa",4938,2020
+419,1981345,"Volga city, Iowa",203,2020
+420,1981570,"Wadena city, Iowa",209,2020
+421,1981615,"Wahpeton city, Iowa",345,2020
+422,1981705,"Walcott city, Iowa",1551,2020
+423,1981840,"Walford city, Iowa",1366,2020
+424,1981885,"Walker city, Iowa",688,2020
+425,1981975,"Wallingford city, Iowa",165,2020
+426,1982020,"Wall Lake city, Iowa",755,2020
+427,1982065,"Walnut city, Iowa",747,2020
+428,1982200,"Wapello city, Iowa",2084,2020
+429,1982290,"Washburn CDP, Iowa",870,2020
+430,1982335,"Washington city, Iowa",7352,2020
+431,1982380,"Washta city, Iowa",209,2020
+432,1982425,"Waterloo city, Iowa",67314,2020
+433,1982470,"Waterville city, Iowa",109,2020
+434,1982515,"Watkins CDP, Iowa",116,2020
+435,1982650,"Waucoma city, Iowa",229,2020
+436,1982695,"Waukee city, Iowa",23940,2020
+437,1982740,"Waukon city, Iowa",3827,2020
+438,1982875,"Waverly city, Iowa",10394,2020
+439,1982965,"Wayland city, Iowa",964,2020
+440,1983010,"Webb city, Iowa",138,2020
+441,1983055,"Webster city, Iowa",94,2020
+442,1983145,"Webster City city, Iowa",7825,2020
+443,1983190,"Weldon city, Iowa",136,2020
+444,1983280,"Wellman city, Iowa",1524,2020
+445,1983325,"Wellsburg city, Iowa",720,2020
+446,1983370,"Welton city, Iowa",121,2020
+447,1983415,"Wesley city, Iowa",391,2020
+448,1983505,"West Amana CDP, Iowa",140,2020
+449,1983550,"West Bend city, Iowa",791,2020
+450,1983595,"West Branch city, Iowa",2509,2020
+451,1983685,"West Burlington city, Iowa",3197,2020
+452,1983775,"West Chester city, Iowa",144,2020
+453,1983910,"West Des Moines city, Iowa",68723,2020
+454,1984090,"Westfield city, Iowa",123,2020
+455,1984180,"Westgate city, Iowa",192,2020
+456,1984315,"West Liberty city, Iowa",3858,2020
+457,1984450,"West Okoboji city, Iowa",308,2020
+458,1984495,"Weston CDP, Iowa",78,2020
+459,1984540,"Westphalia city, Iowa",126,2020
+460,1984585,"West Point city, Iowa",921,2020
+461,1984630,"Westside city, Iowa",285,2020
+462,1984765,"West Union city, Iowa",2490,2020
+463,1984835,"Westwood city, Iowa",101,2020
+464,1984855,"Wever CDP, Iowa",101,2020
+465,1907930,"Braddyville city, Iowa",147,2020
+466,1908020,"Bradford CDP, Iowa",84,2020
+467,1908065,"Bradgate city, Iowa",75,2020
+468,1908155,"Brandon city, Iowa",341,2020
+469,1908200,"Brayton city, Iowa",143,2020
+470,1908290,"Breda city, Iowa",500,2020
+471,1908425,"Bridgewater city, Iowa",148,2020
+472,1908470,"Brighton city, Iowa",600,2020
+473,1908560,"Bristow city, Iowa",145,2020
+474,1908605,"Britt city, Iowa",2044,2020
+475,1908650,"Bronson city, Iowa",294,2020
+476,1908695,"Brooklyn city, Iowa",1502,2020
+477,1908875,"Brunsville city, Iowa",129,2020
+478,1909100,"Buckeye city, Iowa",86,2020
+479,1909145,"Buck Grove city, Iowa",34,2020
+480,1909235,"Buffalo city, Iowa",1176,2020
+481,1909280,"Buffalo Center city, Iowa",857,2020
+482,1909415,"Burchinal CDP, Iowa",33,2020
+483,1909550,"Burlington city, Iowa",23982,2020
+484,1909640,"Burr Oak CDP, Iowa",171,2020
+485,1909685,"Burt city, Iowa",418,2020
+486,1909730,"Bussey city, Iowa",387,2020
+487,1909820,"Calamus city, Iowa",356,2020
+488,1909910,"California Junction CDP, Iowa",74,2020
+489,1909955,"Callender city, Iowa",368,2020
+490,1910045,"Calmar city, Iowa",1125,2020
+491,1910090,"Calumet city, Iowa",146,2020
+492,1910135,"Camanche city, Iowa",4570,2020
+493,1910225,"Cambridge city, Iowa",827,2020
+494,1910450,"Cantril city, Iowa",224,2020
+495,1910585,"Carbon city, Iowa",36,2020
+496,1910765,"Carlisle city, Iowa",4160,2020
+497,1911035,"Carpenter city, Iowa",87,2020
+498,1911080,"Carroll city, Iowa",10321,2020
+499,1911170,"Carson city, Iowa",766,2020
+500,1911215,"Carter Lake city, Iowa",3791,2020
+501,1911305,"Cascade city, Iowa",2386,2020
+502,1911395,"Casey city, Iowa",387,2020
+503,1911485,"Castalia city, Iowa",145,2020
+504,1911530,"Castana city, Iowa",107,2020
+505,1911755,"Cedar Falls city, Iowa",40713,2020
+506,1912000,"Cedar Rapids city, Iowa",137710,2020
+507,1912225,"Center Junction CDP, Iowa",100,2020
+508,1912270,"Center Point city, Iowa",2579,2020
+509,1912315,"Centerville city, Iowa",5412,2020
+510,1912495,"Central City city, Iowa",1264,2020
+511,1912630,"Centralia city, Iowa",116,2020
+512,1912675,"Chapin CDP, Iowa",71,2020
+513,1912720,"Chariton city, Iowa",4193,2020
+514,1912765,"Charles City city, Iowa",7396,2020
+515,1912855,"Charlotte city, Iowa",389,2020
+516,1912900,"Charter Oak city, Iowa",535,2020
+517,1912945,"Chatsworth city, Iowa",75,2020
+518,1912990,"Chelsea city, Iowa",229,2020
+519,1913080,"Cherokee city, Iowa",5199,2020
+520,1913125,"Chester city, Iowa",139,2020
+521,1913215,"Chillicothe city, Iowa",76,2020
+522,1913350,"Churdan city, Iowa",365,2020
+523,1913395,"Cincinnati city, Iowa",290,2020
+524,1984900,"What Cheer city, Iowa",607,2020
+525,1984945,"Wheatland city, Iowa",775,2020
+526,1985215,"Whiting city, Iowa",745,2020
+527,1985260,"Whittemore city, Iowa",497,2020
+528,1985305,"Whitten city, Iowa",100,2020
+529,1985710,"Willey city, Iowa",73,2020
+530,1985800,"Williams city, Iowa",307,2020
+531,1985845,"Williamsburg city, Iowa",3346,2020
+532,1985935,"Williamson city, Iowa",120,2020
+533,1986070,"Wilton city, Iowa",2924,2020
+534,1986250,"Windsor Heights city, Iowa",5252,2020
+535,1986385,"Winfield city, Iowa",1033,2020
+536,1986520,"Winterset city, Iowa",5353,2020
+537,1986565,"Winthrop city, Iowa",823,2020
+538,1986610,"Wiota city, Iowa",91,2020
+539,1986700,"Woden city, Iowa",188,2020
+540,1986835,"Woodbine city, Iowa",1625,2020
+541,1986880,"Woodburn city, Iowa",146,2020
+542,1986970,"Woodward city, Iowa",1346,2020
+543,1987015,"Woolstock city, Iowa",144,2020
+544,1987060,"Worthington city, Iowa",382,2020
+545,1987240,"Wyoming city, Iowa",523,2020
+546,1987285,"Yale city, Iowa",267,2020
+547,1987330,"Yarmouth CDP, Iowa",61,2020
+548,1987375,"Yetter city, Iowa",19,2020
+549,1987420,"Yorktown city, Iowa",60,2020
+550,1987555,"Zearing city, Iowa",528,2020
+551,1987690,"Zwingle city, Iowa",84,2020
+552,1913530,"Clarence city, Iowa",1039,2020
+553,1913575,"Clarinda city, Iowa",5369,2020
+554,1913620,"Clarion city, Iowa",2810,2020
+555,1913755,"Clarksville city, Iowa",1264,2020
+556,1913845,"Clayton city, Iowa",45,2020
+557,1913980,"Clearfield city, Iowa",278,2020
+558,1914025,"Clear Lake city, Iowa",7687,2020
+559,1914115,"Cleghorn city, Iowa",240,2020
+560,1914160,"Clemons city, Iowa",140,2020
+561,1914250,"Clermont city, Iowa",586,2020
+562,1914385,"Climbing Hill CDP, Iowa",97,2020
+563,1914430,"Clinton city, Iowa",24469,2020
+564,1914475,"Clio city, Iowa",67,2020
+565,1914520,"Clive city, Iowa",18601,2020
+566,1914655,"Clutier city, Iowa",213,2020
+567,1914835,"Coalville CDP, Iowa",651,2020
+568,1914880,"Coburg city, Iowa",26,2020
+569,1914925,"Coggon city, Iowa",701,2020
+570,1914970,"Coin city, Iowa",176,2020
+571,1915015,"Colesburg city, Iowa",386,2020
+572,1915060,"Colfax city, Iowa",2255,2020
+573,1915105,"College Springs city, Iowa",172,2020
+574,1915195,"Collins city, Iowa",495,2020
+575,1915240,"Colo city, Iowa",845,2020
+576,1915375,"Columbus City city, Iowa",392,2020
+577,1915420,"Columbus Junction city, Iowa",1830,2020
+578,1915465,"Colwell city, Iowa",55,2020
+579,1915645,"Conesville city, Iowa",352,2020
+580,1915825,"Conrad city, Iowa",1093,2020
+581,1915870,"Conroy CDP, Iowa",252,2020
+582,1915960,"Conway city, Iowa",17,2020
+583,1916050,"Coon Rapids city, Iowa",1300,2020
+584,1916140,"Coppock city, Iowa",36,2020
+585,1916230,"Coralville city, Iowa",22318,2020
+586,1916320,"Corley CDP, Iowa",31,2020
+587,1916500,"Corning city, Iowa",1564,2020
+588,1916545,"Correctionville city, Iowa",766,2020
+589,1916590,"Corwith city, Iowa",266,2020
+590,1916635,"Corydon city, Iowa",1526,2020
+591,1916725,"Cotter city, Iowa",39,2020
+592,1916815,"Coulter city, Iowa",219,2020
+593,1913485,"Clare city, Iowa",136,2020
+594,1916860,"Council Bluffs city, Iowa",62799,2020
+595,1916950,"Craig city, Iowa",79,2020
+596,1917130,"Crawfordsville city, Iowa",277,2020
+597,1917175,"Crescent city, Iowa",628,2020
+598,1917220,"Cresco city, Iowa",3888,2020
+599,1917265,"Creston city, Iowa",7536,2020
+600,1917490,"Cromwell city, Iowa",105,2020
+601,1917670,"Crystal Lake city, Iowa",253,2020
+602,1917760,"Cumberland city, Iowa",251,2020
+603,1917850,"Cumming city, Iowa",436,2020
+604,1917895,"Curlew city, Iowa",37,2020
+605,1917940,"Cushing city, Iowa",230,2020
+606,1917985,"Cylinder city, Iowa",87,2020
+607,1918075,"Dakota City city, Iowa",759,2020
+608,1918255,"Dallas Center city, Iowa",1901,2020
+609,1918345,"Dana city, Iowa",38,2020
+610,1918390,"Danbury city, Iowa",320,2020
+611,1918435,"Danville city, Iowa",927,2020
+612,1919000,"Davenport city, Iowa",101724,2020
+613,1919090,"Davis City city, Iowa",179,2020
+614,1919135,"Dawson city, Iowa",116,2020
+615,1919180,"Dayton city, Iowa",772,2020
+616,1919360,"Decatur City city, Iowa",175,2020
+617,1919405,"Decorah city, Iowa",7587,2020
+618,1919450,"Dedham city, Iowa",224,2020
+619,1919495,"Deep River city, Iowa",249,2020
+620,1919585,"Defiance city, Iowa",245,2020
+621,1919630,"Delaware city, Iowa",142,2020
+622,1919675,"Delhi city, Iowa",420,2020
+623,1919720,"Delmar city, Iowa",542,2020
+624,1919765,"Deloit city, Iowa",250,2020
+625,1919810,"Delphos CDP, Iowa",26,2020
+626,1919855,"Delta city, Iowa",264,2020
+627,1919945,"Denison city, Iowa",8373,2020
+628,1919990,"Denmark CDP, Iowa",425,2020
+629,1920035,"Denver city, Iowa",1919,2020
+630,1920125,"Derby city, Iowa",90,2020
+631,1921000,"Des Moines city, Iowa",214133,2020
+632,1921045,"De Soto city, Iowa",915,2020
+633,1921180,"DeWitt city, Iowa",5514,2020
+634,1921225,"Dexter city, Iowa",640,2020
+635,1921270,"Diagonal city, Iowa",344,2020
+636,1921320,"Diamondhead Lake CDP, Iowa",371,2020
+637,1921360,"Dickens city, Iowa",146,2020
+638,1921405,"Dike city, Iowa",1304,2020
+639,1921540,"Dixon city, Iowa",202,2020
+640,1921675,"Dolliver city, Iowa",65,2020
+641,1921720,"Donahue city, Iowa",335,2020
+642,1921810,"Donnellson city, Iowa",885,2020
+643,1921900,"Doon city, Iowa",619,2020
+644,1922035,"Douds CDP, Iowa",156,2020
+645,1922080,"Dougherty city, Iowa",62,2020
+646,1922215,"Dow City city, Iowa",485,2020
+647,1922260,"Downey CDP, Iowa",112,2020
+648,1922305,"Dows city, Iowa",521,2020
+649,1922350,"Drakesville city, Iowa",164,2020
+650,1922395,"Dubuque city, Iowa",59667,2020
+651,1922620,"Dumont city, Iowa",634,2020
+652,1922710,"Duncan CDP, Iowa",57,2020
+653,1922755,"Duncombe city, Iowa",381,2020
+654,1922800,"Dundee city, Iowa",198,2020
+655,1922845,"Dunkerton city, Iowa",842,2020
+656,1922890,"Dunlap city, Iowa",1038,2020
+657,1922935,"Durango city, Iowa",20,2020
+658,1922980,"Durant city, Iowa",1871,2020
+659,1923115,"Dyersville city, Iowa",4477,2020
+660,1923160,"Dysart city, Iowa",1281,2020
+661,1923250,"Eagle Grove city, Iowa",3601,2020
+662,1923340,"Earlham city, Iowa",1410,2020
+663,1923385,"Earling city, Iowa",397,2020
+664,1923430,"Earlville city, Iowa",716,2020
+665,1923475,"Early city, Iowa",587,2020
+666,1923520,"East Amana CDP, Iowa",64,2020
+667,1923790,"East Peru city, Iowa",115,2020
+668,1923970,"Eddyville city, Iowa",970,2020
+669,1924060,"Edgewood city, Iowa",909,2020
+670,1924375,"Elberon city, Iowa",184,2020
+671,1924420,"Eldon city, Iowa",783,2020
+672,1924465,"Eldora city, Iowa",2663,2020
+673,1924600,"Eldridge city, Iowa",6726,2020
+674,1924645,"Elgin city, Iowa",685,2020
+675,1924690,"Elkader city, Iowa",1209,2020
+676,1924735,"Elkhart city, Iowa",882,2020
+677,1924780,"Elk Horn city, Iowa",601,2020
+678,1924825,"Elkport city, Iowa",29,2020
+679,1924870,"Elk Run Heights city, Iowa",1069,2020
+680,1924915,"Elliott city, Iowa",338,2020
+681,1925005,"Ellston city, Iowa",19,2020
+682,1925050,"Ellsworth city, Iowa",508,2020
+683,1925095,"Elma city, Iowa",505,2020
+684,1925365,"Ely city, Iowa",2328,2020
+685,1925500,"Emerson city, Iowa",403,2020
+686,1925590,"Emmetsburg city, Iowa",3706,2020
+687,1925725,"Epworth city, Iowa",2023,2020
+688,1925815,"Essex city, Iowa",722,2020
+689,1925860,"Estherville city, Iowa",5904,2020
+690,1925995,"Evansdale city, Iowa",4561,2020
+691,1926175,"Everly city, Iowa",575,2020
+692,1926265,"Exira city, Iowa",787,2020
+693,1926310,"Exline city, Iowa",160,2020
+694,1926355,"Fairbank city, Iowa",1111,2020
+695,1926400,"Fairfax city, Iowa",2828,2020
+696,1926445,"Fairfield city, Iowa",9416,2020
+697,1926580,"Fairport CDP, Iowa",204,2020
+698,1926760,"Farley city, Iowa",1766,2020
+699,1926850,"Farmersburg city, Iowa",271,2020
+700,1926895,"Farmington city, Iowa",579,2020
+701,1926940,"Farnhamville city, Iowa",383,2020
+702,1926985,"Farragut city, Iowa",490,2020
+703,1927165,"Fayette city, Iowa",1256,2020
+704,1927210,"Fenton city, Iowa",271,2020
+705,1927255,"Ferguson city, Iowa",97,2020
+706,1927390,"Fertile city, Iowa",305,2020
+707,1927975,"Floris city, Iowa",116,2020
+708,1928020,"Floyd city, Iowa",313,2020
+709,1928245,"Fonda city, Iowa",636,2020
+710,1928290,"Fontanelle city, Iowa",676,2020
+711,1928380,"Forest City city, Iowa",4285,2020
+712,1928425,"Fort Atkinson city, Iowa",312,2020
+713,1928515,"Fort Dodge city, Iowa",24871,2020
+714,1928605,"Fort Madison city, Iowa",10270,2020
+715,1928650,"Fostoria city, Iowa",230,2020
+716,1928740,"Franklin city, Iowa",131,2020
+717,1928920,"Fraser city, Iowa",101,2020
+718,1928965,"Fredericksburg city, Iowa",987,2020
+719,1929010,"Frederika city, Iowa",204,2020
+720,1929055,"Fredonia city, Iowa",222,2020
+721,1929190,"Fremont city, Iowa",708,2020
+722,1929280,"Fruitland city, Iowa",963,2020
+723,1929325,"Frytown CDP, Iowa",193,2020
+724,1929550,"Galt city, Iowa",26,2020
+725,1929595,"Galva city, Iowa",435,2020
+726,1929685,"Garber city, Iowa",76,2020
+727,1929730,"Garden City CDP, Iowa",100,2020
+728,1929775,"Garden Grove city, Iowa",174,2020
+729,1929910,"Garnavillo city, Iowa",763,2020
+730,1929955,"Garner city, Iowa",3065,2020
+731,1930045,"Garwin city, Iowa",481,2020
+732,1930135,"Geneva city, Iowa",136,2020
+733,1930225,"George city, Iowa",1077,2020
+734,1930540,"Gibson city, Iowa",63,2020
+735,1930630,"Gilbert city, Iowa",1211,2020
+736,1930675,"Gilbertville city, Iowa",794,2020
+737,1930810,"Gillett Grove city, Iowa",30,2020
+738,1930900,"Gilman city, Iowa",542,2020
+739,1930945,"Gilmore City city, Iowa",487,2020
+740,1931035,"Gladbrook city, Iowa",799,2020
+741,1931350,"Glenwood city, Iowa",5073,2020
+742,1931395,"Glidden city, Iowa",1151,2020
+743,1931530,"Goldfield city, Iowa",634,2020
+744,1931575,"Goodell city, Iowa",140,2020
+745,1931665,"Goose Lake city, Iowa",239,2020
+746,1931710,"Gowrie city, Iowa",952,2020
+747,1931800,"Graettinger city, Iowa",832,2020
+748,1931845,"Graf city, Iowa",76,2020
+749,1931890,"Grafton city, Iowa",216,2020
+750,1931980,"Grand Junction city, Iowa",725,2020
+751,1932025,"Grand Mound city, Iowa",615,2020
+752,1932070,"Grand River city, Iowa",196,2020
+753,1932115,"Grandview city, Iowa",437,2020
+754,1932160,"Granger city, Iowa",1654,2020
+755,1932295,"Grant city, Iowa",86,2020
+756,1932475,"Granville city, Iowa",310,2020
+757,1932520,"Gravity city, Iowa",154,2020
+758,1932565,"Gray city, Iowa",61,2020
+759,1932610,"Greeley city, Iowa",217,2020
+760,1932745,"Greene city, Iowa",990,2020
+761,1932790,"Greenfield city, Iowa",2062,2020
+762,1932925,"Green Mountain CDP, Iowa",113,2020
+763,1932970,"Greenville city, Iowa",71,2020
+764,1933060,"Grimes city, Iowa",15392,2020
+765,1933105,"Grinnell city, Iowa",9564,2020
+766,1933150,"Griswold city, Iowa",994,2020
+767,1933195,"Grundy Center city, Iowa",2796,2020
+768,1933240,"Gruver city, Iowa",63,2020
+769,1933285,"Guernsey city, Iowa",63,2020
+770,1933420,"Guthrie Center city, Iowa",1593,2020
+771,1930000,"Garrison city, Iowa",344,2020
+772,1933465,"Guttenberg city, Iowa",1817,2020
+773,1933645,"Halbur city, Iowa",243,2020
+774,1933780,"Hamburg city, Iowa",890,2020
+775,1933870,"Hamilton city, Iowa",119,2020
+776,1933960,"Hampton city, Iowa",4337,2020
+777,1934005,"Hancock city, Iowa",200,2020
+778,1934185,"Hanlontown city, Iowa",206,2020
+779,1934365,"Hansell city, Iowa",82,2020
+780,1934410,"Harcourt city, Iowa",264,2020
+781,1934455,"Hardy city, Iowa",57,2020
+782,1934500,"Harlan city, Iowa",4893,2020
+783,1934545,"Harper city, Iowa",118,2020
+784,1934590,"Harpers Ferry city, Iowa",262,2020
+785,1934635,"Harris city, Iowa",151,2020
+786,1934680,"Hartford city, Iowa",733,2020
+787,1934725,"Hartley city, Iowa",1605,2020
+788,1934770,"Hartwick city, Iowa",92,2020
+789,1934860,"Harvey city, Iowa",236,2020
+790,1935130,"Havelock city, Iowa",130,2020
+791,1935220,"Haverhill city, Iowa",165,2020
+792,1935265,"Hawarden city, Iowa",2700,2020
+793,1935310,"Hawkeye city, Iowa",438,2020
+794,1935445,"Hayesville city, Iowa",41,2020
+795,1935490,"Hayfield CDP, Iowa",41,2020
+796,1935580,"Hazleton city, Iowa",713,2020
+797,1935670,"Hedrick city, Iowa",728,2020
+798,1935715,"Henderson city, Iowa",144,2020
+799,1935760,"Hepburn city, Iowa",26,2020
+800,1935940,"Hiawatha city, Iowa",7183,2020
+801,1936030,"High Amana CDP, Iowa",113,2020
+802,1936345,"Hills city, Iowa",863,2020
+803,1936390,"Hillsboro city, Iowa",163,2020
+804,1936480,"Hinton city, Iowa",935,2020
+805,1936660,"Holiday Lake CDP, Iowa",473,2020
+806,1936705,"Holland city, Iowa",269,2020
+807,1936840,"Holstein city, Iowa",1501,2020
+808,1936885,"Holy Cross city, Iowa",356,2020
+809,1936975,"Homestead CDP, Iowa",135,2020
+810,1937155,"Hopkinton city, Iowa",622,2020
+811,1937200,"Hornick city, Iowa",255,2020
+812,1937290,"Hospers city, Iowa",718,2020
+813,1937335,"Houghton city, Iowa",141,2020
+814,1937425,"Hubbard city, Iowa",860,2020
+815,1937470,"Hudson city, Iowa",2546,2020
+816,1937515,"Hull city, Iowa",2384,2020
+817,1937560,"Humboldt city, Iowa",4792,2020
+818,1937605,"Humeston city, Iowa",465,2020
+819,1937875,"Hutchins CDP, Iowa",22,2020
+820,1937920,"Huxley city, Iowa",4244,2020
+821,1938010,"Ida Grove city, Iowa",2051,2020
+822,1938055,"Imogene city, Iowa",39,2020
+823,1938100,"Independence city, Iowa",6064,2020
+824,1938280,"Indianola city, Iowa",15833,2020
+825,1938415,"Inwood city, Iowa",928,2020
+826,1938460,"Ionia city, Iowa",226,2020
+827,1938595,"Iowa City city, Iowa",74828,2020
+828,1938640,"Iowa Falls city, Iowa",5106,2020
+829,1938820,"Ireton city, Iowa",590,2020
+830,1938955,"Irvington CDP, Iowa",36,2020
+831,1934995,"Hastings city, Iowa",152,2020
+832,1939000,"Irwin city, Iowa",319,2020
+833,1939135,"Jackson Junction city, Iowa",37,2020
+834,1939180,"Jacksonville CDP, Iowa",29,2020
+835,1939225,"Jamaica city, Iowa",195,2020
+836,1939405,"Janesville city, Iowa",1034,2020
+837,1939450,"Jefferson city, Iowa",4182,2020
+838,1939585,"Jesup city, Iowa",2508,2020
+839,1939675,"Jewell Junction city, Iowa",1216,2020
+840,1939765,"Johnston city, Iowa",24064,2020
+841,1939855,"Joice city, Iowa",208,2020
+842,1939900,"Jolley city, Iowa",28,2020
+843,1940170,"Kalona city, Iowa",2630,2020
+844,1940215,"Kamrar city, Iowa",179,2020
+845,1940260,"Kanawha city, Iowa",658,2020
+846,1940350,"Kellerton city, Iowa",243,2020
+847,1940395,"Kelley city, Iowa",304,2020
+848,1940440,"Kellogg city, Iowa",606,2020
+849,1940665,"Kensett city, Iowa",257,2020
+850,1940710,"Kent CDP, Iowa",37,2020
+851,1940733,"Kent Estates CDP, Iowa",2074,2020
+852,1940845,"Keokuk city, Iowa",9900,2020
+853,1940890,"Keomah Village city, Iowa",110,2020
+854,1940935,"Keosauqua city, Iowa",936,2020
+855,1940980,"Keota city, Iowa",897,2020
+856,1941070,"Keswick city, Iowa",242,2020
+857,1941115,"Keystone city, Iowa",599,2020
+858,1941295,"Kimballton city, Iowa",291,2020
+859,1941385,"Kingsley city, Iowa",1396,2020
+860,1941430,"Kingston CDP, Iowa",81,2020
+861,1941475,"Kinross city, Iowa",80,2020
+862,1941520,"Kirkman city, Iowa",56,2020
+863,1941565,"Kirkville city, Iowa",157,2020
+864,1941610,"Kiron city, Iowa",267,2020
+865,1941655,"Klemme city, Iowa",441,2020
+866,1941790,"Knierim city, Iowa",53,2020
+867,1942015,"Knoxville city, Iowa",7595,2020
+868,1942285,"Lacona city, Iowa",345,2020
+869,1942330,"Ladora city, Iowa",229,2020
+870,1942465,"Lake City city, Iowa",1731,2020
+871,1942555,"Lake Mills city, Iowa",2143,2020
+872,1942575,"Lake Panorama CDP, Iowa",1266,2020
+873,1942600,"Lake Park city, Iowa",1167,2020
+874,1942645,"Lakeside city, Iowa",700,2020
+875,1942690,"Lake View city, Iowa",1113,2020
+876,1942825,"Lakota city, Iowa",267,2020
+877,1942870,"Lambs Grove city, Iowa",174,2020
+878,1942960,"Lamoni city, Iowa",1969,2020
+879,1943005,"Lamont city, Iowa",429,2020
+880,1943050,"La Motte city, Iowa",237,2020
+881,1943140,"Lanesboro city, Iowa",119,2020
+882,1943275,"Lansing city, Iowa",968,2020
+883,1943365,"La Porte City city, Iowa",2284,2020
+884,1943410,"Larchwood city, Iowa",926,2020
+885,1943500,"Larrabee city, Iowa",123,2020
+886,1943590,"Latimer city, Iowa",477,2020
+887,1943680,"Laurel city, Iowa",220,2020
+888,1943725,"Laurens city, Iowa",1264,2020
+889,1943815,"Lawler city, Iowa",406,2020
+890,1943905,"Lawton city, Iowa",943,2020
+891,1943950,"Leando CDP, Iowa",121,2020
+892,1944085,"Le Claire city, Iowa",4710,2020
+893,1944130,"Ledyard city, Iowa",121,2020
+894,1944220,"Le Grand city, Iowa",905,2020
+895,1944265,"Lehigh city, Iowa",395,2020
+896,1944310,"Leighton city, Iowa",158,2020
+897,1944355,"Leland city, Iowa",249,2020
+898,1944400,"Le Mars city, Iowa",10571,2020
+899,1944490,"Lenox city, Iowa",1339,2020
+900,1944535,"Leon city, Iowa",1822,2020
+901,1944580,"Le Roy city, Iowa",11,2020
+902,1944670,"Lester city, Iowa",296,2020
+903,1944715,"Letts city, Iowa",363,2020
+904,1944805,"Lewis city, Iowa",357,2020
+905,1944985,"Libertyville city, Iowa",274,2020
+906,1945030,"Lidderdale city, Iowa",166,2020
+907,1945165,"Lime Springs city, Iowa",473,2020
+908,1945255,"Lincoln city, Iowa",121,2020
+909,1945390,"Linden city, Iowa",200,2020
+910,1945480,"Linn Grove city, Iowa",163,2020
+911,1945615,"Lisbon city, Iowa",2233,2020
+912,1945660,"Liscomb city, Iowa",291,2020
+913,1945705,"Little Cedar CDP, Iowa",64,2020
+914,1945795,"Little Rock city, Iowa",439,2020
+915,1945840,"Little Sioux city, Iowa",166,2020
+916,1945975,"Livermore city, Iowa",381,2020
+917,1946065,"Lockridge city, Iowa",244,2020
+918,1946155,"Logan city, Iowa",1397,2020
+919,1946245,"Lohrville city, Iowa",381,2020
+920,1946290,"Lone Rock city, Iowa",146,2020
+921,1946335,"Lone Tree city, Iowa",1357,2020
+922,1946425,"Long Grove city, Iowa",838,2020
+923,1946515,"Lorimor city, Iowa",386,2020
+924,1946605,"Lost Nation city, Iowa",434,2020
+925,1946785,"Loveland CDP, Iowa",36,2020
+926,1946830,"Lovilia city, Iowa",472,2020
+927,1946920,"Lowden city, Iowa",807,2020
+928,1946965,"Lowell CDP, Iowa",70,2020
+929,1947010,"Low Moor city, Iowa",250,2020
+930,1947055,"Luana city, Iowa",301,2020
+931,1947100,"Lucas city, Iowa",172,2020
+932,1947280,"Luther city, Iowa",152,2020
+933,1947370,"Lu Verne city, Iowa",258,2020
+934,1947460,"Luxemburg city, Iowa",245,2020
+935,1947505,"Luzerne city, Iowa",112,2020
+936,1947595,"Lynnville city, Iowa",380,2020
+937,1947730,"Lytton city, Iowa",282,2020
+938,1947775,"McCallsburg city, Iowa",353,2020
+939,1947820,"McCausland city, Iowa",313,2020
+940,1947865,"McClelland city, Iowa",146,2020
+941,1947955,"Macedonia city, Iowa",267,2020
+942,1948000,"McGregor city, Iowa",742,2020
+943,1948045,"McIntire city, Iowa",113,2020
+944,1948180,"Macksburg city, Iowa",97,2020
+945,1948450,"Madrid city, Iowa",2802,2020
+946,1948495,"Magnolia city, Iowa",190,2020
+947,1948500,"Maharishi Vedic City city, Iowa",277,2020
+948,1948540,"Malcom city, Iowa",270,2020
+949,1948585,"Mallard city, Iowa",257,2020
+950,1945435,"Lineville city, Iowa",195,2020
+951,1948675,"Maloy city, Iowa",22,2020
+952,1948720,"Malvern city, Iowa",1046,2020
+953,1948810,"Manchester city, Iowa",5065,2020
+954,1948855,"Manilla city, Iowa",775,2020
+955,1948900,"Manly city, Iowa",1256,2020
+956,1948945,"Manning city, Iowa",1455,2020
+957,1948990,"Manson city, Iowa",1709,2020
+958,1949170,"Mapleton city, Iowa",1165,2020
+959,1949215,"Maquoketa city, Iowa",6128,2020
+960,1949260,"Marathon city, Iowa",230,2020
+961,1949305,"Marble Rock city, Iowa",271,2020
+962,1949350,"Marcus city, Iowa",1079,2020
+963,1949395,"Marengo city, Iowa",2435,2020
+964,1949485,"Marion city, Iowa",41535,2020
+965,1949575,"Marne city, Iowa",110,2020
+966,1949620,"Marquette city, Iowa",429,2020
+967,1949755,"Marshalltown city, Iowa",27591,2020
+968,1949845,"Martelle city, Iowa",249,2020
+969,1949935,"Martinsburg city, Iowa",110,2020
+970,1950070,"Marysville city, Iowa",44,2020
+971,1950160,"Mason City city, Iowa",27338,2020
+972,1950205,"Masonville city, Iowa",99,2020
+973,1950250,"Massena city, Iowa",359,2020
+974,1950385,"Matlock city, Iowa",74,2020
+975,1950430,"Maurice city, Iowa",265,2020
+976,1950520,"Maxwell city, Iowa",859,2020
+977,1950610,"Maynard city, Iowa",476,2020
+978,1950655,"Maysville city, Iowa",156,2020
+979,1950700,"Mechanicsville city, Iowa",1020,2020
+980,1950790,"Mediapolis city, Iowa",1688,2020
+981,1950880,"Melbourne city, Iowa",786,2020
+982,1950935,"Melcher-Dallas city, Iowa",1195,2020
+983,1950970,"Melrose city, Iowa",110,2020
+984,1951060,"Melvin city, Iowa",199,2020
+985,1951105,"Menlo city, Iowa",345,2020
+986,1951150,"Meriden city, Iowa",161,2020
+987,1951375,"Merrill city, Iowa",717,2020
+988,1951420,"Meservey city, Iowa",222,2020
+989,1951510,"Meyer CDP, Iowa",14,2020
+990,1951600,"Middle Amana CDP, Iowa",543,2020
+991,1951735,"Middletown city, Iowa",363,2020
+992,1952050,"Miles city, Iowa",408,2020
+993,1952095,"Milford city, Iowa",3321,2020
+994,1952140,"Miller CDP, Iowa",50,2020
+995,1952230,"Millersburg city, Iowa",135,2020
+996,1952275,"Millerton city, Iowa",36,2020
+997,1952455,"Milo city, Iowa",778,2020
+998,1952500,"Milton city, Iowa",380,2020
+999,1952545,"Minburn city, Iowa",325,2020
+1000,1952590,"Minden city, Iowa",600,2020
+1001,1952635,"Mineola CDP, Iowa",154,2020
+1002,1952815,"Mingo city, Iowa",302,2020
+1003,1952860,"Missouri Valley city, Iowa",2678,2020
+1004,1952905,"Mitchell city, Iowa",124,2020
+1005,1952950,"Mitchellville city, Iowa",2485,2020
+1006,1952995,"Modale city, Iowa",273,2020
+1007,1953085,"Mona CDP, Iowa",35,2020
+1008,1953175,"Mondamin city, Iowa",339,2020
+1009,1949890,"Martensdale city, Iowa",421,2020
+1010,1953265,"Monmouth city, Iowa",129,2020
+1011,1953310,"Monona city, Iowa",1471,2020
+1012,1953355,"Monroe city, Iowa",1967,2020
+1013,1953490,"Montezuma city, Iowa",1442,2020
+1014,1953625,"Monticello city, Iowa",4040,2020
+1015,1953670,"Montour city, Iowa",203,2020
+1016,1953715,"Montpelier CDP, Iowa",186,2020
+1017,1953760,"Montrose city, Iowa",738,2020
+1018,1953805,"Mooar CDP, Iowa",321,2020
+1019,1953850,"Moorhead city, Iowa",199,2020
+1020,1953895,"Moorland city, Iowa",168,2020
+1021,1953985,"Moravia city, Iowa",637,2020
+1022,1954030,"Morley city, Iowa",96,2020
+1023,1954120,"Morning Sun city, Iowa",752,2020
+1024,1954165,"Morrison city, Iowa",98,2020
+1025,1954345,"Moscow CDP, Iowa",290,2020
+1026,1954390,"Moulton city, Iowa",607,2020
+1027,1954435,"Mount Auburn city, Iowa",162,2020
+1028,1954480,"Mount Ayr city, Iowa",1623,2020
+1029,1968520,"Rolfe city, Iowa",584,2010
+1030,1968565,"Rome city, Iowa",117,2010
+1031,1968700,"Rose Hill city, Iowa",168,2010
+1032,1968800,"Roseville CDP, Iowa",49,2010
+1033,1969060,"Rowley city, Iowa",264,2010
+1034,1968925,"Rossie city, Iowa",70,2010
+1035,1969015,"Rowan city, Iowa",158,2010
+1036,1969105,"Royal city, Iowa",446,2010
+1037,1969195,"Rudd city, Iowa",369,2010
+1038,1969240,"Runnells city, Iowa",507,2010
+1039,1969285,"Russell city, Iowa",554,2010
+1040,1969330,"Ruthven city, Iowa",737,2010
+1041,1969375,"Rutland city, Iowa",126,2010
+1042,1969465,"Ryan city, Iowa",361,2010
+1043,1969735,"St. Ansgar city, Iowa",1107,2010
+1044,1969510,"Sabula city, Iowa",576,2010
+1045,1969645,"Sac City city, Iowa",2220,2010
+1046,1969690,"Sageville city, Iowa",122,2010
+1047,1969780,"St. Anthony city, Iowa",102,2010
+1048,1969825,"St. Benedict CDP, Iowa",39,2010
+1049,1969915,"St. Charles city, Iowa",653,2010
+1050,1969960,"St. Donatus city, Iowa",135,2010
+1051,1965415,"Rake city, Iowa",225,2010
+1052,1970005,"St. Joseph CDP, Iowa",61,2010
+1053,1970050,"St. Lucas city, Iowa",143,2010
+1054,1970095,"St. Marys city, Iowa",127,2010
+1055,1970230,"Salem city, Iowa",383,2010
+1056,1970185,"St. Paul city, Iowa",129,2010
+1057,1970140,"St. Olaf city, Iowa",108,2010
+1058,1970320,"Salix city, Iowa",363,2010
+1059,1970410,"Sanborn city, Iowa",1404,2010
+1060,1970590,"Sandyville city, Iowa",51,2010
+1061,1970995,"Saylorville CDP, Iowa",3301,2010
+1062,1971040,"Scarville city, Iowa",72,2010
+1063,1971085,"Schaller city, Iowa",772,2010
+1064,1971625,"Sergeant Bluff city, Iowa",4227,2010
+1065,1971130,"Schleswig city, Iowa",882,2010
+1066,1971310,"Scranton city, Iowa",557,2010
+1067,1971355,"Searsboro city, Iowa",148,2010
+1068,1971715,"Sexton CDP, Iowa",37,2010
+1069,1971760,"Seymour city, Iowa",701,2010
+1070,1971895,"Shambaugh city, Iowa",191,2010
+1071,1971940,"Shannon City city, Iowa",71,2010
+1072,1912000,"Cedar Rapids city, Iowa",126326,2010
+1073,1912225,"Center Junction city, Iowa",111,2010
+1074,1912315,"Centerville city, Iowa",5528,2010
+1075,1912495,"Central City city, Iowa",1257,2010
+1076,1912630,"Centralia city, Iowa",134,2010
+1077,1912675,"Chapin CDP, Iowa",87,2010
+1078,1912720,"Chariton city, Iowa",4321,2010
+1079,1912765,"Charles City city, Iowa",7652,2010
+1080,1972075,"Sharpsburg city, Iowa",89,2010
+1081,1972210,"Sheffield city, Iowa",1172,2010
+1082,1972300,"Shelby city, Iowa",641,2010
+1083,1972480,"Shellsburg city, Iowa",983,2010
+1084,1972345,"Sheldahl city, Iowa",319,2010
+1085,1972390,"Sheldon city, Iowa",5188,2010
+1086,1972435,"Shell Rock city, Iowa",1296,2010
+1087,1972525,"Shenandoah city, Iowa",5150,2010
+1088,1972660,"Sherrill city, Iowa",177,2010
+1089,1972840,"Shueyville city, Iowa",577,2010
+1090,1972975,"Sibley city, Iowa",2798,2010
+1091,1973065,"Sidney city, Iowa",1138,2010
+1092,1973110,"Sigourney city, Iowa",2059,2010
+1093,1973155,"Silver City city, Iowa",245,2010
+1094,1973290,"Sioux Center city, Iowa",7048,2010
+1095,1944265,"Lehigh city, Iowa",416,2010
+1096,1944310,"Leighton city, Iowa",162,2010
+1097,1944355,"Leland city, Iowa",289,2010
+1098,1944400,"Le Mars city, Iowa",9826,2010
+1099,1944580,"Le Roy city, Iowa",15,2010
+1100,1944490,"Lenox city, Iowa",1407,2010
+1101,1944535,"Leon city, Iowa",1977,2010
+1102,1944670,"Lester city, Iowa",294,2010
+1103,1944715,"Letts city, Iowa",384,2010
+1104,1944805,"Lewis city, Iowa",433,2010
+1105,1944985,"Libertyville city, Iowa",315,2010
+1106,1945030,"Lidderdale city, Iowa",180,2010
+1107,1945165,"Lime Springs city, Iowa",505,2010
+1108,1945480,"Linn Grove city, Iowa",154,2010
+1109,1945255,"Lincoln city, Iowa",162,2010
+1110,1923160,"Dysart city, Iowa",1379,2010
+1111,1923250,"Eagle Grove city, Iowa",3583,2010
+1112,1923340,"Earlham city, Iowa",1450,2010
+1113,1923385,"Earling city, Iowa",437,2010
+1114,1923430,"Earlville city, Iowa",812,2010
+1115,1923790,"East Peru city, Iowa",125,2010
+1116,1945390,"Linden city, Iowa",199,2010
+1117,1945435,"Lineville city, Iowa",217,2010
+1118,1945615,"Lisbon city, Iowa",2152,2010
+1119,1945660,"Liscomb city, Iowa",301,2010
+1120,1945705,"Little Cedar CDP, Iowa",60,2010
+1121,1945795,"Little Rock city, Iowa",459,2010
+1122,1945840,"Little Sioux city, Iowa",170,2010
+1123,1945975,"Livermore city, Iowa",384,2010
+1124,1946290,"Lone Rock city, Iowa",146,2010
+1125,1946065,"Lockridge city, Iowa",268,2010
+1126,1946155,"Logan city, Iowa",1534,2010
+1127,1946245,"Lohrville city, Iowa",368,2010
+1128,1946335,"Lone Tree city, Iowa",1300,2010
+1129,1946425,"Long Grove city, Iowa",808,2010
+1130,1946515,"Lorimor city, Iowa",360,2010
+1131,1946605,"Lost Nation city, Iowa",446,2010
+1132,1946785,"Loveland CDP, Iowa",35,2010
+1133,1946830,"Lovilia city, Iowa",538,2010
+1134,1946920,"Lowden city, Iowa",789,2010
+1135,1947280,"Luther city, Iowa",122,2010
+1136,1947010,"Low Moor city, Iowa",288,2010
+1137,1947055,"Luana city, Iowa",269,2010
+1138,1947100,"Lucas city, Iowa",216,2010
+1139,1947370,"Lu Verne city, Iowa",261,2010
+1140,1947460,"Luxemburg city, Iowa",240,2010
+1141,1947505,"Luzerne city, Iowa",96,2010
+1142,1947595,"Lynnville city, Iowa",379,2010
+1143,1947730,"Lytton city, Iowa",315,2010
+1144,1947955,"Macedonia city, Iowa",246,2010
+1145,1947775,"McCallsburg city, Iowa",333,2010
+1146,1947820,"McCausland city, Iowa",291,2010
+1147,1947865,"McClelland city, Iowa",151,2010
+1148,1948450,"Madrid city, Iowa",2543,2010
+1149,1948000,"McGregor city, Iowa",871,2010
+1150,1948045,"McIntire city, Iowa",122,2010
+1151,1948180,"Macksburg city, Iowa",113,2010
+1152,1948495,"Magnolia city, Iowa",183,2010
+1153,1948500,"Maharishi Vedic City city, Iowa",259,2010
+1154,1948540,"Malcom city, Iowa",287,2010
+1155,1948585,"Mallard city, Iowa",274,2010
+1156,1948675,"Maloy city, Iowa",29,2010
+1157,1948720,"Malvern city, Iowa",1142,2010
+1158,1948810,"Manchester city, Iowa",5179,2010
+1159,1948990,"Manson city, Iowa",1690,2010
+1160,1949170,"Mapleton city, Iowa",1224,2010
+1161,1949575,"Marne city, Iowa",120,2010
+1162,1948945,"Manning city, Iowa",1500,2010
+1163,1948855,"Manilla city, Iowa",776,2010
+1164,1948900,"Manly city, Iowa",1323,2010
+1165,1949215,"Maquoketa city, Iowa",6141,2010
+1166,1949260,"Marathon city, Iowa",237,2010
+1167,1949305,"Marble Rock city, Iowa",307,2010
+1168,1949350,"Marcus city, Iowa",1117,2010
+1169,1949485,"Marion city, Iowa",34768,2010
+1170,1949620,"Marquette city, Iowa",375,2010
+1171,1949755,"Marshalltown city, Iowa",27552,2010
+1172,1950250,"Massena city, Iowa",355,2010
+1173,1949395,"Marengo city, Iowa",2528,2010
+1174,1949845,"Martelle city, Iowa",255,2010
+1175,1949890,"Martensdale city, Iowa",465,2010
+1176,1949935,"Martinsburg city, Iowa",112,2010
+1177,1950070,"Marysville city, Iowa",66,2010
+1178,1950160,"Mason City city, Iowa",28079,2010
+1179,1950205,"Masonville city, Iowa",127,2010
+1180,1950385,"Matlock city, Iowa",87,2010
+1181,1950430,"Maurice city, Iowa",275,2010
+1182,1950520,"Maxwell city, Iowa",920,2010
+1183,1950610,"Maynard city, Iowa",518,2010
+1184,1950880,"Melbourne city, Iowa",830,2010
+1185,1950655,"Maysville city, Iowa",176,2010
+1186,1950700,"Mechanicsville city, Iowa",1146,2010
+1187,1950790,"Mediapolis city, Iowa",1560,2010
+1188,1950935,"Melcher-Dallas city, Iowa",1288,2010
+1189,1950970,"Melrose city, Iowa",112,2010
+1190,1951060,"Melvin city, Iowa",214,2010
+1191,1951105,"Menlo city, Iowa",353,2010
+1192,1951150,"Meriden city, Iowa",159,2010
+1193,1951375,"Merrill city, Iowa",755,2010
+1194,1951735,"Middletown city, Iowa",318,2010
+1195,1951420,"Meservey city, Iowa",256,2010
+1196,1951510,"Meyer CDP, Iowa",31,2010
+1197,1951600,"Middle Amana CDP, Iowa",581,2010
+1198,1952050,"Miles city, Iowa",445,2010
+1199,1952095,"Milford city, Iowa",2898,2010
+1200,1952230,"Millersburg city, Iowa",159,2010
+1201,1952275,"Millerton city, Iowa",45,2010
+1202,1952410,"Millville city, Iowa",30,2010
+1203,1952455,"Milo city, Iowa",775,2010
+1204,1952815,"Mingo city, Iowa",302,2010
+1205,1952140,"Miller CDP, Iowa",60,2010
+1206,1952500,"Milton city, Iowa",443,2010
+1207,1952590,"Minden city, Iowa",599,2010
+1208,1952635,"Mineola CDP, Iowa",166,2010
+1209,1952860,"Missouri Valley city, Iowa",2838,2010
+1210,1952905,"Mitchell city, Iowa",138,2010
+1211,1952950,"Mitchellville city, Iowa",2254,2010
+1212,1952995,"Modale city, Iowa",283,2010
+1213,1953085,"Mona CDP, Iowa",34,2010
+1214,1952545,"Minburn city, Iowa",365,2010
+1215,1903385,"Atalissa city, Iowa",311,2010
+1216,1901180,"Alleman city, Iowa",432,2010
+1217,1901585,"Alton city, Iowa",1216,2010
+1218,1901630,"Altoona city, Iowa",14541,2010
+1219,1902260,"Anita city, Iowa",972,2010
+1220,1902305,"Ankeny city, Iowa",45582,2010
+1221,1902485,"Arcadia city, Iowa",484,2010
+1222,1902620,"Aredale city, Iowa",74,2010
+1223,1903025,"Arnolds Park city, Iowa",1126,2010
+1224,1903295,"Ashton city, Iowa",458,2010
+1225,1903430,"Athelstan CDP, Iowa",19,2010
+1226,1903520,"Atlantic city, Iowa",7112,2010
+1227,1903655,"Audubon city, Iowa",2176,2010
+1228,1904105,"Ayrshire city, Iowa",143,2010
+1229,1903745,"Aurelia city, Iowa",1036,2010
+1230,1903835,"Aurora city, Iowa",185,2010
+1231,1903970,"Avoca city, Iowa",1506,2010
+1232,1904195,"Badger city, Iowa",561,2010
+1233,1904240,"Bagley city, Iowa",303,2010
+1234,1904330,"Baldwin city, Iowa",109,2010
+1235,1904375,"Balltown city, Iowa",68,2010
+1236,1904420,"Bancroft city, Iowa",732,2010
+1237,1904510,"Bankston city, Iowa",25,2010
+1238,1904780,"Bassett city, Iowa",66,2010
+1239,1904555,"Barnes City city, Iowa",176,2010
+1240,1904645,"Barnum city, Iowa",191,2010
+1241,1904735,"Bartlett CDP, Iowa",50,2010
+1242,1904825,"Batavia city, Iowa",499,2010
+1243,1904870,"Battle Creek city, Iowa",713,2010
+1244,1904915,"Baxter city, Iowa",1101,2010
+1245,1904960,"Bayard city, Iowa",471,2010
+1246,1905050,"Beacon city, Iowa",494,2010
+1247,1905095,"Beaconsfield city, Iowa",15,2010
+1248,1905635,"Bellevue city, Iowa",2191,2010
+1249,1905140,"Beaman city, Iowa",191,2010
+1250,1905185,"Beaver city, Iowa",48,2010
+1251,1905200,"Beaverdale CDP, Iowa",952,2010
+1252,1905680,"Belmond city, Iowa",2376,2010
+1253,1903475,"Atkins city, Iowa",1670,2010
+1254,1905365,"Bedford city, Iowa",1440,2010
+1255,1905590,"Belle Plaine city, Iowa",2534,2010
+1256,1905770,"Bennett city, Iowa",405,2010
+1257,1905870,"Bentley CDP, Iowa",118,2010
+1258,1905905,"Benton city, Iowa",41,2010
+1259,1906040,"Berkley city, Iowa",32,2010
+1260,1906490,"Bevington city, Iowa",63,2010
+1261,1906085,"Bernard city, Iowa",112,2010
+1262,1906175,"Bertram city, Iowa",294,2010
+1263,1906355,"Bettendorf city, Iowa",33217,2010
+1264,1906625,"Birmingham city, Iowa",448,2010
+1265,1906760,"Blairsburg city, Iowa",215,2010
+1266,1906805,"Blairstown city, Iowa",692,2010
+1267,1906850,"Blakesburg city, Iowa",296,2010
+1268,1906895,"Blanchard city, Iowa",38,2010
+1269,1923475,"Early city, Iowa",557,2010
+1270,1923520,"East Amana CDP, Iowa",56,2010
+1271,1923970,"Eddyville city, Iowa",1024,2010
+1272,1924060,"Edgewood city, Iowa",864,2010
+1273,1924375,"Elberon city, Iowa",196,2010
+1274,1924420,"Eldon city, Iowa",927,2010
+1275,1924465,"Eldora city, Iowa",2732,2010
+1276,1924600,"Eldridge city, Iowa",5651,2010
+1277,1924645,"Elgin city, Iowa",683,2010
+1278,1924825,"Elkport city, Iowa",37,2010
+1279,1924690,"Elkader city, Iowa",1273,2010
+1280,1924735,"Elkhart city, Iowa",683,2010
+1281,1924780,"Elk Horn city, Iowa",662,2010
+1282,1924870,"Elk Run Heights city, Iowa",1117,2010
+1283,1924915,"Elliott city, Iowa",350,2010
+1284,1925005,"Ellston city, Iowa",43,2010
+1285,1925050,"Ellsworth city, Iowa",531,2010
+1286,1925095,"Elma city, Iowa",546,2010
+1287,1925365,"Ely city, Iowa",1776,2010
+1288,1925815,"Essex city, Iowa",798,2010
+1289,1925500,"Emerson city, Iowa",438,2010
+1290,1925590,"Emmetsburg city, Iowa",3904,2010
+1291,1925725,"Epworth city, Iowa",1860,2010
+1292,1925860,"Estherville city, Iowa",6360,2010
+1293,1925995,"Evansdale city, Iowa",4751,2010
+1294,1926175,"Everly city, Iowa",603,2010
+1295,1926265,"Exira city, Iowa",840,2010
+1296,1926310,"Exline city, Iowa",160,2010
+1297,1926760,"Farley city, Iowa",1537,2010
+1298,1926355,"Fairbank city, Iowa",1113,2010
+1299,1926400,"Fairfax city, Iowa",2123,2010
+1300,1926445,"Fairfield city, Iowa",9464,2010
+1301,1926850,"Farmersburg city, Iowa",302,2010
+1302,1926895,"Farmington city, Iowa",664,2010
+1303,1926940,"Farnhamville city, Iowa",371,2010
+1304,1926985,"Farragut city, Iowa",485,2010
+1305,1927165,"Fayette city, Iowa",1338,2010
+1306,1927210,"Fenton city, Iowa",279,2010
+1307,1928020,"Floyd city, Iowa",335,2010
+1308,1927255,"Ferguson city, Iowa",126,2010
+1309,1927390,"Fertile city, Iowa",370,2010
+1310,1927975,"Floris city, Iowa",138,2010
+1311,1928245,"Fonda city, Iowa",631,2010
+1312,1928290,"Fontanelle city, Iowa",672,2010
+1313,1928380,"Forest City city, Iowa",4151,2010
+1314,1928425,"Fort Atkinson city, Iowa",349,2010
+1315,1928515,"Fort Dodge city, Iowa",25206,2010
+1316,1928605,"Fort Madison city, Iowa",11051,2010
+1317,1928965,"Fredericksburg city, Iowa",931,2010
+1318,1928650,"Fostoria city, Iowa",231,2010
+1319,1928740,"Franklin city, Iowa",143,2010
+1320,1928920,"Fraser city, Iowa",102,2010
+1321,1953175,"Mondamin city, Iowa",402,2010
+1322,1953265,"Monmouth city, Iowa",153,2010
+1323,1963975,"Pocahontas city, Iowa",1789,2010
+1324,1964020,"Polk City city, Iowa",3418,2010
+1325,1964065,"Pomeroy city, Iowa",662,2010
+1326,1964290,"Postville city, Iowa",2227,2010
+1327,1964110,"Popejoy city, Iowa",79,2010
+1328,1964155,"Portland CDP, Iowa",35,2010
+1329,1964200,"Portsmouth city, Iowa",195,2010
+1330,1964425,"Prairieburg city, Iowa",178,2010
+1331,1964470,"Prairie City city, Iowa",1680,2010
+1332,1964560,"Prescott city, Iowa",257,2010
+1333,1964605,"Preston city, Iowa",1012,2010
+1334,1906940,"Blencoe city, Iowa",224,2010
+1335,1983370,"Welton city, Iowa",165,2010
+1336,1983415,"Wesley city, Iowa",390,2010
+1337,1983595,"West Branch city, Iowa",2322,2010
+1338,1906985,"Blockton city, Iowa",192,2010
+1339,1907030,"Bloomfield city, Iowa",2640,2010
+1340,1907075,"Blue Grass city, Iowa",1452,2010
+1341,1983505,"West Amana CDP, Iowa",135,2010
+1342,1983550,"West Bend city, Iowa",785,2010
+1343,1983685,"West Burlington city, Iowa",2968,2010
+1344,1983775,"West Chester city, Iowa",146,2010
+1345,1983910,"West Des Moines city, Iowa",56609,2010
+1346,1984090,"Westfield city, Iowa",132,2010
+1347,1984180,"Westgate city, Iowa",211,2010
+1348,1984315,"West Liberty city, Iowa",3736,2010
+1349,1984450,"West Okoboji city, Iowa",289,2010
+1350,1984630,"Westside city, Iowa",299,2010
+1351,1984495,"Weston CDP, Iowa",92,2010
+1352,1984540,"Westphalia city, Iowa",127,2010
+1353,1984585,"West Point city, Iowa",966,2010
+1354,1984765,"West Union city, Iowa",2486,2010
+1355,1984835,"Westwood city, Iowa",112,2010
+1356,1985260,"Whittemore city, Iowa",504,2010
+1357,1984900,"What Cheer city, Iowa",646,2010
+1358,1984945,"Wheatland city, Iowa",764,2010
+1359,1985215,"Whiting city, Iowa",762,2010
+1360,1985305,"Whitten city, Iowa",149,2010
+1361,1985935,"Williamson city, Iowa",152,2010
+1362,1985710,"Willey city, Iowa",88,2010
+1363,1985800,"Williams city, Iowa",344,2010
+1364,1985845,"Williamsburg city, Iowa",3068,2010
+1365,1986070,"Wilton city, Iowa",2802,2010
+1366,1986250,"Windsor Heights city, Iowa",4860,2010
+1367,1986385,"Winfield city, Iowa",1134,2010
+1368,1986520,"Winterset city, Iowa",5190,2010
+1369,1986565,"Winthrop city, Iowa",850,2010
+1370,1986880,"Woodburn city, Iowa",202,2010
+1371,1986610,"Wiota city, Iowa",116,2010
+1372,1986700,"Woden city, Iowa",229,2010
+1373,1986835,"Woodbine city, Iowa",1459,2010
+1374,1986970,"Woodward city, Iowa",1024,2010
+1375,1987015,"Woolstock city, Iowa",168,2010
+1376,1987060,"Worthington city, Iowa",401,2010
+1377,1987240,"Wyoming city, Iowa",515,2010
+1378,1987285,"Yale city, Iowa",246,2010
+1379,1987375,"Yetter city, Iowa",34,2010
+1380,1987420,"Yorktown city, Iowa",85,2010
+1381,1987555,"Zearing city, Iowa",554,2010
+1382,1987690,"Zwingle city, Iowa",91,2010
+1383,1964650,"Primghar city, Iowa",909,2010
+1384,1964740,"Princeton city, Iowa",886,2010
+1385,1965235,"Quasqueton city, Iowa",554,2010
+1386,1964875,"Promise City city, Iowa",111,2010
+1387,1965010,"Protivin city, Iowa",283,2010
+1388,1965055,"Pulaski city, Iowa",260,2010
+1389,1965280,"Quimby city, Iowa",319,2010
+1390,1965370,"Radcliffe city, Iowa",545,2010
+1391,1965595,"Randall city, Iowa",173,2010
+1392,1965505,"Ralston city, Iowa",79,2010
+1393,1965550,"Randalia city, Iowa",68,2010
+1394,1965910,"Readlyn city, Iowa",808,2010
+1395,1965640,"Randolph city, Iowa",168,2010
+1396,1965730,"Rathbun city, Iowa",89,2010
+1397,1965820,"Raymond city, Iowa",788,2010
+1398,1965955,"Reasnor city, Iowa",152,2010
+1399,1966000,"Redding city, Iowa",82,2010
+1400,1966045,"Redfield city, Iowa",835,2010
+1401,1966135,"Red Oak city, Iowa",5742,2010
+1402,1966315,"Reinbeck city, Iowa",1664,2010
+1403,1966540,"Rhodes city, Iowa",305,2010
+1404,1966360,"Rembrandt city, Iowa",203,2010
+1405,1966405,"Remsen city, Iowa",1663,2010
+1406,1966450,"Renwick city, Iowa",242,2010
+1407,1966585,"Riceville city, Iowa",785,2010
+1408,1966720,"Richland city, Iowa",584,2010
+1409,1966810,"Rickardsville city, Iowa",182,2010
+1410,1966855,"Ricketts city, Iowa",145,2010
+1411,1967035,"Ridgeway city, Iowa",315,2010
+1412,1967125,"Rinard city, Iowa",52,2010
+1413,1967440,"Riverside city, Iowa",993,2010
+1414,1967170,"Ringsted city, Iowa",422,2010
+1415,1967215,"Rippey city, Iowa",292,2010
+1416,1967350,"Riverdale city, Iowa",405,2010
+1417,1967530,"River Sioux CDP, Iowa",59,2010
+1418,1967575,"Riverton city, Iowa",304,2010
+1419,1967800,"Robins city, Iowa",3142,2010
+1420,1967890,"Rochester CDP, Iowa",133,2010
+1421,1968025,"Rock Falls city, Iowa",155,2010
+1422,1968070,"Rockford city, Iowa",860,2010
+1423,1968160,"Rock Rapids city, Iowa",2549,2010
+1424,1968340,"Rodman city, Iowa",45,2010
+1425,1968205,"Rock Valley city, Iowa",3354,2010
+1426,1968250,"Rockwell city, Iowa",1039,2010
+1427,1968295,"Rockwell City city, Iowa",1709,2010
+1428,1968385,"Rodney city, Iowa",60,2010
+1429,1968475,"Roland city, Iowa",1284,2010
+1430,1939225,"Jamaica city, Iowa",224,2010
+1431,1939405,"Janesville city, Iowa",930,2010
+1432,1939765,"Johnston city, Iowa",17278,2010
+1433,1939450,"Jefferson city, Iowa",4345,2010
+1434,1939585,"Jesup city, Iowa",2520,2010
+1435,1939675,"Jewell Junction city, Iowa",1215,2010
+1436,1939855,"Joice city, Iowa",222,2010
+1437,1939900,"Jolley city, Iowa",41,2010
+1438,1940170,"Kalona city, Iowa",2363,2010
+1439,1940215,"Kamrar city, Iowa",199,2010
+1440,1940260,"Kanawha city, Iowa",652,2010
+1441,1940350,"Kellerton city, Iowa",315,2010
+1442,1940710,"Kent CDP, Iowa",61,2010
+1443,1940395,"Kelley city, Iowa",309,2010
+1444,1940440,"Kellogg city, Iowa",599,2010
+1445,1940665,"Kensett city, Iowa",266,2010
+1446,1940845,"Keokuk city, Iowa",10780,2010
+1447,1940890,"Keomah Village city, Iowa",84,2010
+1448,1940935,"Keosauqua city, Iowa",1006,2010
+1449,1940980,"Keota city, Iowa",1009,2010
+1450,1941070,"Keswick city, Iowa",246,2010
+1451,1941115,"Keystone city, Iowa",622,2010
+1452,1941520,"Kirkman city, Iowa",64,2010
+1453,1941295,"Kimballton city, Iowa",322,2010
+1454,1941385,"Kingsley city, Iowa",1411,2010
+1455,1941475,"Kinross city, Iowa",73,2010
+1456,1941565,"Kirkville city, Iowa",167,2010
+1457,1941610,"Kiron city, Iowa",279,2010
+1458,1941655,"Klemme city, Iowa",507,2010
+1459,1941790,"Knierim city, Iowa",60,2010
+1460,1942015,"Knoxville city, Iowa",7313,2010
+1461,1942285,"Lacona city, Iowa",361,2010
+1462,1942575,"Lake Panorama CDP, Iowa",1309,2010
+1463,1942330,"Ladora city, Iowa",283,2010
+1464,1942465,"Lake City city, Iowa",1727,2010
+1465,1942555,"Lake Mills city, Iowa",2100,2010
+1466,1942825,"Lakota city, Iowa",255,2010
+1467,1942600,"Lake Park city, Iowa",1105,2010
+1468,1942645,"Lakeside city, Iowa",596,2010
+1469,1942690,"Lake View city, Iowa",1142,2010
+1470,1942870,"Lambs Grove city, Iowa",172,2010
+1471,1942960,"Lamoni city, Iowa",2324,2010
+1472,1943275,"Lansing city, Iowa",999,2010
+1473,1943005,"Lamont city, Iowa",461,2010
+1474,1943050,"La Motte city, Iowa",260,2010
+1475,1943140,"Lanesboro city, Iowa",121,2010
+1476,1943365,"La Porte City city, Iowa",2285,2010
+1477,1943410,"Larchwood city, Iowa",866,2010
+1478,1943500,"Larrabee city, Iowa",132,2010
+1479,1943590,"Latimer city, Iowa",507,2010
+1480,1943680,"Laurel city, Iowa",239,2010
+1481,1943725,"Laurens city, Iowa",1258,2010
+1482,1944085,"Le Claire city, Iowa",3765,2010
+1483,1943815,"Lawler city, Iowa",439,2010
+1484,1943905,"Lawton city, Iowa",908,2010
+1485,1943950,"Leando CDP, Iowa",115,2010
+1486,1944130,"Ledyard city, Iowa",130,2010
+1487,1944220,"Le Grand city, Iowa",938,2010
+1488,1917670,"Crystal Lake city, Iowa",250,2010
+1489,1917760,"Cumberland city, Iowa",262,2010
+1490,1917985,"Cylinder city, Iowa",88,2010
+1491,1917850,"Cumming city, Iowa",351,2010
+1492,1917895,"Curlew city, Iowa",58,2010
+1493,1917940,"Cushing city, Iowa",220,2010
+1494,1918075,"Dakota City city, Iowa",843,2010
+1495,1918255,"Dallas Center city, Iowa",1623,2010
+1496,1918345,"Dana city, Iowa",71,2010
+1497,1918390,"Danbury city, Iowa",348,2010
+1498,1918435,"Danville city, Iowa",934,2010
+1499,1919000,"Davenport city, Iowa",99685,2010
+1500,1919360,"Decatur City city, Iowa",197,2010
+1501,1919090,"Davis City city, Iowa",204,2010
+1502,1919135,"Dawson city, Iowa",131,2010
+1503,1919180,"Dayton city, Iowa",837,2010
+1504,1919405,"Decorah city, Iowa",8127,2010
+1505,1919450,"Dedham city, Iowa",266,2010
+1506,1919495,"Deep River city, Iowa",279,2010
+1507,1919585,"Defiance city, Iowa",284,2010
+1508,1919630,"Delaware city, Iowa",159,2010
+1509,1919675,"Delhi city, Iowa",460,2010
+1510,1919855,"Delta city, Iowa",328,2010
+1511,1919720,"Delmar city, Iowa",525,2010
+1512,1919765,"Deloit city, Iowa",264,2010
+1513,1919810,"Delphos city, Iowa",25,2010
+1514,1919945,"Denison city, Iowa",8298,2010
+1515,1919990,"Denmark CDP, Iowa",423,2010
+1516,1920035,"Denver city, Iowa",1780,2010
+1517,1920125,"Derby city, Iowa",115,2010
+1518,1921000,"Des Moines city, Iowa",203433,2010
+1519,1921045,"De Soto city, Iowa",1050,2010
+1520,1921320,"Diamondhead Lake CDP, Iowa",366,2010
+1521,1921180,"De Witt city, Iowa",5322,2010
+1522,1921225,"Dexter city, Iowa",611,2010
+1523,1921270,"Diagonal city, Iowa",330,2010
+1524,1921360,"Dickens city, Iowa",185,2010
+1525,1921405,"Dike city, Iowa",1209,2010
+1526,1921540,"Dixon city, Iowa",247,2010
+1527,1921675,"Dolliver city, Iowa",66,2010
+1528,1921720,"Donahue city, Iowa",346,2010
+1529,1921810,"Donnellson city, Iowa",912,2010
+1530,1922080,"Dougherty city, Iowa",58,2010
+1531,1921900,"Doon city, Iowa",577,2010
+1532,1922305,"Dows city, Iowa",538,2010
+1533,1922035,"Douds CDP, Iowa",152,2010
+1534,1922215,"Dow City city, Iowa",510,2010
+1535,1922350,"Drakesville city, Iowa",184,2010
+1536,1922395,"Dubuque city, Iowa",57637,2010
+1537,1922620,"Dumont city, Iowa",637,2010
+1538,1922710,"Duncan CDP, Iowa",131,2010
+1539,1922755,"Duncombe city, Iowa",410,2010
+1540,1922800,"Dundee city, Iowa",174,2010
+1541,1922980,"Durant city, Iowa",1832,2010
+1542,1922845,"Dunkerton city, Iowa",852,2010
+1543,1922890,"Dunlap city, Iowa",1042,2010
+1544,1922935,"Durango city, Iowa",22,2010
+1545,1923115,"Dyersville city, Iowa",4058,2010
+1546,1900190,"Ackley city, Iowa",1589,2010
+1547,1900730,"Ainsworth city, Iowa",567,2010
+1548,1900370,"Adair city, Iowa",781,2010
+1549,1900595,"Afton city, Iowa",845,2010
+1550,1900640,"Agency city, Iowa",638,2010
+1551,1901270,"Allerton city, Iowa",501,2010
+1552,1901000,"Alburnett city, Iowa",673,2010
+1553,1901045,"Alden city, Iowa",787,2010
+1554,1901135,"Algona city, Iowa",5560,2010
+1555,1901315,"Allison city, Iowa",1029,2010
+1556,1901540,"Alta Vista city, Iowa",266,2010
+1557,1901990,"Anamosa city, Iowa",5533,2010
+1558,1901675,"Alvord city, Iowa",196,2010
+1559,1901720,"Amana CDP, Iowa",442,2010
+1560,1901855,"Ames city, Iowa",58965,2010
+1561,1902035,"Anderson CDP, Iowa",65,2010
+1562,1902125,"Andrew city, Iowa",434,2010
+1563,1902800,"Arispe city, Iowa",100,2010
+1564,1902395,"Aplington city, Iowa",1128,2010
+1565,1902530,"Archer city, Iowa",131,2010
+1566,1902755,"Arion city, Iowa",108,2010
+1567,1902845,"Arlington city, Iowa",429,2010
+1568,1902935,"Armstrong city, Iowa",926,2010
+1569,1900235,"Ackworth city, Iowa",83,2010
+1570,1900505,"Adel city, Iowa",3682,2010
+1571,1903160,"Asbury city, Iowa",4170,2010
+1572,1903340,"Aspinwall city, Iowa",40,2010
+1573,1903610,"Auburn city, Iowa",322,2010
+1574,1903115,"Arthur city, Iowa",206,2010
+1575,1900775,"Akron city, Iowa",1486,2010
+1576,1901090,"Alexander city, Iowa",175,2010
+1577,1900865,"Albert City city, Iowa",699,2010
+1578,1901495,"Alta city, Iowa",1883,2010
+1579,1902350,"Anthon city, Iowa",565,2010
+1580,1900910,"Albia city, Iowa",3766,2010
+1581,1900955,"Albion city, Iowa",505,2010
+1582,1902080,"Andover city, Iowa",103,2010
+1583,1978465,"Toeterville CDP, Iowa",48,2010
+1584,1978510,"Toledo city, Iowa",2341,2010
+1585,1978600,"Toronto city, Iowa",124,2010
+1586,1978735,"Traer city, Iowa",1703,2010
+1587,1978825,"Treynor city, Iowa",919,2010
+1588,1978915,"Tripoli city, Iowa",1313,2010
+1589,1979095,"Truesdale city, Iowa",81,2010
+1590,1979140,"Truro city, Iowa",485,2010
+1591,1979185,"Turin city, Iowa",68,2010
+1592,1979335,"Twin Lakes CDP, Iowa",334,2010
+1593,1979680,"Unionville city, Iowa",102,2010
+1594,1979410,"Udell city, Iowa",47,2010
+1595,1979500,"Underwood city, Iowa",917,2010
+1596,1979545,"Union city, Iowa",397,2010
+1597,1979770,"University Heights city, Iowa",1051,2010
+1598,1979815,"University Park city, Iowa",487,2010
+1599,1979905,"Urbana city, Iowa",1458,2010
+1600,1979950,"Urbandale city, Iowa",39463,2010
+1601,1979995,"Ute city, Iowa",374,2010
+1602,1980130,"Vail city, Iowa",436,2010
+1603,1980490,"Van Wert city, Iowa",230,2010
+1604,1980445,"Van Meter city, Iowa",1016,2010
+1605,1980175,"Valeria city, Iowa",57,2010
+1606,1980400,"Van Horne city, Iowa",682,2010
+1607,1980535,"Varina city, Iowa",71,2010
+1608,1980580,"Ventura city, Iowa",717,2010
+1609,1980805,"Victor city, Iowa",893,2010
+1610,1980985,"Villisca city, Iowa",1252,2010
+1611,1981075,"Vincent city, Iowa",174,2010
+1612,1981120,"Vining city, Iowa",50,2010
+1613,1981615,"Wahpeton city, Iowa",341,2010
+1614,1981210,"Vinton city, Iowa",5257,2010
+1615,1981345,"Volga city, Iowa",208,2010
+1616,1981570,"Wadena city, Iowa",262,2010
+1617,1981705,"Walcott city, Iowa",1629,2010
+1618,1981840,"Walford city, Iowa",1463,2010
+1619,1958575,"Odebolt city, Iowa",1013,2010
+1620,1958890,"Olds city, Iowa",229,2010
+1621,1958620,"Oelwein city, Iowa",6415,2010
+1622,1958665,"Ogden city, Iowa",2044,2010
+1623,1958710,"Okoboji city, Iowa",807,2010
+1624,1958980,"Olin city, Iowa",698,2010
+1625,1959070,"Ollie city, Iowa",215,2010
+1626,1959115,"Onawa city, Iowa",2998,2010
+1627,1959250,"Onslow city, Iowa",197,2010
+1628,1959475,"Orange City city, Iowa",6004,2010
+1629,1959520,"Orchard city, Iowa",71,2010
+1630,1959745,"Osage city, Iowa",3619,2010
+1631,1959565,"Orient city, Iowa",408,2010
+1632,1959655,"Orleans city, Iowa",608,2010
+1633,1959970,"Ossian city, Iowa",845,2010
+1634,1959835,"Osceola city, Iowa",4929,2010
+1635,1959925,"Oskaloosa city, Iowa",11463,2010
+1636,1960015,"Osterdock city, Iowa",59,2010
+1637,1960105,"Otho city, Iowa",542,2010
+1638,1960240,"Oto city, Iowa",108,2010
+1639,1960285,"Otranto CDP, Iowa",27,2010
+1640,1960645,"Oxford city, Iowa",807,2010
+1641,1960420,"Ottosen city, Iowa",55,2010
+1642,1960465,"Ottumwa city, Iowa",25023,2010
+1643,1960555,"Owasa city, Iowa",43,2010
+1644,1960690,"Oxford Junction city, Iowa",496,2010
+1645,1960780,"Oyens city, Iowa",103,2010
+1646,1960825,"Pacific Junction city, Iowa",471,2010
+1647,1960915,"Packwood city, Iowa",204,2010
+1648,1961050,"Palmer city, Iowa",165,2010
+1649,1961230,"Palo city, Iowa",1026,2010
+1650,1961590,"Parkersburg city, Iowa",1870,2010
+1651,1961275,"Panama city, Iowa",221,2010
+1652,1961320,"Panora city, Iowa",1124,2010
+1653,1961365,"Panorama Park city, Iowa",129,2010
+1654,1961725,"Park View CDP, Iowa",2389,2010
+1655,1961770,"Parnell city, Iowa",193,2010
+1656,1961815,"Paton city, Iowa",236,2010
+1657,1961860,"Patterson city, Iowa",130,2010
+1658,1961905,"Paullina city, Iowa",1056,2010
+1659,1962355,"Perry city, Iowa",7702,2010
+1660,1962040,"Pella city, Iowa",10352,2010
+1661,1962130,"Peosta city, Iowa",1377,2010
+1662,1962175,"Percival CDP, Iowa",87,2010
+1663,1962445,"Persia city, Iowa",319,2010
+1664,1962625,"Peterson city, Iowa",334,2010
+1665,1962760,"Pierson city, Iowa",366,2010
+1666,1962850,"Pilot Mound city, Iowa",173,2010
+1667,1962985,"Pioneer city, Iowa",23,2010
+1668,1963075,"Pisgah city, Iowa",251,2010
+1669,1963210,"Plainfield city, Iowa",436,2010
+1670,1981885,"Walker city, Iowa",791,2010
+1671,1981975,"Wallingford city, Iowa",197,2010
+1672,1982020,"Wall Lake city, Iowa",819,2010
+1673,1982065,"Walnut city, Iowa",785,2010
+1674,1982380,"Washta city, Iowa",248,2010
+1675,1982200,"Wapello city, Iowa",2067,2010
+1676,1982290,"Washburn CDP, Iowa",876,2010
+1677,1982335,"Washington city, Iowa",7266,2010
+1678,1982425,"Waterloo city, Iowa",68406,2010
+1679,1982470,"Waterville city, Iowa",144,2010
+1680,1982515,"Watkins CDP, Iowa",118,2010
+1681,1982650,"Waucoma city, Iowa",257,2010
+1682,1982695,"Waukee city, Iowa",13790,2010
+1683,1982740,"Waukon city, Iowa",3897,2010
+1684,1983055,"Webster city, Iowa",88,2010
+1685,1982875,"Waverly city, Iowa",9874,2010
+1686,1982965,"Wayland city, Iowa",966,2010
+1687,1983010,"Webb city, Iowa",141,2010
+1688,1983145,"Webster City city, Iowa",8070,2010
+1689,1983190,"Weldon city, Iowa",125,2010
+1690,1983280,"Wellman city, Iowa",1408,2010
+1691,1983325,"Wellsburg city, Iowa",707,2010
+1692,1934005,"Hancock city, Iowa",196,2010
+1693,1934185,"Hanlontown city, Iowa",226,2010
+1694,1934365,"Hansell city, Iowa",98,2010
+1695,1934410,"Harcourt city, Iowa",303,2010
+1696,1934455,"Hardy city, Iowa",47,2010
+1697,1934500,"Harlan city, Iowa",5106,2010
+1698,1934545,"Harper city, Iowa",114,2010
+1699,1934590,"Harpers Ferry city, Iowa",328,2010
+1700,1934770,"Hartwick city, Iowa",86,2010
+1701,1934635,"Harris city, Iowa",170,2010
+1702,1934680,"Hartford city, Iowa",771,2010
+1703,1934725,"Hartley city, Iowa",1672,2010
+1704,1934860,"Harvey city, Iowa",235,2010
+1705,1934995,"Hastings city, Iowa",152,2010
+1706,1935130,"Havelock city, Iowa",138,2010
+1707,1935220,"Haverhill city, Iowa",173,2010
+1708,1935265,"Hawarden city, Iowa",2546,2010
+1709,1935310,"Hawkeye city, Iowa",449,2010
+1710,1935670,"Hedrick city, Iowa",764,2010
+1711,1935445,"Hayesville city, Iowa",50,2010
+1712,1935490,"Hayfield CDP, Iowa",43,2010
+1713,1935580,"Hazleton city, Iowa",823,2010
+1714,1936030,"High Amana CDP, Iowa",115,2010
+1715,1935715,"Henderson city, Iowa",185,2010
+1716,1935760,"Hepburn city, Iowa",23,2010
+1717,1935940,"Hiawatha city, Iowa",7024,2010
+1718,1936345,"Hills city, Iowa",703,2010
+1719,1936390,"Hillsboro city, Iowa",180,2010
+1720,1936840,"Holstein city, Iowa",1396,2010
+1721,1963615,"Pleasant Plain city, Iowa",93,2010
+1722,1963345,"Plano city, Iowa",70,2010
+1723,1963525,"Pleasant Hill city, Iowa",8785,2010
+1724,1963570,"Pleasanton city, Iowa",49,2010
+1725,1963750,"Pleasantville city, Iowa",1694,2010
+1726,1963840,"Plover city, Iowa",77,2010
+1727,1963885,"Plymouth city, Iowa",382,2010
+1728,1936480,"Hinton city, Iowa",928,2010
+1729,1936660,"Holiday Lake CDP, Iowa",433,2010
+1730,1936705,"Holland city, Iowa",282,2010
+1731,1936885,"Holy Cross city, Iowa",374,2010
+1732,1936975,"Homestead CDP, Iowa",148,2010
+1733,1937155,"Hopkinton city, Iowa",628,2010
+1734,1937200,"Hornick city, Iowa",225,2010
+1735,1937290,"Hospers city, Iowa",698,2010
+1736,1937335,"Houghton city, Iowa",146,2010
+1737,1937425,"Hubbard city, Iowa",845,2010
+1738,1937605,"Humeston city, Iowa",494,2010
+1739,1937470,"Hudson city, Iowa",2282,2010
+1740,1937515,"Hull city, Iowa",2175,2010
+1741,1937560,"Humboldt city, Iowa",4690,2010
+1742,1937875,"Hutchins CDP, Iowa",28,2010
+1743,1937920,"Huxley city, Iowa",3317,2010
+1744,1938010,"Ida Grove city, Iowa",2142,2010
+1745,1938055,"Imogene city, Iowa",72,2010
+1746,1938100,"Independence city, Iowa",5966,2010
+1747,1938280,"Indianola city, Iowa",14782,2010
+1748,1938640,"Iowa Falls city, Iowa",5238,2010
+1749,1938415,"Inwood city, Iowa",814,2010
+1750,1938460,"Ionia city, Iowa",291,2010
+1751,1938595,"Iowa City city, Iowa",67862,2010
+1752,1938820,"Ireton city, Iowa",609,2010
+1753,1938955,"Irvington CDP, Iowa",38,2010
+1754,1939000,"Irwin city, Iowa",341,2010
+1755,1939135,"Jackson Junction city, Iowa",58,2010
+1756,1939180,"Jacksonville CDP, Iowa",30,2010
+1757,1912990,"Chelsea city, Iowa",267,2010
+1758,1912855,"Charlotte city, Iowa",394,2010
+1759,1912900,"Charter Oak city, Iowa",502,2010
+1760,1912945,"Chatsworth city, Iowa",79,2010
+1761,1913080,"Cherokee city, Iowa",5253,2010
+1762,1913125,"Chester city, Iowa",127,2010
+1763,1913215,"Chillicothe city, Iowa",97,2010
+1764,1913350,"Churdan city, Iowa",386,2010
+1765,1913395,"Cincinnati city, Iowa",357,2010
+1766,1913485,"Clare city, Iowa",146,2010
+1767,1913755,"Clarksville city, Iowa",1439,2010
+1768,1913530,"Clarence city, Iowa",974,2010
+1769,1913575,"Clarinda city, Iowa",5572,2010
+1770,1913620,"Clarion city, Iowa",2850,2010
+1771,1913845,"Clayton city, Iowa",43,2010
+1772,1913980,"Clearfield city, Iowa",363,2010
+1773,1914025,"Clear Lake city, Iowa",7777,2010
+1774,1914115,"Cleghorn city, Iowa",240,2010
+1775,1914160,"Clemons city, Iowa",148,2010
+1776,1914250,"Clermont city, Iowa",632,2010
+1777,1914520,"Clive city, Iowa",15447,2010
+1778,1914385,"Climbing Hill CDP, Iowa",97,2010
+1779,1914430,"Clinton city, Iowa",26885,2010
+1780,1914475,"Clio city, Iowa",80,2010
+1781,1914655,"Clutier city, Iowa",213,2010
+1782,1914835,"Coalville CDP, Iowa",610,2010
+1783,1914880,"Coburg city, Iowa",42,2010
+1784,1914925,"Coggon city, Iowa",658,2010
+1785,1914970,"Coin city, Iowa",193,2010
+1786,1915015,"Colesburg city, Iowa",404,2010
+1787,1915465,"Colwell city, Iowa",73,2010
+1788,1915060,"Colfax city, Iowa",2093,2010
+1789,1915105,"College Springs city, Iowa",214,2010
+1790,1915195,"Collins city, Iowa",495,2010
+1791,1915240,"Colo city, Iowa",876,2010
+1792,1915375,"Columbus City city, Iowa",391,2010
+1793,1915420,"Columbus Junction city, Iowa",1899,2010
+1794,1915645,"Conesville city, Iowa",432,2010
+1795,1915825,"Conrad city, Iowa",1108,2010
+1796,1915870,"Conroy CDP, Iowa",259,2010
+1797,1916230,"Coralville city, Iowa",18907,2010
+1798,1915960,"Conway city, Iowa",41,2010
+1799,1916050,"Coon Rapids city, Iowa",1305,2010
+1800,1916140,"Coppock city, Iowa",47,2010
+1801,1916320,"Corley CDP, Iowa",26,2010
+1802,1916500,"Corning city, Iowa",1635,2010
+1803,1916545,"Correctionville city, Iowa",821,2010
+1804,1916590,"Corwith city, Iowa",309,2010
+1805,1916635,"Corydon city, Iowa",1585,2010
+1806,1916725,"Cotter city, Iowa",48,2010
+1807,1916815,"Coulter city, Iowa",281,2010
+1808,1917175,"Crescent city, Iowa",617,2010
+1809,1916860,"Council Bluffs city, Iowa",62230,2010
+1810,1916950,"Craig city, Iowa",89,2010
+1811,1917130,"Crawfordsville city, Iowa",264,2010
+1812,1917220,"Cresco city, Iowa",3868,2010
+1813,1917265,"Creston city, Iowa",7834,2010
+1814,1917490,"Cromwell city, Iowa",107,2010
+1815,1973335,"Sioux City city, Iowa",82684,2010
+1816,1973425,"Sioux Rapids city, Iowa",775,2010
+1817,1973515,"Slater city, Iowa",1489,2010
+1818,1973605,"Sloan city, Iowa",973,2010
+1819,1973650,"Smithland city, Iowa",224,2010
+1820,1973785,"Soldier city, Iowa",174,2010
+1821,1973875,"Solon city, Iowa",2037,2010
+1822,1974280,"Spencer city, Iowa",11233,2010
+1823,1973920,"Somers city, Iowa",113,2010
+1824,1973965,"South Amana CDP, Iowa",159,2010
+1825,1974055,"South English city, Iowa",212,2010
+1826,1974370,"Spillville city, Iowa",367,2010
+1827,1974415,"Spirit Lake city, Iowa",4840,2010
+1828,1974460,"Spragueville city, Iowa",81,2010
+1829,1974505,"Springbrook city, Iowa",144,2010
+1830,1974685,"Spring Hill city, Iowa",63,2010
+1831,1974775,"Springville city, Iowa",1074,2010
+1832,1975000,"Stanton city, Iowa",689,2010
+1833,1974820,"Stacyville city, Iowa",494,2010
+1834,1974910,"Stanhope city, Iowa",422,2010
+1835,1974955,"Stanley city, Iowa",125,2010
+1836,1975045,"Stanwood city, Iowa",684,2010
+1837,1975450,"Stockton city, Iowa",197,2010
+1838,1975135,"State Center city, Iowa",1468,2010
+1839,1975180,"Steamboat Rock city, Iowa",310,2010
+1840,1975405,"Stockport city, Iowa",296,2010
+1841,1975540,"Stone City CDP, Iowa",192,2010
+1842,1975630,"Storm Lake city, Iowa",10600,2010
+1843,1975855,"Strawberry Point city, Iowa",1279,2010
+1844,1975675,"Story City city, Iowa",3431,2010
+1845,1975720,"Stout city, Iowa",224,2010
+1846,1975810,"Stratford city, Iowa",743,2010
+1847,1975945,"Struble city, Iowa",78,2010
+1848,1975990,"Stuart city, Iowa",1648,2010
+1849,1976035,"Sully city, Iowa",821,2010
+1850,1976260,"Sumner city, Iowa",2028,2010
+1851,1976415,"Sun Valley Lake CDP, Iowa",161,2010
+1852,1976440,"Superior city, Iowa",130,2010
+1853,1976755,"Swea City city, Iowa",536,2010
+1854,1976485,"Sutherland city, Iowa",649,2010
+1855,1976620,"Swaledale city, Iowa",165,2010
+1856,1976665,"Swan city, Iowa",72,2010
+1857,1976890,"Swisher city, Iowa",879,2010
+1858,1976935,"Tabor city, Iowa",1040,2010
+1859,1977115,"Tama city, Iowa",2877,2010
+1860,1977340,"Templeton city, Iowa",362,2010
+1861,1977430,"Tennant city, Iowa",68,2010
+1862,1977520,"Terril city, Iowa",367,2010
+1863,1977835,"Thornburg city, Iowa",67,2010
+1864,1977565,"Thayer city, Iowa",59,2010
+1865,1977745,"Thompson city, Iowa",502,2010
+1866,1977790,"Thor city, Iowa",186,2010
+1867,1977880,"Thornton city, Iowa",422,2010
+1868,1977970,"Thurman city, Iowa",229,2010
+1869,1978060,"Tiffin city, Iowa",1947,2010
+1870,1978195,"Tingley city, Iowa",184,2010
+1871,1978285,"Tipton city, Iowa",3221,2010
+1872,1978330,"Titonka city, Iowa",476,2010
+1873,1953625,"Monticello city, Iowa",3796,2010
+1874,1953310,"Monona city, Iowa",1549,2010
+1875,1953355,"Monroe city, Iowa",1830,2010
+1876,1953490,"Montezuma city, Iowa",1462,2010
+1877,1953670,"Montour city, Iowa",249,2010
+1878,1953760,"Montrose city, Iowa",898,2010
+1879,1953850,"Moorhead city, Iowa",226,2010
+1880,1953895,"Moorland city, Iowa",169,2010
+1881,1954165,"Morrison city, Iowa",94,2010
+1882,1953985,"Moravia city, Iowa",665,2010
+1883,1954030,"Morley city, Iowa",115,2010
+1884,1954120,"Morning Sun city, Iowa",836,2010
+1885,1954390,"Moulton city, Iowa",605,2010
+1886,1954435,"Mount Auburn city, Iowa",150,2010
+1887,1954480,"Mount Ayr city, Iowa",1691,2010
+1888,1954705,"Mount Pleasant city, Iowa",8668,2010
+1889,1954750,"Mount Sterling city, Iowa",36,2010
+1890,1954795,"Mount Union city, Iowa",107,2010
+1891,1955110,"Muscatine city, Iowa",22886,2010
+1892,1954840,"Mount Vernon city, Iowa",4506,2010
+1893,1954930,"Moville city, Iowa",1618,2010
+1894,1955065,"Murray city, Iowa",756,2010
+1895,1955200,"Mystic city, Iowa",425,2010
+1896,1955335,"Nashua city, Iowa",1663,2010
+1897,1955515,"Nemaha city, Iowa",85,2010
+1898,1955560,"Neola city, Iowa",842,2010
+1899,1955695,"Nevada city, Iowa",6798,2010
+1900,1955785,"New Albin city, Iowa",522,2010
+1901,1956145,"New Hartford city, Iowa",516,2010
+1902,1955965,"Newell city, Iowa",876,2010
+1903,1956055,"Newhall city, Iowa",875,2010
+1904,1956100,"New Hampton city, Iowa",3571,2010
+1905,1956190,"New Haven CDP, Iowa",91,2010
+1906,1956280,"New Liberty city, Iowa",137,2010
+1907,1956325,"New London city, Iowa",1897,2010
+1908,1956370,"New Market city, Iowa",415,2010
+1909,1956415,"New Providence city, Iowa",228,2010
+1910,1956460,"New Sharon city, Iowa",1293,2010
+1911,1956685,"Nichols city, Iowa",374,2010
+1912,1956505,"Newton city, Iowa",15254,2010
+1913,1956550,"New Vienna city, Iowa",407,2010
+1914,1956595,"New Virginia city, Iowa",489,2010
+1915,1956865,"Nodaway city, Iowa",114,2010
+1916,1956910,"Nora Springs city, Iowa",1431,2010
+1917,1957045,"Northboro city, Iowa",58,2010
+1918,1957135,"North Buena Vista city, Iowa",121,2010
+1919,1957225,"North English city, Iowa",1041,2010
+1920,1957945,"Numa city, Iowa",92,2010
+1921,1957360,"North Liberty city, Iowa",13374,2010
+1922,1957495,"North Washington city, Iowa",117,2010
+1923,1957630,"Northwood city, Iowa",1989,2010
+1924,1957675,"Norwalk city, Iowa",8945,2010
+1925,1929010,"Frederika city, Iowa",183,2010
+1926,1929055,"Fredonia city, Iowa",244,2010
+1927,1929190,"Fremont city, Iowa",743,2010
+1928,1929280,"Fruitland city, Iowa",977,2010
+1929,1929325,"Frytown CDP, Iowa",165,2010
+1930,1929550,"Galt city, Iowa",32,2010
+1931,1929910,"Garnavillo city, Iowa",745,2010
+1932,1929730,"Garden City CDP, Iowa",89,2010
+1933,1929595,"Galva city, Iowa",434,2010
+1934,1929685,"Garber city, Iowa",88,2010
+1935,1929775,"Garden Grove city, Iowa",211,2010
+1936,1929955,"Garner city, Iowa",3129,2010
+1937,1930000,"Garrison city, Iowa",371,2010
+1938,1930045,"Garwin city, Iowa",527,2010
+1939,1930135,"Geneva city, Iowa",165,2010
+1940,1930225,"George city, Iowa",1080,2010
+1941,1930810,"Gillett Grove city, Iowa",49,2010
+1942,1930540,"Gibson city, Iowa",61,2010
+1943,1930630,"Gilbert city, Iowa",1082,2010
+1944,1930675,"Gilbertville city, Iowa",712,2010
+1945,1930900,"Gilman city, Iowa",509,2010
+1946,1957720,"Norway city, Iowa",545,2010
+1947,1958080,"Oakland city, Iowa",1527,2010
+1948,1958170,"Oakland Acres city, Iowa",156,2010
+1949,1958395,"Oakville city, Iowa",173,2010
+1950,1958530,"Ocheyedan city, Iowa",490,2010
+1951,1907210,"Bode city, Iowa",302,2010
+1952,1907255,"Bolan CDP, Iowa",33,2010
+1953,1907345,"Bonaparte city, Iowa",433,2010
+1954,1907390,"Bondurant city, Iowa",3860,2010
+1955,1907660,"Bouton city, Iowa",129,2010
+1956,1908020,"Bradford CDP, Iowa",99,2010
+1957,1907840,"Boyden city, Iowa",707,2010
+1958,1907930,"Braddyville city, Iowa",159,2010
+1959,1908065,"Bradgate city, Iowa",86,2010
+1960,1908155,"Brandon city, Iowa",309,2010
+1961,1908200,"Brayton city, Iowa",128,2010
+1962,1908290,"Breda city, Iowa",483,2010
+1963,1908425,"Bridgewater city, Iowa",182,2010
+1964,1908470,"Brighton city, Iowa",652,2010
+1965,1908560,"Bristow city, Iowa",160,2010
+1966,1908875,"Brunsville city, Iowa",151,2010
+1967,1908605,"Britt city, Iowa",2069,2010
+1968,1908650,"Bronson city, Iowa",322,2010
+1969,1908695,"Brooklyn city, Iowa",1468,2010
+1970,1909280,"Buffalo Center city, Iowa",905,2010
+1971,1907480,"Boone city, Iowa",12661,2010
+1972,1907750,"Boxholm city, Iowa",195,2010
+1973,1909100,"Buckeye city, Iowa",108,2010
+1974,1909145,"Buck Grove city, Iowa",43,2010
+1975,1909235,"Buffalo city, Iowa",1270,2010
+1976,1909415,"Burchinal CDP, Iowa",40,2010
+1977,1909550,"Burlington city, Iowa",25663,2010
+1978,1909640,"Burr Oak CDP, Iowa",166,2010
+1979,1909910,"California Junction CDP, Iowa",85,2010
+1980,1909685,"Burt city, Iowa",533,2010
+1981,1909730,"Bussey city, Iowa",422,2010
+1982,1909820,"Calamus city, Iowa",439,2010
+1983,1909955,"Callender city, Iowa",376,2010
+1984,1910045,"Calmar city, Iowa",978,2010
+1985,1910090,"Calumet city, Iowa",170,2010
+1986,1910135,"Camanche city, Iowa",4448,2010
+1987,1910225,"Cambridge city, Iowa",827,2010
+1988,1910450,"Cantril city, Iowa",222,2010
+1989,1911080,"Carroll city, Iowa",10103,2010
+1990,1910585,"Carbon city, Iowa",34,2010
+1991,1910765,"Carlisle city, Iowa",3876,2010
+1992,1911035,"Carpenter city, Iowa",109,2010
+1993,1911170,"Carson city, Iowa",812,2010
+1994,1911215,"Carter Lake city, Iowa",3785,2010
+1995,1911305,"Cascade city, Iowa",2159,2010
+1996,1911395,"Casey city, Iowa",426,2010
+1997,1911485,"Castalia city, Iowa",173,2010
+1998,1911530,"Castana city, Iowa",147,2010
+1999,1912270,"Center Point city, Iowa",2421,2010
+2000,1911755,"Cedar Falls city, Iowa",39260,2010
+2001,1930945,"Gilmore City city, Iowa",504,2010
+2002,1931035,"Gladbrook city, Iowa",945,2010
+2003,1931350,"Glenwood city, Iowa",5269,2010
+2004,1931395,"Glidden city, Iowa",1146,2010
+2005,1931530,"Goldfield city, Iowa",635,2010
+2006,1931800,"Graettinger city, Iowa",844,2010
+2007,1931575,"Goodell city, Iowa",139,2010
+2008,1931665,"Goose Lake city, Iowa",240,2010
+2009,1931710,"Gowrie city, Iowa",1037,2010
+2010,1931845,"Graf city, Iowa",79,2010
+2011,1931890,"Grafton city, Iowa",252,2010
+2012,1931980,"Grand Junction city, Iowa",824,2010
+2013,1932025,"Grand Mound city, Iowa",642,2010
+2014,1932070,"Grand River city, Iowa",236,2010
+2015,1932115,"Grandview city, Iowa",556,2010
+2016,1932520,"Gravity city, Iowa",188,2010
+2017,1932160,"Granger city, Iowa",1244,2010
+2018,1932295,"Grant city, Iowa",92,2010
+2019,1932475,"Granville city, Iowa",312,2010
+2020,1932565,"Gray city, Iowa",63,2010
+2021,1932610,"Greeley city, Iowa",256,2010
+2022,1932745,"Greene city, Iowa",1130,2010
+2023,1932790,"Greenfield city, Iowa",1982,2010
+2024,1932925,"Green Mountain CDP, Iowa",126,2010
+2025,1932970,"Greenville city, Iowa",75,2010
+2026,1933195,"Grundy Center city, Iowa",2706,2010
+2027,1933060,"Grimes city, Iowa",8246,2010
+2028,1933105,"Grinnell city, Iowa",9218,2010
+2029,1933150,"Griswold city, Iowa",1036,2010
+2030,1933240,"Gruver city, Iowa",94,2010
+2031,1933285,"Guernsey city, Iowa",63,2010
+2032,1933420,"Guthrie Center city, Iowa",1569,2010
+2033,1933465,"Guttenberg city, Iowa",1919,2010
+2034,1933645,"Halbur city, Iowa",246,2010
+2035,1933780,"Hamburg city, Iowa",1187,2010
+2036,1933870,"Hamilton city, Iowa",130,2010
+2037,1933960,"Hampton city, Iowa",4461,2010
+2038,1900190,"Ackley city, Iowa",1809,2000
+2039,1900235,"Ackworth city, Iowa",85,2000
+2040,1900370,"Adair city, Iowa",839,2000
+2041,1900505,"Adel city, Iowa",3435,2000
+2042,1900595,"Afton city, Iowa",917,2000
+2043,1900640,"Agency city, Iowa",622,2000
+2044,1900730,"Ainsworth city, Iowa",524,2000
+2045,1900775,"Akron city, Iowa",1489,2000
+2046,1900865,"Albert City city, Iowa",709,2000
+2047,1900910,"Albia city, Iowa",3706,2000
+2048,1900955,"Albion city, Iowa",592,2000
+2049,1901000,"Alburnett city, Iowa",559,2000
+2050,1901045,"Alden city, Iowa",904,2000
+2051,1901090,"Alexander city, Iowa",165,2000
+2052,1901135,"Algona city, Iowa",5741,2000
+2053,1901180,"Alleman city, Iowa",439,2000
+2054,1901270,"Allerton city, Iowa",559,2000
+2055,1901315,"Allison city, Iowa",1006,2000
+2056,1901495,"Alta city, Iowa",1865,2000
+2057,1901540,"Alta Vista city, Iowa",286,2000
+2058,1901585,"Alton city, Iowa",1095,2000
+2059,1901630,"Altoona city, Iowa",10345,2000
+2060,1901675,"Alvord city, Iowa",187,2000
+2061,1901855,"Ames city, Iowa",50731,2000
+2062,1901990,"Anamosa city, Iowa",5494,2000
+2063,1902080,"Andover city, Iowa",87,2000
+2064,1902125,"Andrew city, Iowa",460,2000
+2065,1902260,"Anita city, Iowa",1049,2000
+2066,1902305,"Ankeny city, Iowa",27117,2000
+2067,1902350,"Anthon city, Iowa",649,2000
+2068,1902395,"Aplington city, Iowa",1054,2000
+2069,1902485,"Arcadia city, Iowa",443,2000
+2070,1902530,"Archer city, Iowa",126,2000
+2071,1902620,"Aredale city, Iowa",89,2000
+2072,1902755,"Arion city, Iowa",136,2000
+2073,1902800,"Arispe city, Iowa",89,2000
+2074,1902845,"Arlington city, Iowa",490,2000
+2075,1902935,"Armstrong city, Iowa",979,2000
+2076,1903025,"Arnolds Park city, Iowa",1162,2000
+2077,1903115,"Arthur city, Iowa",245,2000
+2078,1903160,"Asbury city, Iowa",2450,2000
+2079,1903295,"Ashton city, Iowa",461,2000
+2080,1903340,"Aspinwall city, Iowa",58,2000
+2081,1903385,"Atalissa city, Iowa",283,2000
+2082,1903430,"Athelstan city, Iowa",18,2000
+2083,1903475,"Atkins city, Iowa",977,2000
+2084,1903520,"Atlantic city, Iowa",7257,2000
+2085,1903610,"Auburn city, Iowa",296,2000
+2086,1903655,"Audubon city, Iowa",2382,2000
+2087,1903745,"Aurelia city, Iowa",1062,2000
+2088,1903835,"Aurora city, Iowa",194,2000
+2089,1903970,"Avoca city, Iowa",1610,2000
+2090,1904105,"Ayrshire city, Iowa",202,2000
+2091,1904195,"Badger city, Iowa",610,2000
+2092,1904240,"Bagley city, Iowa",354,2000
+2093,1904330,"Baldwin city, Iowa",127,2000
+2094,1904375,"Balltown city, Iowa",73,2000
+2095,1904420,"Bancroft city, Iowa",808,2000
+2096,1904510,"Bankston city, Iowa",27,2000
+2097,1904555,"Barnes City city, Iowa",201,2000
+2098,1904645,"Barnum city, Iowa",195,2000
+2099,1904780,"Bassett city, Iowa",74,2000
+2100,1904825,"Batavia city, Iowa",500,2000
+2101,1904870,"Battle Creek city, Iowa",743,2000
+2102,1904915,"Baxter city, Iowa",1052,2000
+2103,1904960,"Bayard city, Iowa",536,2000
+2104,1905050,"Beacon city, Iowa",518,2000
+2105,1905095,"Beaconsfield city, Iowa",11,2000
+2106,1905140,"Beaman city, Iowa",210,2000
+2107,1905185,"Beaver city, Iowa",53,2000
+2108,1905365,"Bedford city, Iowa",1620,2000
+2109,1905590,"Belle Plaine city, Iowa",2878,2000
+2110,1905635,"Bellevue city, Iowa",2350,2000
+2111,1905680,"Belmond city, Iowa",2560,2000
+2112,1905770,"Bennett city, Iowa",395,2000
+2113,1905905,"Benton city, Iowa",40,2000
+2114,1906040,"Berkley city, Iowa",24,2000
+2115,1906085,"Bernard city, Iowa",97,2000
+2116,1906175,"Bertram city, Iowa",681,2000
+2117,1906355,"Bettendorf city, Iowa",31275,2000
+2118,1906490,"Bevington city, Iowa",58,2000
+2119,1906625,"Birmingham city, Iowa",423,2000
+2120,1906760,"Blairsburg city, Iowa",235,2000
+2121,1906805,"Blairstown city, Iowa",682,2000
+2122,1906850,"Blakesburg city, Iowa",374,2000
+2123,1906895,"Blanchard city, Iowa",61,2000
+2124,1906940,"Blencoe city, Iowa",231,2000
+2125,1906985,"Blockton city, Iowa",192,2000
+2126,1907030,"Bloomfield city, Iowa",2601,2000
+2127,1907075,"Blue Grass city, Iowa",1169,2000
+2128,1907210,"Bode city, Iowa",327,2000
+2129,1907345,"Bonaparte city, Iowa",458,2000
+2130,1907390,"Bondurant city, Iowa",1846,2000
+2131,1907480,"Boone city, Iowa",12803,2000
+2132,1907660,"Bouton city, Iowa",136,2000
+2133,1907750,"Boxholm city, Iowa",215,2000
+2134,1907840,"Boyden city, Iowa",672,2000
+2135,1907930,"Braddyville city, Iowa",176,2000
+2136,1908065,"Bradgate city, Iowa",101,2000
+2137,1908155,"Brandon city, Iowa",311,2000
+2138,1908200,"Brayton city, Iowa",145,2000
+2139,1908290,"Breda city, Iowa",477,2000
+2140,1908425,"Bridgewater city, Iowa",178,2000
+2141,1908470,"Brighton city, Iowa",687,2000
+2142,1908560,"Bristow city, Iowa",202,2000
+2143,1908605,"Britt city, Iowa",2052,2000
+2144,1908650,"Bronson city, Iowa",269,2000
+2145,1908695,"Brooklyn city, Iowa",1367,2000
+2146,1908875,"Brunsville city, Iowa",146,2000
+2147,1909100,"Buckeye city, Iowa",110,2000
+2148,1909145,"Buck Grove city, Iowa",49,2000
+2149,1909235,"Buffalo city, Iowa",1321,2000
+2150,1909280,"Buffalo Center city, Iowa",963,2000
+2151,1909550,"Burlington city, Iowa",26839,2000
+2152,1909685,"Burt city, Iowa",556,2000
+2153,1909730,"Bussey city, Iowa",450,2000
+2154,1909820,"Calamus city, Iowa",394,2000
+2155,1909955,"Callender city, Iowa",424,2000
+2156,1910045,"Calmar city, Iowa",1058,2000
+2157,1910090,"Calumet city, Iowa",181,2000
+2158,1910135,"Camanche city, Iowa",4215,2000
+2159,1910225,"Cambridge city, Iowa",819,2000
+2160,1910450,"Cantril city, Iowa",257,2000
+2161,1910585,"Carbon city, Iowa",28,2000
+2162,1910765,"Carlisle city, Iowa",3497,2000
+2163,1911035,"Carpenter city, Iowa",130,2000
+2164,1911080,"Carroll city, Iowa",10106,2000
+2165,1911170,"Carson city, Iowa",668,2000
+2166,1911215,"Carter Lake city, Iowa",3248,2000
+2167,1911305,"Cascade city, Iowa",1958,2000
+2168,1911395,"Casey city, Iowa",478,2000
+2169,1911485,"Castalia city, Iowa",175,2000
+2170,1911530,"Castana city, Iowa",178,2000
+2171,1911755,"Cedar Falls city, Iowa",36145,2000
+2172,1912000,"Cedar Rapids city, Iowa",120758,2000
+2173,1912225,"Center Junction city, Iowa",131,2000
+2174,1912270,"Center Point city, Iowa",2007,2000
+2175,1912315,"Centerville city, Iowa",5924,2000
+2176,1912495,"Central City city, Iowa",1157,2000
+2177,1912630,"Centralia city, Iowa",101,2000
+2178,1912720,"Chariton city, Iowa",4573,2000
+2179,1912765,"Charles City city, Iowa",7812,2000
+2180,1912855,"Charlotte city, Iowa",421,2000
+2181,1912900,"Charter Oak city, Iowa",530,2000
+2182,1912945,"Chatsworth city, Iowa",89,2000
+2183,1912990,"Chelsea city, Iowa",287,2000
+2184,1913080,"Cherokee city, Iowa",5369,2000
+2185,1913125,"Chester city, Iowa",151,2000
+2186,1913215,"Chillicothe city, Iowa",90,2000
+2187,1913350,"Churdan city, Iowa",418,2000
+2188,1913395,"Cincinnati city, Iowa",428,2000
+2189,1913485,"Clare city, Iowa",190,2000
+2190,1913530,"Clarence city, Iowa",1008,2000
+2191,1913575,"Clarinda city, Iowa",5690,2000
+2192,1913620,"Clarion city, Iowa",2968,2000
+2193,1913755,"Clarksville city, Iowa",1441,2000
+2194,1913845,"Clayton city, Iowa",55,2000
+2195,1913980,"Clearfield city, Iowa",371,2000
+2196,1914025,"Clear Lake city, Iowa",8161,2000
+2197,1914115,"Cleghorn city, Iowa",250,2000
+2198,1914160,"Clemons city, Iowa",148,2000
+2199,1914250,"Clermont city, Iowa",716,2000
+2200,1914430,"Clinton city, Iowa",27772,2000
+2201,1914475,"Clio city, Iowa",91,2000
+2202,1914520,"Clive city, Iowa",12855,2000
+2203,1914655,"Clutier city, Iowa",229,2000
+2204,1914835,"Coalville CDP, Iowa",591,2000
+2205,1914880,"Coburg city, Iowa",31,2000
+2206,1914925,"Coggon city, Iowa",745,2000
+2207,1914970,"Coin city, Iowa",252,2000
+2208,1915015,"Colesburg city, Iowa",412,2000
+2209,1915060,"Colfax city, Iowa",2223,2000
+2210,1915105,"College Springs city, Iowa",246,2000
+2211,1915195,"Collins city, Iowa",499,2000
+2212,1915240,"Colo city, Iowa",868,2000
+2213,1915375,"Columbus City city, Iowa",376,2000
+2214,1915420,"Columbus Junction city, Iowa",1900,2000
+2215,1915465,"Colwell city, Iowa",76,2000
+2216,1915645,"Conesville city, Iowa",424,2000
+2217,1915825,"Conrad city, Iowa",1055,2000
+2218,1915960,"Conway city, Iowa",63,2000
+2219,1916050,"Coon Rapids city, Iowa",1305,2000
+2220,1916140,"Coppock city, Iowa",57,2000
+2221,1916230,"Coralville city, Iowa",15123,2000
+2222,1916500,"Corning city, Iowa",1783,2000
+2223,1916545,"Correctionville city, Iowa",851,2000
+2224,1916590,"Corwith city, Iowa",350,2000
+2225,1916635,"Corydon city, Iowa",1591,2000
+2226,1916725,"Cotter city, Iowa",48,2000
+2227,1916815,"Coulter city, Iowa",262,2000
+2228,1916860,"Council Bluffs city, Iowa",58268,2000
+2229,1916950,"Craig city, Iowa",102,2000
+2230,1917130,"Crawfordsville city, Iowa",295,2000
+2231,1917175,"Crescent city, Iowa",537,2000
+2232,1917220,"Cresco city, Iowa",3905,2000
+2233,1917265,"Creston city, Iowa",7597,2000
+2234,1917490,"Cromwell city, Iowa",120,2000
+2235,1917670,"Crystal Lake city, Iowa",285,2000
+2236,1917760,"Cumberland city, Iowa",281,2000
+2237,1917850,"Cumming city, Iowa",162,2000
+2238,1917895,"Curlew city, Iowa",62,2000
+2239,1917940,"Cushing city, Iowa",246,2000
+2240,1917985,"Cylinder city, Iowa",110,2000
+2241,1918075,"Dakota City city, Iowa",911,2000
+2242,1918255,"Dallas Center city, Iowa",1595,2000
+2243,1918345,"Dana city, Iowa",84,2000
+2244,1918390,"Danbury city, Iowa",384,2000
+2245,1918435,"Danville city, Iowa",914,2000
+2246,1919000,"Davenport city, Iowa",98359,2000
+2247,1919090,"Davis City city, Iowa",275,2000
+2248,1919135,"Dawson city, Iowa",155,2000
+2249,1919180,"Dayton city, Iowa",884,2000
+2250,1919360,"Decatur City city, Iowa",199,2000
+2251,1919405,"Decorah city, Iowa",8172,2000
+2252,1919450,"Dedham city, Iowa",280,2000
+2253,1919495,"Deep River city, Iowa",288,2000
+2254,1919585,"Defiance city, Iowa",346,2000
+2255,1919630,"Delaware city, Iowa",188,2000
+2256,1919675,"Delhi city, Iowa",458,2000
+2257,1919720,"Delmar city, Iowa",514,2000
+2258,1919765,"Deloit city, Iowa",288,2000
+2259,1919810,"Delphos city, Iowa",25,2000
+2260,1919855,"Delta city, Iowa",410,2000
+2261,1919945,"Denison city, Iowa",7339,2000
+2262,1920035,"Denver city, Iowa",1627,2000
+2263,1920125,"Derby city, Iowa",131,2000
+2264,1921000,"Des Moines city, Iowa",198682,2000
+2265,1921045,"De Soto city, Iowa",1009,2000
+2266,1921180,"De Witt city, Iowa",5049,2000
+2267,1921225,"Dexter city, Iowa",689,2000
+2268,1921270,"Diagonal city, Iowa",312,2000
+2269,1921360,"Dickens city, Iowa",202,2000
+2270,1921405,"Dike city, Iowa",944,2000
+2271,1921540,"Dixon city, Iowa",276,2000
+2272,1921675,"Dolliver city, Iowa",77,2000
+2273,1921720,"Donahue city, Iowa",293,2000
+2274,1921810,"Donnellson city, Iowa",963,2000
+2275,1921900,"Doon city, Iowa",533,2000
+2276,1922035,"Douds CDP, Iowa",165,2000
+2277,1922080,"Dougherty city, Iowa",80,2000
+2278,1922215,"Dow City city, Iowa",503,2000
+2279,1922305,"Dows city, Iowa",675,2000
+2280,1922350,"Drakesville city, Iowa",185,2000
+2281,1922395,"Dubuque city, Iowa",57686,2000
+2282,1922620,"Dumont city, Iowa",676,2000
+2283,1922755,"Duncombe city, Iowa",474,2000
+2284,1922800,"Dundee city, Iowa",179,2000
+2285,1922845,"Dunkerton city, Iowa",749,2000
+2286,1922890,"Dunlap city, Iowa",1139,2000
+2287,1922935,"Durango city, Iowa",24,2000
+2288,1922980,"Durant city, Iowa",1677,2000
+2289,1923115,"Dyersville city, Iowa",4035,2000
+2290,1923160,"Dysart city, Iowa",1303,2000
+2291,1923250,"Eagle Grove city, Iowa",3712,2000
+2292,1923340,"Earlham city, Iowa",1298,2000
+2293,1923385,"Earling city, Iowa",471,2000
+2294,1923430,"Earlville city, Iowa",900,2000
+2295,1923475,"Early city, Iowa",605,2000
+2296,1923790,"East Peru city, Iowa",153,2000
+2297,1923970,"Eddyville city, Iowa",1064,2000
+2298,1924060,"Edgewood city, Iowa",923,2000
+2299,1924375,"Elberon city, Iowa",245,2000
+2300,1924420,"Eldon city, Iowa",998,2000
+2301,1924465,"Eldora city, Iowa",3035,2000
+2302,1924600,"Eldridge city, Iowa",4159,2000
+2303,1924645,"Elgin city, Iowa",676,2000
+2304,1924690,"Elkader city, Iowa",1465,2000
+2305,1924735,"Elkhart city, Iowa",362,2000
+2306,1924780,"Elk Horn city, Iowa",649,2000
+2307,1924825,"Elkport city, Iowa",88,2000
+2308,1924870,"Elk Run Heights city, Iowa",1052,2000
+2309,1924915,"Elliott city, Iowa",402,2000
+2310,1925005,"Ellston city, Iowa",57,2000
+2311,1925050,"Ellsworth city, Iowa",531,2000
+2312,1925095,"Elma city, Iowa",598,2000
+2313,1925365,"Ely city, Iowa",1149,2000
+2314,1925500,"Emerson city, Iowa",480,2000
+2315,1925590,"Emmetsburg city, Iowa",3958,2000
+2316,1925725,"Epworth city, Iowa",1428,2000
+2317,1925815,"Essex city, Iowa",884,2000
+2318,1925860,"Estherville city, Iowa",6656,2000
+2319,1925995,"Evansdale city, Iowa",4526,2000
+2320,1926175,"Everly city, Iowa",647,2000
+2321,1926265,"Exira city, Iowa",810,2000
+2322,1926310,"Exline city, Iowa",191,2000
+2323,1926355,"Fairbank city, Iowa",1041,2000
+2324,1926400,"Fairfax city, Iowa",889,2000
+2325,1926445,"Fairfield city, Iowa",9509,2000
+2326,1926760,"Farley city, Iowa",1334,2000
+2327,1926850,"Farmersburg city, Iowa",300,2000
+2328,1926895,"Farmington city, Iowa",756,2000
+2329,1926940,"Farnhamville city, Iowa",430,2000
+2330,1926985,"Farragut city, Iowa",509,2000
+2331,1927165,"Fayette city, Iowa",1300,2000
+2332,1927210,"Fenton city, Iowa",317,2000
+2333,1927255,"Ferguson city, Iowa",126,2000
+2334,1927390,"Fertile city, Iowa",360,2000
+2335,1927975,"Floris city, Iowa",153,2000
+2336,1928020,"Floyd city, Iowa",361,2000
+2337,1928245,"Fonda city, Iowa",648,2000
+2338,1928290,"Fontanelle city, Iowa",692,2000
+2339,1928380,"Forest City city, Iowa",4362,2000
+2340,1928425,"Fort Atkinson city, Iowa",389,2000
+2341,1928515,"Fort Dodge city, Iowa",25136,2000
+2342,1928605,"Fort Madison city, Iowa",10715,2000
+2343,1928650,"Fostoria city, Iowa",230,2000
+2344,1928740,"Franklin city, Iowa",136,2000
+2345,1928920,"Fraser city, Iowa",137,2000
+2346,1928965,"Fredericksburg city, Iowa",984,2000
+2347,1929010,"Frederika city, Iowa",199,2000
+2348,1929055,"Fredonia city, Iowa",251,2000
+2349,1929190,"Fremont city, Iowa",704,2000
+2350,1929280,"Fruitland city, Iowa",703,2000
+2351,1929550,"Galt city, Iowa",30,2000
+2352,1929595,"Galva city, Iowa",368,2000
+2353,1929685,"Garber city, Iowa",103,2000
+2354,1929775,"Garden Grove city, Iowa",250,2000
+2355,1929910,"Garnavillo city, Iowa",754,2000
+2356,1929955,"Garner city, Iowa",2922,2000
+2357,1930000,"Garrison city, Iowa",413,2000
+2358,1930045,"Garwin city, Iowa",565,2000
+2359,1930135,"Geneva city, Iowa",171,2000
+2360,1930225,"George city, Iowa",1051,2000
+2361,1930540,"Gibson city, Iowa",92,2000
+2362,1930630,"Gilbert city, Iowa",987,2000
+2363,1930675,"Gilbertville city, Iowa",767,2000
+2364,1930810,"Gillett Grove city, Iowa",55,2000
+2365,1930900,"Gilman city, Iowa",600,2000
+2366,1930945,"Gilmore City city, Iowa",556,2000
+2367,1931035,"Gladbrook city, Iowa",1015,2000
+2368,1931350,"Glenwood city, Iowa",5358,2000
+2369,1931395,"Glidden city, Iowa",1253,2000
+2370,1931530,"Goldfield city, Iowa",680,2000
+2371,1931575,"Goodell city, Iowa",174,2000
+2372,1931665,"Goose Lake city, Iowa",232,2000
+2373,1931710,"Gowrie city, Iowa",1038,2000
+2374,1931800,"Graettinger city, Iowa",900,2000
+2375,1931845,"Graf city, Iowa",73,2000
+2376,1931890,"Grafton city, Iowa",290,2000
+2377,1931980,"Grand Junction city, Iowa",964,2000
+2378,1932025,"Grand Mound city, Iowa",676,2000
+2379,1932070,"Grand River city, Iowa",225,2000
+2380,1932115,"Grandview city, Iowa",600,2000
+2381,1932160,"Granger city, Iowa",583,2000
+2382,1932295,"Grant city, Iowa",102,2000
+2383,1932475,"Granville city, Iowa",325,2000
+2384,1932520,"Gravity city, Iowa",218,2000
+2385,1932565,"Gray city, Iowa",82,2000
+2386,1932610,"Greeley city, Iowa",276,2000
+2387,1932745,"Greene city, Iowa",1099,2000
+2388,1932790,"Greenfield city, Iowa",2129,2000
+2389,1932970,"Greenville city, Iowa",93,2000
+2390,1933060,"Grimes city, Iowa",5098,2000
+2391,1933105,"Grinnell city, Iowa",9105,2000
+2392,1933150,"Griswold city, Iowa",1039,2000
+2393,1933195,"Grundy Center city, Iowa",2596,2000
+2394,1933240,"Gruver city, Iowa",106,2000
+2395,1933285,"Guernsey city, Iowa",70,2000
+2396,1933420,"Guthrie Center city, Iowa",1668,2000
+2397,1933465,"Guttenberg city, Iowa",1987,2000
+2398,1933645,"Halbur city, Iowa",202,2000
+2399,1933780,"Hamburg city, Iowa",1240,2000
+2400,1933870,"Hamilton city, Iowa",144,2000
+2401,1933960,"Hampton city, Iowa",4218,2000
+2402,1934005,"Hancock city, Iowa",207,2000
+2403,1934185,"Hanlontown city, Iowa",229,2000
+2404,1934365,"Hansell city, Iowa",96,2000
+2405,1934410,"Harcourt city, Iowa",340,2000
+2406,1934455,"Hardy city, Iowa",57,2000
+2407,1934500,"Harlan city, Iowa",5282,2000
+2408,1934545,"Harper city, Iowa",134,2000
+2409,1934590,"Harpers Ferry city, Iowa",330,2000
+2410,1934635,"Harris city, Iowa",200,2000
+2411,1934680,"Hartford city, Iowa",759,2000
+2412,1934725,"Hartley city, Iowa",1733,2000
+2413,1934770,"Hartwick city, Iowa",83,2000
+2414,1934860,"Harvey city, Iowa",277,2000
+2415,1934995,"Hastings city, Iowa",214,2000
+2416,1935130,"Havelock city, Iowa",177,2000
+2417,1935220,"Haverhill city, Iowa",170,2000
+2418,1935265,"Hawarden city, Iowa",2478,2000
+2419,1935310,"Hawkeye city, Iowa",489,2000
+2420,1935445,"Hayesville city, Iowa",64,2000
+2421,1935580,"Hazleton city, Iowa",950,2000
+2422,1935670,"Hedrick city, Iowa",837,2000
+2423,1935715,"Henderson city, Iowa",171,2000
+2424,1935760,"Hepburn city, Iowa",39,2000
+2425,1935940,"Hiawatha city, Iowa",6480,2000
+2426,1936345,"Hills city, Iowa",679,2000
+2427,1936390,"Hillsboro city, Iowa",205,2000
+2428,1936480,"Hinton city, Iowa",808,2000
+2429,1936705,"Holland city, Iowa",250,2000
+2430,1936840,"Holstein city, Iowa",1470,2000
+2431,1936885,"Holy Cross city, Iowa",339,2000
+2432,1937155,"Hopkinton city, Iowa",681,2000
+2433,1937200,"Hornick city, Iowa",253,2000
+2434,1937290,"Hospers city, Iowa",672,2000
+2435,1937335,"Houghton city, Iowa",130,2000
+2436,1937425,"Hubbard city, Iowa",885,2000
+2437,1937470,"Hudson city, Iowa",2117,2000
+2438,1937515,"Hull city, Iowa",1960,2000
+2439,1937560,"Humboldt city, Iowa",4452,2000
+2440,1937605,"Humeston city, Iowa",543,2000
+2441,1937920,"Huxley city, Iowa",2316,2000
+2442,1938010,"Ida Grove city, Iowa",2350,2000
+2443,1938055,"Imogene city, Iowa",66,2000
+2444,1938100,"Independence city, Iowa",6014,2000
+2445,1938280,"Indianola city, Iowa",12998,2000
+2446,1938415,"Inwood city, Iowa",875,2000
+2447,1938460,"Ionia city, Iowa",277,2000
+2448,1938595,"Iowa City city, Iowa",62220,2000
+2449,1938640,"Iowa Falls city, Iowa",5193,2000
+2450,1938820,"Ireton city, Iowa",585,2000
+2451,1939000,"Irwin city, Iowa",372,2000
+2452,1939135,"Jackson Junction city, Iowa",60,2000
+2453,1939225,"Jamaica city, Iowa",237,2000
+2454,1939405,"Janesville city, Iowa",829,2000
+2455,1939450,"Jefferson city, Iowa",4626,2000
+2456,1939585,"Jesup city, Iowa",2212,2000
+2457,1939675,"Jewell Junction city, Iowa",1239,2000
+2458,1939765,"Johnston city, Iowa",8649,2000
+2459,1939855,"Joice city, Iowa",231,2000
+2460,1939900,"Jolley city, Iowa",54,2000
+2461,1940170,"Kalona city, Iowa",2293,2000
+2462,1940215,"Kamrar city, Iowa",229,2000
+2463,1940260,"Kanawha city, Iowa",739,2000
+2464,1940350,"Kellerton city, Iowa",372,2000
+2465,1940395,"Kelley city, Iowa",300,2000
+2466,1940440,"Kellogg city, Iowa",606,2000
+2467,1940665,"Kensett city, Iowa",280,2000
+2468,1940710,"Kent city, Iowa",52,2000
+2469,1940845,"Keokuk city, Iowa",11427,2000
+2470,1940890,"Keomah Village city, Iowa",97,2000
+2471,1940935,"Keosauqua city, Iowa",1066,2000
+2472,1940980,"Keota city, Iowa",1025,2000
+2473,1941070,"Keswick city, Iowa",295,2000
+2474,1941115,"Keystone city, Iowa",687,2000
+2475,1941295,"Kimballton city, Iowa",342,2000
+2476,1941385,"Kingsley city, Iowa",1245,2000
+2477,1941475,"Kinross city, Iowa",80,2000
+2478,1941520,"Kirkman city, Iowa",76,2000
+2479,1941565,"Kirkville city, Iowa",214,2000
+2480,1941610,"Kiron city, Iowa",273,2000
+2481,1941655,"Klemme city, Iowa",593,2000
+2482,1941790,"Knierim city, Iowa",70,2000
+2483,1942015,"Knoxville city, Iowa",7731,2000
+2484,1942285,"Lacona city, Iowa",360,2000
+2485,1942330,"Ladora city, Iowa",287,2000
+2486,1942465,"Lake City city, Iowa",1787,2000
+2487,1942555,"Lake Mills city, Iowa",2140,2000
+2488,1942600,"Lake Park city, Iowa",1023,2000
+2489,1942645,"Lakeside city, Iowa",484,2000
+2490,1942690,"Lake View city, Iowa",1278,2000
+2491,1942825,"Lakota city, Iowa",255,2000
+2492,1942870,"Lambs Grove city, Iowa",225,2000
+2493,1942960,"Lamoni city, Iowa",2444,2000
+2494,1943005,"Lamont city, Iowa",503,2000
+2495,1943050,"La Motte city, Iowa",272,2000
+2496,1943140,"Lanesboro city, Iowa",152,2000
+2497,1943275,"Lansing city, Iowa",1012,2000
+2498,1943365,"La Porte City city, Iowa",2275,2000
+2499,1943410,"Larchwood city, Iowa",788,2000
+2500,1943500,"Larrabee city, Iowa",149,2000
+2501,1943590,"Latimer city, Iowa",535,2000
+2502,1943680,"Laurel city, Iowa",266,2000
+2503,1943725,"Laurens city, Iowa",1476,2000
+2504,1943815,"Lawler city, Iowa",461,2000
+2505,1943905,"Lawton city, Iowa",697,2000
+2506,1943950,"Leando CDP, Iowa",135,2000
+2507,1944085,"Le Claire city, Iowa",2847,2000
+2508,1944130,"Ledyard city, Iowa",147,2000
+2509,1944220,"Le Grand city, Iowa",883,2000
+2510,1944265,"Lehigh city, Iowa",497,2000
+2511,1944310,"Leighton city, Iowa",153,2000
+2512,1944355,"Leland city, Iowa",258,2000
+2513,1944400,"Le Mars city, Iowa",9237,2000
+2514,1944490,"Lenox city, Iowa",1401,2000
+2515,1944535,"Leon city, Iowa",1983,2000
+2516,1944580,"Le Roy city, Iowa",13,2000
+2517,1944670,"Lester city, Iowa",251,2000
+2518,1944715,"Letts city, Iowa",392,2000
+2519,1944805,"Lewis city, Iowa",438,2000
+2520,1944985,"Libertyville city, Iowa",325,2000
+2521,1945030,"Lidderdale city, Iowa",186,2000
+2522,1945165,"Lime Springs city, Iowa",496,2000
+2523,1945255,"Lincoln city, Iowa",182,2000
+2524,1945390,"Linden city, Iowa",226,2000
+2525,1945435,"Lineville city, Iowa",273,2000
+2526,1945480,"Linn Grove city, Iowa",211,2000
+2527,1945615,"Lisbon city, Iowa",1898,2000
+2528,1945660,"Liscomb city, Iowa",272,2000
+2529,1945750,"Littleport city, Iowa",26,2000
+2530,1945795,"Little Rock city, Iowa",489,2000
+2531,1945840,"Little Sioux city, Iowa",217,2000
+2532,1945975,"Livermore city, Iowa",431,2000
+2533,1946065,"Lockridge city, Iowa",275,2000
+2534,1946155,"Logan city, Iowa",1545,2000
+2535,1946245,"Lohrville city, Iowa",431,2000
+2536,1946290,"Lone Rock city, Iowa",157,2000
+2537,1946335,"Lone Tree city, Iowa",1151,2000
+2538,1946425,"Long Grove city, Iowa",597,2000
+2539,1946515,"Lorimor city, Iowa",427,2000
+2540,1946605,"Lost Nation city, Iowa",497,2000
+2541,1946830,"Lovilia city, Iowa",583,2000
+2542,1946920,"Lowden city, Iowa",794,2000
+2543,1947010,"Low Moor city, Iowa",240,2000
+2544,1947055,"Luana city, Iowa",249,2000
+2545,1947100,"Lucas city, Iowa",243,2000
+2546,1947280,"Luther city, Iowa",158,2000
+2547,1947370,"Lu Verne city, Iowa",299,2000
+2548,1947460,"Luxemburg city, Iowa",246,2000
+2549,1947505,"Luzerne city, Iowa",105,2000
+2550,1947595,"Lynnville city, Iowa",366,2000
+2551,1947730,"Lytton city, Iowa",305,2000
+2552,1947775,"McCallsburg city, Iowa",318,2000
+2553,1947820,"McCausland city, Iowa",299,2000
+2554,1947865,"McClelland city, Iowa",129,2000
+2555,1947955,"Macedonia city, Iowa",325,2000
+2556,1948000,"McGregor city, Iowa",871,2000
+2557,1948045,"McIntire city, Iowa",173,2000
+2558,1948180,"Macksburg city, Iowa",142,2000
+2559,1948450,"Madrid city, Iowa",2264,2000
+2560,1948495,"Magnolia city, Iowa",200,2000
+2561,1948540,"Malcom city, Iowa",352,2000
+2562,1948585,"Mallard city, Iowa",298,2000
+2563,1948675,"Maloy city, Iowa",28,2000
+2564,1948720,"Malvern city, Iowa",1256,2000
+2565,1948810,"Manchester city, Iowa",5257,2000
+2566,1948855,"Manilla city, Iowa",839,2000
+2567,1948900,"Manly city, Iowa",1342,2000
+2568,1948945,"Manning city, Iowa",1490,2000
+2569,1948990,"Manson city, Iowa",1893,2000
+2570,1949170,"Mapleton city, Iowa",1416,2000
+2571,1949215,"Maquoketa city, Iowa",6112,2000
+2572,1949260,"Marathon city, Iowa",302,2000
+2573,1949305,"Marble Rock city, Iowa",326,2000
+2574,1949350,"Marcus city, Iowa",1139,2000
+2575,1949395,"Marengo city, Iowa",2535,2000
+2576,1949485,"Marion city, Iowa",26294,2000
+2577,1949575,"Marne city, Iowa",149,2000
+2578,1949620,"Marquette city, Iowa",421,2000
+2579,1949755,"Marshalltown city, Iowa",26009,2000
+2580,1949845,"Martelle city, Iowa",280,2000
+2581,1949890,"Martensdale city, Iowa",467,2000
+2582,1949935,"Martinsburg city, Iowa",126,2000
+2583,1950070,"Marysville city, Iowa",54,2000
+2584,1950160,"Mason City city, Iowa",29172,2000
+2585,1950205,"Masonville city, Iowa",104,2000
+2586,1950250,"Massena city, Iowa",414,2000
+2587,1950385,"Matlock city, Iowa",83,2000
+2588,1950430,"Maurice city, Iowa",254,2000
+2589,1950520,"Maxwell city, Iowa",807,2000
+2590,1950610,"Maynard city, Iowa",500,2000
+2591,1950655,"Maysville city, Iowa",163,2000
+2592,1950700,"Mechanicsville city, Iowa",1173,2000
+2593,1950790,"Mediapolis city, Iowa",1644,2000
+2594,1950880,"Melbourne city, Iowa",794,2000
+2595,1950935,"Melcher-Dallas city, Iowa",1298,2000
+2596,1950970,"Melrose city, Iowa",130,2000
+2597,1951060,"Melvin city, Iowa",243,2000
+2598,1951105,"Menlo city, Iowa",365,2000
+2599,1951150,"Meriden city, Iowa",184,2000
+2600,1951375,"Merrill city, Iowa",754,2000
+2601,1951420,"Meservey city, Iowa",252,2000
+2602,1951735,"Middletown city, Iowa",535,2000
+2603,1952050,"Miles city, Iowa",462,2000
+2604,1952095,"Milford city, Iowa",2474,2000
+2605,1952230,"Millersburg city, Iowa",184,2000
+2606,1952275,"Millerton city, Iowa",48,2000
+2607,1952410,"Millville city, Iowa",23,2000
+2608,1952455,"Milo city, Iowa",839,2000
+2609,1952500,"Milton city, Iowa",550,2000
+2610,1952545,"Minburn city, Iowa",391,2000
+2611,1952590,"Minden city, Iowa",564,2000
+2612,1952815,"Mingo city, Iowa",269,2000
+2613,1952860,"Missouri Valley city, Iowa",2992,2000
+2614,1952905,"Mitchell city, Iowa",155,2000
+2615,1952950,"Mitchellville city, Iowa",1715,2000
+2616,1952995,"Modale city, Iowa",303,2000
+2617,1953175,"Mondamin city, Iowa",423,2000
+2618,1953265,"Monmouth city, Iowa",180,2000
+2619,1953310,"Monona city, Iowa",1550,2000
+2620,1953355,"Monroe city, Iowa",1808,2000
+2621,1953490,"Montezuma city, Iowa",1440,2000
+2622,1953625,"Monticello city, Iowa",3607,2000
+2623,1953670,"Montour city, Iowa",285,2000
+2624,1953760,"Montrose city, Iowa",957,2000
+2625,1953850,"Moorhead city, Iowa",232,2000
+2626,1953895,"Moorland city, Iowa",197,2000
+2627,1953985,"Moravia city, Iowa",713,2000
+2628,1954030,"Morley city, Iowa",88,2000
+2629,1954120,"Morning Sun city, Iowa",872,2000
+2630,1954165,"Morrison city, Iowa",97,2000
+2631,1954390,"Moulton city, Iowa",658,2000
+2632,1954435,"Mount Auburn city, Iowa",160,2000
+2633,1954480,"Mount Ayr city, Iowa",1822,2000
+2634,1954705,"Mount Pleasant city, Iowa",8751,2000
+2635,1954750,"Mount Sterling city, Iowa",40,2000
+2636,1954795,"Mount Union city, Iowa",132,2000
+2637,1954840,"Mount Vernon city, Iowa",3390,2000
+2638,1954930,"Moville city, Iowa",1583,2000
+2639,1955065,"Murray city, Iowa",766,2000
+2640,1955110,"Muscatine city, Iowa",22697,2000
+2641,1955200,"Mystic city, Iowa",588,2000
+2642,1955335,"Nashua city, Iowa",1618,2000
+2643,1955515,"Nemaha city, Iowa",102,2000
+2644,1955560,"Neola city, Iowa",845,2000
+2645,1955695,"Nevada city, Iowa",6658,2000
+2646,1955785,"New Albin city, Iowa",527,2000
+2647,1955965,"Newell city, Iowa",887,2000
+2648,1956055,"Newhall city, Iowa",886,2000
+2649,1956100,"New Hampton city, Iowa",3692,2000
+2650,1956145,"New Hartford city, Iowa",659,2000
+2651,1956280,"New Liberty city, Iowa",121,2000
+2652,1956325,"New London city, Iowa",1937,2000
+2653,1956370,"New Market city, Iowa",456,2000
+2654,1956415,"New Providence city, Iowa",227,2000
+2655,1956460,"New Sharon city, Iowa",1301,2000
+2656,1956505,"Newton city, Iowa",15579,2000
+2657,1956550,"New Vienna city, Iowa",400,2000
+2658,1956595,"New Virginia city, Iowa",469,2000
+2659,1956685,"Nichols city, Iowa",374,2000
+2660,1956865,"Nodaway city, Iowa",132,2000
+2661,1956910,"Nora Springs city, Iowa",1532,2000
+2662,1957045,"Northboro city, Iowa",60,2000
+2663,1957135,"North Buena Vista city, Iowa",124,2000
+2664,1957225,"North English city, Iowa",991,2000
+2665,1957360,"North Liberty city, Iowa",5367,2000
+2666,1957495,"North Washington city, Iowa",118,2000
+2667,1957630,"Northwood city, Iowa",2050,2000
+2668,1957675,"Norwalk city, Iowa",6884,2000
+2669,1957720,"Norway city, Iowa",601,2000
+2670,1957945,"Numa city, Iowa",109,2000
+2671,1958080,"Oakland city, Iowa",1487,2000
+2672,1958170,"Oakland Acres city, Iowa",166,2000
+2673,1958395,"Oakville city, Iowa",439,2000
+2674,1958530,"Ocheyedan city, Iowa",536,2000
+2675,1958575,"Odebolt city, Iowa",1153,2000
+2676,1958620,"Oelwein city, Iowa",6692,2000
+2677,1958665,"Ogden city, Iowa",2023,2000
+2678,1958710,"Okoboji city, Iowa",820,2000
+2679,1958890,"Olds city, Iowa",249,2000
+2680,1958980,"Olin city, Iowa",716,2000
+2681,1959070,"Ollie city, Iowa",224,2000
+2682,1959115,"Onawa city, Iowa",3091,2000
+2683,1959250,"Onslow city, Iowa",223,2000
+2684,1959475,"Orange City city, Iowa",5582,2000
+2685,1959520,"Orchard city, Iowa",88,2000
+2686,1959565,"Orient city, Iowa",402,2000
+2687,1959655,"Orleans city, Iowa",583,2000
+2688,1959745,"Osage city, Iowa",3451,2000
+2689,1959835,"Osceola city, Iowa",4659,2000
+2690,1959925,"Oskaloosa city, Iowa",10938,2000
+2691,1959970,"Ossian city, Iowa",853,2000
+2692,1960015,"Osterdock city, Iowa",50,2000
+2693,1960105,"Otho city, Iowa",571,2000
+2694,1960240,"Oto city, Iowa",145,2000
+2695,1960420,"Ottosen city, Iowa",61,2000
+2696,1960465,"Ottumwa city, Iowa",24998,2000
+2697,1960555,"Owasa city, Iowa",38,2000
+2698,1960645,"Oxford city, Iowa",705,2000
+2699,1960690,"Oxford Junction city, Iowa",573,2000
+2700,1960780,"Oyens city, Iowa",132,2000
+2701,1960825,"Pacific Junction city, Iowa",507,2000
+2702,1960915,"Packwood city, Iowa",223,2000
+2703,1961050,"Palmer city, Iowa",214,2000
+2704,1961230,"Palo city, Iowa",614,2000
+2705,1961275,"Panama city, Iowa",212,2000
+2706,1961320,"Panora city, Iowa",1175,2000
+2707,1961365,"Panorama Park city, Iowa",111,2000
+2708,1961590,"Parkersburg city, Iowa",1889,2000
+2709,1961725,"Park View CDP, Iowa",2169,2000
+2710,1961770,"Parnell city, Iowa",220,2000
+2711,1961815,"Paton city, Iowa",265,2000
+2712,1961860,"Patterson city, Iowa",126,2000
+2713,1961905,"Paullina city, Iowa",1124,2000
+2714,1962040,"Pella city, Iowa",9832,2000
+2715,1962130,"Peosta city, Iowa",651,2000
+2716,1962355,"Perry city, Iowa",7633,2000
+2717,1962445,"Persia city, Iowa",363,2000
+2718,1962625,"Peterson city, Iowa",372,2000
+2719,1962760,"Pierson city, Iowa",371,2000
+2720,1962850,"Pilot Mound city, Iowa",214,2000
+2721,1962985,"Pioneer city, Iowa",21,2000
+2722,1963075,"Pisgah city, Iowa",316,2000
+2723,1963210,"Plainfield city, Iowa",438,2000
+2724,1963345,"Plano city, Iowa",58,2000
+2725,1963525,"Pleasant Hill city, Iowa",5070,2000
+2726,1963570,"Pleasanton city, Iowa",37,2000
+2727,1963615,"Pleasant Plain city, Iowa",131,2000
+2728,1963750,"Pleasantville city, Iowa",1539,2000
+2729,1963840,"Plover city, Iowa",95,2000
+2730,1963885,"Plymouth city, Iowa",429,2000
+2731,1963975,"Pocahontas city, Iowa",1970,2000
+2732,1964020,"Polk City city, Iowa",2344,2000
+2733,1964065,"Pomeroy city, Iowa",710,2000
+2734,1964110,"Popejoy city, Iowa",78,2000
+2735,1964200,"Portsmouth city, Iowa",225,2000
+2736,1964290,"Postville city, Iowa",2273,2000
+2737,1964425,"Prairieburg city, Iowa",175,2000
+2738,1964470,"Prairie City city, Iowa",1365,2000
+2739,1964560,"Prescott city, Iowa",266,2000
+2740,1964605,"Preston city, Iowa",949,2000
+2741,1964650,"Primghar city, Iowa",891,2000
+2742,1964740,"Princeton city, Iowa",946,2000
+2743,1964875,"Promise City city, Iowa",105,2000
+2744,1965010,"Protivin city, Iowa",317,2000
+2745,1965055,"Pulaski city, Iowa",249,2000
+2746,1965235,"Quasqueton city, Iowa",574,2000
+2747,1965280,"Quimby city, Iowa",368,2000
+2748,1965370,"Radcliffe city, Iowa",607,2000
+2749,1965415,"Rake city, Iowa",227,2000
+2750,1965505,"Ralston city, Iowa",98,2000
+2751,1965550,"Randalia city, Iowa",84,2000
+2752,1965595,"Randall city, Iowa",148,2000
+2753,1965640,"Randolph city, Iowa",209,2000
+2754,1965730,"Rathbun city, Iowa",88,2000
+2755,1965820,"Raymond city, Iowa",537,2000
+2756,1965910,"Readlyn city, Iowa",786,2000
+2757,1965955,"Reasnor city, Iowa",194,2000
+2758,1966000,"Redding city, Iowa",78,2000
+2759,1966045,"Redfield city, Iowa",833,2000
+2760,1966135,"Red Oak city, Iowa",6197,2000
+2761,1966315,"Reinbeck city, Iowa",1751,2000
+2762,1966360,"Rembrandt city, Iowa",228,2000
+2763,1966405,"Remsen city, Iowa",1762,2000
+2764,1966450,"Renwick city, Iowa",306,2000
+2765,1966540,"Rhodes city, Iowa",294,2000
+2766,1966585,"Riceville city, Iowa",840,2000
+2767,1966720,"Richland city, Iowa",587,2000
+2768,1966810,"Rickardsville city, Iowa",191,2000
+2769,1966855,"Ricketts city, Iowa",144,2000
+2770,1967035,"Ridgeway city, Iowa",293,2000
+2771,1967125,"Rinard city, Iowa",72,2000
+2772,1967170,"Ringsted city, Iowa",436,2000
+2773,1967215,"Rippey city, Iowa",319,2000
+2774,1967350,"Riverdale city, Iowa",656,2000
+2775,1967440,"Riverside city, Iowa",928,2000
+2776,1967575,"Riverton city, Iowa",304,2000
+2777,1967800,"Robins city, Iowa",1806,2000
+2778,1968025,"Rock Falls city, Iowa",170,2000
+2779,1968070,"Rockford city, Iowa",907,2000
+2780,1968160,"Rock Rapids city, Iowa",2573,2000
+2781,1968205,"Rock Valley city, Iowa",2702,2000
+2782,1968250,"Rockwell city, Iowa",989,2000
+2783,1968295,"Rockwell City city, Iowa",2264,2000
+2784,1968340,"Rodman city, Iowa",56,2000
+2785,1968385,"Rodney city, Iowa",74,2000
+2786,1968475,"Roland city, Iowa",1324,2000
+2787,1968520,"Rolfe city, Iowa",675,2000
+2788,1968565,"Rome city, Iowa",113,2000
+2789,1968700,"Rose Hill city, Iowa",205,2000
+2790,1968925,"Rossie city, Iowa",58,2000
+2791,1969015,"Rowan city, Iowa",218,2000
+2792,1969060,"Rowley city, Iowa",290,2000
+2793,1969105,"Royal city, Iowa",479,2000
+2794,1969195,"Rudd city, Iowa",431,2000
+2795,1969240,"Runnells city, Iowa",352,2000
+2796,1969285,"Russell city, Iowa",559,2000
+2797,1969330,"Ruthven city, Iowa",711,2000
+2798,1969375,"Rutland city, Iowa",145,2000
+2799,1969465,"Ryan city, Iowa",410,2000
+2800,1969510,"Sabula city, Iowa",670,2000
+2801,1969645,"Sac City city, Iowa",2368,2000
+2802,1969690,"Sageville city, Iowa",203,2000
+2803,1969735,"St. Ansgar city, Iowa",1031,2000
+2804,1969780,"St. Anthony city, Iowa",109,2000
+2805,1969915,"St. Charles city, Iowa",619,2000
+2806,1969960,"St. Donatus city, Iowa",140,2000
+2807,1970050,"St. Lucas city, Iowa",178,2000
+2808,1970095,"St. Marys city, Iowa",134,2000
+2809,1970140,"St. Olaf city, Iowa",136,2000
+2810,1970185,"St. Paul city, Iowa",118,2000
+2811,1970230,"Salem city, Iowa",464,2000
+2812,1970320,"Salix city, Iowa",370,2000
+2813,1970410,"Sanborn city, Iowa",1353,2000
+2814,1970590,"Sandyville city, Iowa",61,2000
+2815,1970995,"Saylorville CDP, Iowa",3238,2000
+2816,1971040,"Scarville city, Iowa",97,2000
+2817,1971085,"Schaller city, Iowa",779,2000
+2818,1971130,"Schleswig city, Iowa",833,2000
+2819,1971310,"Scranton city, Iowa",604,2000
+2820,1971355,"Searsboro city, Iowa",155,2000
+2821,1971625,"Sergeant Bluff city, Iowa",3321,2000
+2822,1971760,"Seymour city, Iowa",810,2000
+2823,1971895,"Shambaugh city, Iowa",188,2000
+2824,1971940,"Shannon City city, Iowa",70,2000
+2825,1972075,"Sharpsburg city, Iowa",98,2000
+2826,1972210,"Sheffield city, Iowa",930,2000
+2827,1972300,"Shelby city, Iowa",696,2000
+2828,1972345,"Sheldahl city, Iowa",336,2000
+2829,1972390,"Sheldon city, Iowa",4914,2000
+2830,1972435,"Shell Rock city, Iowa",1298,2000
+2831,1972480,"Shellsburg city, Iowa",938,2000
+2832,1972525,"Shenandoah city, Iowa",5546,2000
+2833,1972660,"Sherrill city, Iowa",186,2000
+2834,1972840,"Shueyville city, Iowa",250,2000
+2835,1972975,"Sibley city, Iowa",2796,2000
+2836,1973065,"Sidney city, Iowa",1300,2000
+2837,1973110,"Sigourney city, Iowa",2209,2000
+2838,1973155,"Silver City city, Iowa",259,2000
+2839,1973290,"Sioux Center city, Iowa",6002,2000
+2840,1973335,"Sioux City city, Iowa",85013,2000
+2841,1973425,"Sioux Rapids city, Iowa",720,2000
+2842,1973515,"Slater city, Iowa",1306,2000
+2843,1973605,"Sloan city, Iowa",1032,2000
+2844,1973650,"Smithland city, Iowa",221,2000
+2845,1973785,"Soldier city, Iowa",207,2000
+2846,1973875,"Solon city, Iowa",1177,2000
+2847,1973920,"Somers city, Iowa",165,2000
+2848,1974055,"South English city, Iowa",213,2000
+2849,1974280,"Spencer city, Iowa",11317,2000
+2850,1974370,"Spillville city, Iowa",386,2000
+2851,1974415,"Spirit Lake city, Iowa",4261,2000
+2852,1974460,"Spragueville city, Iowa",89,2000
+2853,1974505,"Springbrook city, Iowa",182,2000
+2854,1974685,"Spring Hill city, Iowa",92,2000
+2855,1974775,"Springville city, Iowa",1091,2000
+2856,1974820,"Stacyville city, Iowa",469,2000
+2857,1974910,"Stanhope city, Iowa",488,2000
+2858,1974955,"Stanley city, Iowa",128,2000
+2859,1975000,"Stanton city, Iowa",714,2000
+2860,1975045,"Stanwood city, Iowa",680,2000
+2861,1975135,"State Center city, Iowa",1349,2000
+2862,1975180,"Steamboat Rock city, Iowa",336,2000
+2863,1975405,"Stockport city, Iowa",284,2000
+2864,1975450,"Stockton city, Iowa",182,2000
+2865,1975630,"Storm Lake city, Iowa",10076,2000
+2866,1975675,"Story City city, Iowa",3228,2000
+2867,1975720,"Stout city, Iowa",217,2000
+2868,1975810,"Stratford city, Iowa",746,2000
+2869,1975855,"Strawberry Point city, Iowa",1386,2000
+2870,1975945,"Struble city, Iowa",85,2000
+2871,1975990,"Stuart city, Iowa",1712,2000
+2872,1976035,"Sully city, Iowa",904,2000
+2873,1976260,"Sumner city, Iowa",2106,2000
+2874,1976440,"Superior city, Iowa",142,2000
+2875,1976485,"Sutherland city, Iowa",707,2000
+2876,1976620,"Swaledale city, Iowa",174,2000
+2877,1976665,"Swan city, Iowa",121,2000
+2878,1976755,"Swea City city, Iowa",642,2000
+2879,1976890,"Swisher city, Iowa",813,2000
+2880,1976935,"Tabor city, Iowa",993,2000
+2881,1977115,"Tama city, Iowa",2731,2000
+2882,1977340,"Templeton city, Iowa",334,2000
+2883,1977430,"Tennant city, Iowa",73,2000
+2884,1977520,"Terril city, Iowa",404,2000
+2885,1977565,"Thayer city, Iowa",66,2000
+2886,1977745,"Thompson city, Iowa",596,2000
+2887,1977790,"Thor city, Iowa",174,2000
+2888,1977835,"Thornburg city, Iowa",84,2000
+2889,1977880,"Thornton city, Iowa",422,2000
+2890,1977970,"Thurman city, Iowa",236,2000
+2891,1978060,"Tiffin city, Iowa",975,2000
+2892,1978195,"Tingley city, Iowa",171,2000
+2893,1978285,"Tipton city, Iowa",3155,2000
+2894,1978330,"Titonka city, Iowa",584,2000
+2895,1978510,"Toledo city, Iowa",2539,2000
+2896,1978600,"Toronto city, Iowa",134,2000
+2897,1978735,"Traer city, Iowa",1594,2000
+2898,1978825,"Treynor city, Iowa",950,2000
+2899,1978915,"Tripoli city, Iowa",1310,2000
+2900,1979095,"Truesdale city, Iowa",91,2000
+2901,1979140,"Truro city, Iowa",427,2000
+2902,1979185,"Turin city, Iowa",75,2000
+2903,1979410,"Udell city, Iowa",58,2000
+2904,1979500,"Underwood city, Iowa",688,2000
+2905,1979545,"Union city, Iowa",427,2000
+2906,1979680,"Unionville city, Iowa",127,2000
+2907,1979770,"University Heights city, Iowa",987,2000
+2908,1979815,"University Park city, Iowa",536,2000
+2909,1979905,"Urbana city, Iowa",1019,2000
+2910,1979950,"Urbandale city, Iowa",29072,2000
+2911,1979995,"Ute city, Iowa",378,2000
+2912,1980130,"Vail city, Iowa",452,2000
+2913,1980175,"Valeria city, Iowa",62,2000
+2914,1980400,"Van Horne city, Iowa",716,2000
+2915,1980445,"Van Meter city, Iowa",866,2000
+2916,1980490,"Van Wert city, Iowa",231,2000
+2917,1980535,"Varina city, Iowa",90,2000
+2918,1980580,"Ventura city, Iowa",670,2000
+2919,1980805,"Victor city, Iowa",952,2000
+2920,1980985,"Villisca city, Iowa",1344,2000
+2921,1981075,"Vincent city, Iowa",158,2000
+2922,1981120,"Vining city, Iowa",70,2000
+2923,1981210,"Vinton city, Iowa",5102,2000
+2924,1981345,"Volga city, Iowa",247,2000
+2925,1981570,"Wadena city, Iowa",243,2000
+2926,1981615,"Wahpeton city, Iowa",462,2000
+2927,1981705,"Walcott city, Iowa",1528,2000
+2928,1981840,"Walford city, Iowa",1224,2000
+2929,1981885,"Walker city, Iowa",750,2000
+2930,1981975,"Wallingford city, Iowa",210,2000
+2931,1982020,"Wall Lake city, Iowa",841,2000
+2932,1982065,"Walnut city, Iowa",778,2000
+2933,1982200,"Wapello city, Iowa",2124,2000
+2934,1982335,"Washington city, Iowa",7047,2000
+2935,1982380,"Washta city, Iowa",282,2000
+2936,1982425,"Waterloo city, Iowa",68747,2000
+2937,1982470,"Waterville city, Iowa",145,2000
+2938,1982650,"Waucoma city, Iowa",299,2000
+2939,1982695,"Waukee city, Iowa",5126,2000
+2940,1982740,"Waukon city, Iowa",4131,2000
+2941,1982875,"Waverly city, Iowa",8968,2000
+2942,1982965,"Wayland city, Iowa",945,2000
+2943,1983010,"Webb city, Iowa",165,2000
+2944,1983055,"Webster city, Iowa",110,2000
+2945,1983145,"Webster City city, Iowa",8176,2000
+2946,1983190,"Weldon city, Iowa",145,2000
+2947,1983280,"Wellman city, Iowa",1393,2000
+2948,1983325,"Wellsburg city, Iowa",716,2000
+2949,1983370,"Welton city, Iowa",159,2000
+2950,1983415,"Wesley city, Iowa",467,2000
+2951,1983550,"West Bend city, Iowa",834,2000
+2952,1983595,"West Branch city, Iowa",2188,2000
+2953,1983685,"West Burlington city, Iowa",3161,2000
+2954,1983775,"West Chester city, Iowa",159,2000
+2955,1983910,"West Des Moines city, Iowa",46403,2000
+2956,1984090,"Westfield city, Iowa",189,2000
+2957,1984180,"Westgate city, Iowa",234,2000
+2958,1984315,"West Liberty city, Iowa",3332,2000
+2959,1984450,"West Okoboji city, Iowa",432,2000
+2960,1984540,"Westphalia city, Iowa",160,2000
+2961,1984585,"West Point city, Iowa",980,2000
+2962,1984630,"Westside city, Iowa",327,2000
+2963,1984765,"West Union city, Iowa",2549,2000
+2964,1984835,"Westwood city, Iowa",127,2000
+2965,1984900,"What Cheer city, Iowa",678,2000
+2966,1984945,"Wheatland city, Iowa",772,2000
+2967,1985215,"Whiting city, Iowa",707,2000
+2968,1985260,"Whittemore city, Iowa",530,2000
+2969,1985305,"Whitten city, Iowa",160,2000
+2970,1985710,"Willey city, Iowa",103,2000
+2971,1985800,"Williams city, Iowa",427,2000
+2972,1985845,"Williamsburg city, Iowa",2622,2000
+2973,1985935,"Williamson city, Iowa",163,2000
+2974,1986070,"Wilton city, Iowa",2829,2000
+2975,1986250,"Windsor Heights city, Iowa",4805,2000
+2976,1986385,"Winfield city, Iowa",1131,2000
+2977,1986520,"Winterset city, Iowa",4768,2000
+2978,1986565,"Winthrop city, Iowa",772,2000
+2979,1986610,"Wiota city, Iowa",149,2000
+2980,1986700,"Woden city, Iowa",243,2000
+2981,1986835,"Woodbine city, Iowa",1564,2000
+2982,1986880,"Woodburn city, Iowa",244,2000
+2983,1986970,"Woodward city, Iowa",1200,2000
+2984,1987015,"Woolstock city, Iowa",204,2000
+2985,1987060,"Worthington city, Iowa",381,2000
+2986,1987240,"Wyoming city, Iowa",626,2000
+2987,1987285,"Yale city, Iowa",287,2000
+2988,1987375,"Yetter city, Iowa",36,2000
+2989,1987420,"Yorktown city, Iowa",82,2000
+2990,1987555,"Zearing city, Iowa",617,2000
+2991,1987690,"Zwingle city, Iowa",100,2000

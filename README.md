@@ -2,10 +2,10 @@
 
 
 ## Project Members
-Project Interns: Gavin Fisher, Angelina Evans, Kailyn Hogan,
-Grad Fellow: Morenike Atejioye
-AI Fellow: Mohammad Sadat
-Project Leads: Leisl Ethington, Christopher Seeger
++ Project Interns: Gavin Fisher, Angelina Evans, Kailyn Hogan,
++ Grad Fellow: Morenike Atejioye
++ AI Fellow: Mohammad Sadat
++ Project Leads: Leisl Ethington, Christopher Seeger
 
 
 ## About the Project

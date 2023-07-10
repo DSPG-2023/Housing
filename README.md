@@ -1,13 +1,8 @@
 # AI-Driven Housing Evaluation for Rural Community Development
 
-<img src="CoverPhoto/Housing_Cover_Photo.jpg" alt="drawing" style="width:800px;"/>
-<body style="background-color:aquamarine;">
 
-## Project Members
-+ Project Interns: Angelina Evans, Gavin Fisher, Kailyn Hogan
-+ Grad Fellow: Morenike Atejioye
-+ AI Fellow: Mohammad Sadat
-+ Project Leads: Leisl Ethington, Christopher Seeger
+<img src="CoverPhoto/Housing_Cover_Photo.jpg" alt="Housing cover photo" style="width:800px; class="center"/>
+
 
 
 ## About the Project
@@ -17,6 +12,18 @@ In rural Midwestern communities, the presence of high-quality and affordable hou
 Utilizing web scraping techniques to collect images of houses from various assessor websites, an AI model can be developed to analyze and categorize housing features into good or poor quality. This can enable targeted investment strategies. It allows for the identification of houses in need of improvement and determines the areas where financial resources should be directed. By leveraging AI technology in this manner, the project seeks to streamline the housing evaluation process, eliminate subjective biases, and facilitate informed decision-making for housing investment and development initiatives in rural communities.
 
 The goal of the project is to investigate the condition of existing housing stock in rural Midwestern communities and develop a thorough and objective evaluation of housing quality using AI.
+
+
+## Presentation Blog
+
+[Link to final presentation](https://morenikeope.github.io/Atejioye_Blog/posts/Report_Draft/Report_Draft.html).
+
+## Links to Guides
+
++ Creating demographic profiles: **Kailyn's blog post will go here.**
++ Evaluating cities: https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html
++ Mapping house quality of cities: https://1angelinaevans.github.io/AngelinaEvansBlog/posts/MappingHouseData/MappingHouseQuality.html
+
 
 
 ## Folders in Housing Repository
@@ -54,17 +61,5 @@ Listed below are some of the main contents from the housing repository. To see m
 
 + WinVest:
   - Photo names and addresses from the WinVest project
-
-
-## Presentation Blog
-
-[Link to final presentation](https://morenikeope.github.io/Atejioye_Blog/posts/Report_Draft/Report_Draft.html).
-
-## Links to Guides
-
-+ Creating demographic profiles: **Kailyn's blog post will go here.**
-+ Evaluating cities: https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html
-+ Mapping house quality of cities: https://1angelinaevans.github.io/AngelinaEvansBlog/posts/MappingHouseData/MappingHouseQuality.html
-
 
  

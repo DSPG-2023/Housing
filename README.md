@@ -1,6 +1,8 @@
 # AI-Driven Housing Evaluation for Rural Community Development
 
 
+Housing_Cover_Photo.jpg
+
 ## Project Members
 + Project Interns: Gavin Fisher, Angelina Evans, Kailyn Hogan,
 + Grad Fellow: Morenike Atejioye
@@ -17,9 +19,15 @@ Utilizing web scraping techniques to collect images of houses from various asses
 The goal of the project is to investigate the condition of existing housing stock in rural Midwestern communities and develop a thorough and objective evaluation of housing quality using AI.
 
 
-## Structure of Project Folders
+## Housing Repository Folders
 
++ Web Scraping:
+   - R code for scraping Zillow.com
+   - Scraped Addresses
+   - Scraped images
 
++ Housing Databases 
+   
 To see more details about the content of each folder in the Housing repository, see the [folder content explanation file.]Housing/folder_contents.txt
 
 ## Presentation Blog

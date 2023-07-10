@@ -20,7 +20,7 @@ The goal of the project is to investigate the condition of existing housing stoc
 
 ## Folders in Housing Repository
 
-Listed below are some of the main contents from the housing repository. To see more details about the content of each folder in the Housing repository, see the [folder content explanation file.]Housing/folder_contents.txt
+Listed below are some of the main contents from the housing repository. To see more details about the content of each folder in the Housing repository, see the [folder content explanation file.](Housing/folder_contents.txt)
 
 + Web Scraping:
    - R code for scraping Zillow.com

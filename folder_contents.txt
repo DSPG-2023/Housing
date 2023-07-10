@@ -1,5 +1,5 @@
-This is an explanation of what is in each folder in the hosuing repository as of July 2023
-number of notes to check: 5
+This is an explanation of what is in each folder in the housing repository as of July 2023
+number of notes to check: 3
 
 .idea:
 
@@ -25,11 +25,10 @@ docs:
 	HTML doc for housing landing page
 
 Housing Databases:
-	csv files for elkhart, grundy, independence, hampton, ogden, and slater which keep track of attributes of addresses including predictions made by the AI models (inside of models_algorithm). data_sample has a small sample of the cities so that we could evaluate how accurate the models were predicting. Combined_database is the grundy and independence database merged ANGELINA PLEASE CONFIRM. 
+	csv files for elkhart, grundy, independence, hampton, ogden, and slater which keep track of attributes of addresses including predictions made by the AI models (inside of models_algorithm). data_sample has a small sample of the cities so that we could evaluate how accurate the models were predicting. 
+
 	sample databases:
 		basic database sample csv
-	housing data base:
-		another basic csv for the housing database KAILYN AND ANGELINA I THINK WE CAN DELETE THIS
 
 models_algorithm:
 	folders that begin with model have an .h5 file which is a trained AI model plus the .ipynb file which is the code to train the model which can be opened in Google Colab.

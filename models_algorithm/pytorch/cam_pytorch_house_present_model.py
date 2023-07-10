@@ -177,8 +177,8 @@ model_with_cam = HousePresenceModelWithCAM(model)
 model_with_cam.to(device)
 model_with_cam.eval()
 
-# image_path = os.path.expanduser('~/Documents/test_images/G_D_40 10TH ST NE_.png')
-image_path = os.path.expanduser('~/Documents/test_images/G_OG_119 E SYCAMORE ST_.png')
+image_path = os.path.expanduser('~/Documents/test_images/G_D_40 10TH ST NE_.png')
+# image_path = os.path.expanduser('~/Documents/test_images/G_OG_119 E SYCAMORE ST_.png')
 
 image = Image.open(image_path).convert('RGB')
 image_tensor = transform(image).unsqueeze(0).to(device)
@@ -202,10 +202,10 @@ cam = cam.squeeze().cpu().numpy()
 
 _, predicted_class = torch.max(output, 1)
 #predicted_label = 'house_present' if predicted_class.item() == 0 else 'no_house_present'
-threshold = 0.5
+threshold = 0.2
 print(output)
 print(output.item())
-if output.item() >= threshold:
+if output.item() <= threshold:
     predicted_label = 'house_present'
 else:
     predicted_label = 'no_house_present'

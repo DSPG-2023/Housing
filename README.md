@@ -21,7 +21,7 @@ The goal of the project is to investigate the condition of existing housing stoc
 
 ## Presentation Blog
 
-This site was built using [Presentation Blog](https://morenikeope.github.io/Atejioye_Blog/posts/Report_Draft/Report_Draft.html).
+[Link to final presentation](https://morenikeope.github.io/Atejioye_Blog/posts/Report_Draft/Report_Draft.html).
 
 ## Links to Guides
 

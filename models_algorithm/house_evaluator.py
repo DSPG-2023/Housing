@@ -99,8 +99,7 @@ def evaluate_houses(image_files):
             img_name_list.append(temp_name_list[iterate])
         iterate += 1
         
-    
-    
+  
 
     # the first three house picture quality models should have one image remaining after running(house present, clear image, and multiple houses)
     # TODO check the first 3 houses checkers return the correct picture meaning check the binary values returned are the ones we want
@@ -111,7 +110,10 @@ def evaluate_houses(image_files):
     for image in img_list:    
         resize = tf.image.resize(image, (256,256)) 
 
+        # This does not work if you are not in the models_algorithm directory. The commented code is a direct path instead if needed. print(os.getcwd()) is helpful for debugging
         new_model = load_model(os.path.join('model_house_present', 'house_present_classifier.h5'))
+        # new_model = load_model(os.path.expanduser('~/Documents/GitHub/Housing/models_algorithm/model_house_present/house_present_classifier.h5'))
+        
         
         yhat = new_model.predict(np.expand_dims(resize/255, 0))
         # house present

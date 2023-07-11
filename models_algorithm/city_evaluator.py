@@ -19,7 +19,7 @@ import sys
 # 4 = Slater
 # 5 = Ogden
 # 6 = Elkhart
-city_being_evaluated = 5
+city_being_evaluated = 4
 
 
 if city_being_evaluated == 0:
@@ -196,6 +196,6 @@ for folder_name in os.listdir(main_folder):
         folder_address_num += 1
 
 
-
+print('finished')
 
 

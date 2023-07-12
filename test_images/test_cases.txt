@@ -2,7 +2,7 @@
 # Made by Gavin
 # I realized empty folders don't show up in github i just have house_i folders
 
-This folder is meant to be used to show a general idea of how the AI models are preforming. Each house represents what would be an address. So for example house_1 could represent 123 main st. Our test case for 123 main st is whether there is a house present in the image. I do not care if the images in the house_1 folder are the same house because we are simply testing the model. 
+This folder is meant to be used to show a general idea of how the AI models are preforming. Each house represents what would be an address. So for example house_1 could represent 123 main st. Our test case for 123 main st is whether there is a house present in the image. I do not care if the images in the house_1 folder are the same house because we are simply testing the model. New note: I am naming the images in this folder with their binary number and name of the test in the image to make it easier when testing. For example W_G_0101 GOOD PIC ST_ is an image from Grundy Center taken from WINVEST, it is the fifth test which is one good pic.
 
 Let's say I want two images for this test case, I can find any two images on the internet as long as one image has a house visible and one does not (whether the house is blurred, obstructed, or it is an image of something else). It's probably wise not to use images used for training the models and instead to search for images in the image folders that were downloaded from somewhere. 
 

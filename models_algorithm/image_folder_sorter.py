@@ -25,7 +25,7 @@ city_being_evaluated = 2
 # 3 = Zillow
 # 4 = Vanguard
 # 5 = Beacon
-image_source = 4
+image_source = 2
 
 # if the source is not yet collected (as of right now zillow vanguard beacon) will return with these lines.
 def source_not_available():

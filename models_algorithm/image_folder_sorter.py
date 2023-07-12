@@ -25,7 +25,7 @@ city_being_evaluated = 2
 # 3 = Zillow
 # 4 = Vanguard
 # 5 = Beacon
-image_source = 5
+image_source = 4
 
 # if the source is not yet collected (as of right now zillow vanguard beacon) will return with these lines.
 def source_not_available():
@@ -102,9 +102,9 @@ elif city_being_evaluated == 2:
     elif image_source == 3:
         source_not_available()
     elif image_source == 4:
-        source_not_available()
+        img_loc = os.path.expanduser('~/Documents/downloaded_vanguard_images/vanguard_independence')
     elif image_source == 5:
-        img_loc = os.path.expanduser('~/Documents/downloaded_beacon_images/beacon_independence')
+        source_not_available()
     else:
         print("Please enter a valid number from above")
         sys.exit()

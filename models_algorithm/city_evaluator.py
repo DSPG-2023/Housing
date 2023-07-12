@@ -19,7 +19,7 @@ import sys
 # 4 = Slater
 # 5 = Ogden
 # 6 = Elkhart
-city_being_evaluated = 5
+city_being_evaluated = 2
 
 
 if city_being_evaluated == 0:

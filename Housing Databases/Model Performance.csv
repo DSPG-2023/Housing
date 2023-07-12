@@ -1,5 +1,5 @@
 ﻿Type,Value
-avg_vegetation_confidence_val,43.20
+avg_vegetation_confidence_val,43.2
 avg_siding_confidence,37.02
 avg_gutter_confidence,65.18
 avg_roof_confidence,55.07
@@ -14,6 +14,6 @@ correct_gutter_prediction,0.83
 correct_roof_prediction,0.89
 percent_correct_house_present_prediction,84.62
 percent_correct_vegetation_prediction,86.42
-percent_correct_siding_prediction,3.70
+percent_correct_siding_prediction,96.3
 percent_correct_gutter_prediction,82.72
 percent_correct_roof_prediction,88.89

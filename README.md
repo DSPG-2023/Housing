@@ -24,7 +24,7 @@ The goal of this project is to investigate methods for conducting a thorough and
 
 ## Links to Guides
 
-+ Creating demographic profiles: **Kailyn's blog post will go here.**
+
 + Evaluating cities: https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html
 + Mapping house quality of cities: https://1angelinaevans.github.io/AngelinaEvansBlog/posts/MappingHouseData/MappingHouseQuality.html
 + Guide to AI models: https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_AI_guide_w9/AI_guide.html

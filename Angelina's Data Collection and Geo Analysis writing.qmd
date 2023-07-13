@@ -86,13 +86,19 @@ A Geographic Information System (GIS) is a spatial system that is used to analyz
 
 More information [here](https://www.esri.com/en-us/what-is-gis/overview).
 
-Mapping our house quality output using GIS enables us to visualize the AI-model output for vegetation, siding, gutters, and roof characteristics. This will allow us to visualize locations of houses in good conditions versus poor condition. Visualization is one way to analyze geographic data, but is not the only way. In the future, it could be beneficial to utilize statistical analysis techniques to understand the spatial relationship between data and visualize clusters.
+Mapping our house quality output using GIS enables us to visualize the AI-model output for vegetation, siding, gutters, and roof characteristics. This will allow us to visualize locations of houses in good conditions versus poor condition.
+
+In the future, it could be beneficial to utilize statistical analysis techniques to understand the spatial relationship between data and visualize clusters.
 
 #### Geocoding Addresses
 
-To visualize addresses for the communities, first we needed to geocode (provide latitude and longitude for each address). There many types of software that can be used to geocode addresses.
+To visualize addresses for the communities, first we needed to geocode (provide latitude and longitude for each address). There are many types of software that can be used to geocode addresses.
 
-Base code was from [storybench](https://www.storybench.org/geocode-csv-addresses-r/){target="_blank"}.
+QGIS is an open-source GIS software. We first geocoded addresses by using the QGIS Plugin called MMQGIS. When using this method, the plugin would crash and fail to geocode all the addresses. Because of this, we geocoded addresses using R instead. Base code was from [storybench](https://www.storybench.org/geocode-csv-addresses-r/){target="_blank"}.
+
+Below is an image of a CSV file with addresses latitude and longitude.
+
+![](ogden_geocoded_addresses.png){fig-align="center" width="459"}
 
 More information [here](https://1angelinaevans.github.io/AngelinaEvansBlog/posts/Week6TeamBlog/Week6TeamBlog.html#mapping){target="_blank"}.
 

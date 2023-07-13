@@ -19,7 +19,7 @@ from urllib.parse import urlparse
 city_being_evaluated = 2
 
 if city_being_evaluated == 2:
-    csv_loc = os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/independence_beacon_links.csv')
+    csv_loc = os.path.expanduser('~/Documents/GitHub/Housing/Housing Databases/independence_vanguard_links.csv')
     img_download_loc = os.path.expanduser('~/Documents/downloaded_vanguard_images/vanguard_independence')
 else:
     print("Please enter a valid number from above")
@@ -37,7 +37,7 @@ for index, row in df.iterrows():
     
 
     filename = os.path.basename(parsed_url.path)
-    print(filename)
+    # print(filename)
     
     _, extension = os.path.splitext(filename)
     
@@ -53,10 +53,7 @@ for index, row in df.iterrows():
     with open(save_image, "wb") as file:
         file.write(csv_link.content)
     
-
-    
-    
-
+print('finished')
 
 
 

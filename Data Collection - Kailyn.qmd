@@ -1,0 +1,191 @@
+---
+title: "Data Collection Section"
+---
+
+## Data Collection
+
+### What is Web Scraping?
+
+Web scraping is like a digital tool that automatically collects information from websites, allowing us to gather data quickly without manual searching.
+
+Before starting any web scraping, our team created a plan for which websites to scrape.
+
+-   [**Zillow**](https://www.zillow.com/?utm_medium=cpc&utm_source=google&utm_content=1471764169%7C65545421228%7Caud-352785741564:kwd-570802407%7C603457706088%7C&semQue=null&gclid=EAIaIQobChMI-Nv7oPL3_wIVWSazAB0eyA9CEAAYASAAEgKaafD_BwE){target="_blank"}
+
+    Zillow is an online platform and app for real estate that allows users to search for homes, view property listings, and access data on home values and market trends.
+
+-   [**Trulia**](https://www.trulia.com/){target="_blank"}
+
+    Trulia is another online platform and app for real estate that helps users find homes, apartments, and other property listings, and provides information on neighborhoods and market trends.
+
+-   [**Realtor.com**](https://www.realtor.com/){target="_blank"}
+
+    Realtor.com is a website and app that offers a comprehensive database of property listings, allowing users to search for homes, apartments, and other real estate options. It also provides resources for finding real estate agents.
+
+-   **County Assessor Websites**
+
+    These are online portals provided by local government entities that offer property-related information, including property records, tax assessments, and maps. Users can access details about property ownership and tax information.
+
+-   [**Vanguard Appraisals, Inc**](https://www.iowaassessors.com/){target="_blank"}
+
+    Vanguard Appraisals, Inc is a company that specializes in providing property appraisal services and software solutions for assessment in cities, counties and township Assessment Offices.-
+
+-   [**Beacon**](https://beacon.schneidercorp.com/){target="_blank"} **by Schneider Geospatial**
+
+    This is a software platform used for property assessment and tax administration. It helps government agencies manage property data, valuation processes, and tax assessments by offering geospatial mapping, data analytics, and reporting capabilities.
+
+-   **Google Street View**
+
+    What is *Google Street View?*
+
+Upon further reflection, we realized that Zillow owns Trulia. The major difference in the two sites is the Zestimate provided on Zillow. Because we were interested in the housing value, we chose to scrape Zillow out of the two.
+
+The following are the sites we did scrape:
+
+-   Zillow
+-   Polk County Assessor Website
+-   Vanguard
+-   Beacon
+-   Google Street View
+
+### Address Collection
+
+1.  Scraping process for Beacon 
+2.  Scraping process for Vanguard 
+3.  Data Cleaning and Challenges encountered 
+4.  Importance of obtaining accurate and reliable data from these sources 
+
+These addresses were the main source for creating Google API links, our main source for images. If the addresses are incorrect, we wouldn't be able to pull the images.
+
+Link to more information [here](https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html#address-collection-and-cleaning){target="_blank"}.
+
+### Image Collection
+
+Out of our five sites for scraping, we were able to get images from Zillow and Google Street View. Both sites presented challenges in gathering images. Because of the challenges, we decided to use WINVEST photos as well. In total, the image data came from four sites:
+
+-   Zillow
+
+-   Google Street View
+
+-   WINVEST
+
+-   Vanguard
+
+#### Naming Convention
+
+Before we collected images, we created a standardized naming convention to maintain efficient organization. The base of our naming convention is **source_city_address**. In general, the first letter of the source or city represented it. Independence and New Hampton were adjusted to use the letter "D"and "H", respectively.
+
+| Source       | City              |
+|--------------|-------------------|
+| Z - Zillow   | H - New Hampton   |
+| G - Google   | D - Independence  |
+| V - Vanguard | G - Grundy Center |
+| B - Beacon   | S - Slater        |
+| W - WINVEST  |                   |
+
+Here is an example of the naming convention in use:
+
+> Source: Zillow
+>
+> City: New Hampton, Iowa
+>
+> Address: 311 W Main St
+>
+> **Result**: Z_H_311 W MAIN ST\_
+
+#### Web Scraping Zillow
+
+We scraped and downloaded image URLS for For Sale houses and recently Sold houses on Zillow. In total, we were able to scrape about one hundered images from Zillow. There were a lot more images available on Zillow that we weren't able to scrape.
+
+**Challenges and Limitations of Scraping Zillow**
+
+-   Good images are only available for For Sale and recently Sold houses. Other house images on Zillow are taken from Google.
+
+-   Images are stored in a carousel. The only image we were able to scrape was the first, and it wasn't always in image of the exterior.
+
+-   Lazy loading. The term lazy loading refers to how a webpage loads its data. Because Zillow is lazy, it only loads the image data when the user scrolls down the page. When web scraping, only the loaded images are available. A more complicated process is needed to scrape a lazily loaded webpage.
+
+Zillow is a great source for image data if you are able to get around the lazy loading issue and grab all images from the carousel. Zillow images for For Sale homes are more recent than other sources.
+
+#### Scraping Google Street View
+
+In order to scrape images from Google Street View, a Google API key is required. It is included in the image URL to allow viewing of a specific house.
+
+As discussed earlier, the address data scraped from Vanguard and Beacon was cleaned and stored in CSV files to create the image URLS for use with Google Street View. We wrote code to open each image URL in the CSV file and download the image.
+
+Here is an example of the code to download the image from Google Street View.
+
+```{python, eval = FALSE}
+
+data <- read.csv("file_path")
+
+urls_start <- data[, 1]
+
+urls_full <- paste(urls_start, “&key=”, sep = ““)
+
+urls_full_api_key <- paste(urls_full, api_key, sep = ““)
+
+# creates folder and downloads all images
+
+dir.create(“google_images_folder_name”)
+
+for(i in seq_along(urls_full_api_key)) {
+
+___ file_path <- file.path(“google_images_folder_name”, paste0(“image_name”, data[i,6], “_.png”))
+
+___ download.file(urls_full_api_key[i], file_path, mode = “wb”)
+
+___ print(file_path)
+
+___ print(i)
+
+}
+```
+
+Click here for more information.
+
+**Challenges of Scraping Google Street View**
+
+During the process of gathering images from Google Street view, we encountered the following problems:
+
+-   Image downloading takes time. It takes upwards of an hour for a city of 2,000.
+
+-   Blurred houses. Certain homeowners request Google to have their residences intentionally blurred on Google Street View to protect their privacy. Such images were ignored.
+
+-   Address inconsistencies in Independence that caused errors when scraping. Some houses had multiple house numbers listed, such as 100/101, while others had addresses like 100 1/2.
+
+-   Duplicate images for different addresses.
+
+-   Particular streets not mapped, particularly in New Hampton, resulting in no image available.
+
+-   Images of inside of stores showing as an exterior house image.
+
+::: {layout-ncol="2"}
+![](/images/MicrosoftTeams-image%20(1).png){width="436"}
+
+![](/images/no_image.png){width="436"}
+:::
+
+Click here for more information on collecting images from Google Street View.
+
+### Attribute Collection
+
+#### Using a Spider to Collect Vanguard Information
+
+A spider is an automated version of web scraping that automatically goes page by page on a website. This reduces manual involvement in the scraping process and makes it more efficient.
+
+Aaron Case, our friend on the AI Grocery Team, built us a spider to scrape Vanguard data. We were able to grab the following information from Vanguard:
+
+-   Parcel number
+
+-   Image URL
+
+-   House style
+
+-   Year built
+
+-   Square footage
+
+-   Appraised value
+
+Click here for more information on the Vanguard Spider.

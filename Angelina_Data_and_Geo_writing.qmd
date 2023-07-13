@@ -6,9 +6,9 @@ title: "Data Collection Section"
 
 We first gathered house images manually from Kaggle, amassing a total of approximately 35,000 images. Kaggle is a website for hosting and sharing datasets. This website has many useful datasets for building AI models, which is why we decided to use images from Kaggle to aid in the initial AI model building process.
 
-However, since we needed more relevant images specific to Iowa, we decided to web scrape from other sources. Through this technique, we automated the process of acquiring images. Despite this improvement, we still had to manually sift through the gathered images, distinguishing those of high quality and suitable features for training our model from those of poorer quality.
+Since we needed more relevant images specific to Iowa, we decided to web scrape from other sources. Through this technique, we automated the process of acquiring images. Despite this improvement, we still had to manually sift through the gathered images, distinguishing those of high quality and suitable features for training our model from those of poorer quality.
 
-Based on the WINVEST project, the team decided to web scrape housing images and data from the communities of Grundy Center, New Hampton and Independence.
+WinVest was another DSPG project that involved the communities of Grundy Center, New Hampton and Independence. We chose to web scrape housing data from these three communities for our project, and were able to use images from WinVest.
 
 ### What is Web Scraping?
 
@@ -16,17 +16,7 @@ Web scraping is like a digital tool that automatically collects information from
 
 Before starting any web scraping, our team had a plan to scrape the following websites for image, address, and attribute data:
 
--   [**Zillow**](https://www.zillow.com/?utm_medium=cpc&utm_source=google&utm_content=1471764169%7C65545421228%7Caud-352785741564:kwd-570802407%7C603457706088%7C&semQue=null&gclid=EAIaIQobChMI-Nv7oPL3_wIVWSazAB0eyA9CEAAYASAAEgKaafD_BwE){target="_blank"}
-
-    Zillow is an online platform and app for real estate that allows users to search for homes, view property listings, and access data on home values and market trends.
-
--   [**Trulia**](https://www.trulia.com/){target="_blank"}
-
-    Trulia is another online platform and app for real estate that helps users find homes, apartments, and other property listings, and provides information on neighborhoods and market trends.
-
--   [**Realtor.com**](https://www.realtor.com/){target="_blank"}
-
-    Realtor.com is a website and app that offers a comprehensive database of property listings, allowing users to search for homes, apartments, and other real estate options. It also provides resources for finding real estate agents.
+-   [**Zillow**](https://www.zillow.com/?utm_medium=cpc&utm_source=google&utm_content=1471764169%7C65545421228%7Caud-352785741564:kwd-570802407%7C603457706088%7C&semQue=null&gclid=EAIaIQobChMI-Nv7oPL3_wIVWSazAB0eyA9CEAAYASAAEgKaafD_BwE){target="_blank"}, [**Trulia**](https://www.trulia.com/){target="_blank"}, and [**Realtor.com**](https://www.realtor.com/)
 
 -   **County Assessor Websites**
 
@@ -46,7 +36,7 @@ Before starting any web scraping, our team had a plan to scrape the following we
 
 Upon further reflection, we realized that Zillow owns Trulia. The major difference in the two sites is the Zestimate provided on Zillow. Because we were interested in the housing value, we chose to scrape Zillow out of the two.
 
-The following are the sites we did scrape:
+We collected data from the following sites:
 
 -   Zillow
 -   Polk County Assessor Website
@@ -56,9 +46,15 @@ The following are the sites we did scrape:
 
 ### Address Collection
 
-Vanguard has a GIS tool available that allowed us to select portions of cities and download addresses and parcel numbers. Only data for Independence was available through Vanguard. A downside to this method was that Vanguard limits the number of parcels we can select for download at a time.
+Lists of addresses and other information for Iowa cities are very hard to come by. It is not likely that such lists exists for cities. This is why we planned to scrape data.
 
-Beacon has more protection against web scraping than Vanguard. However, web scraping is necessary for the automation of downloading data on this website, as the GIS tool is not available. To scrape addresses and parcel numbers, and other house information for the remaining cities, we used the [Instant Data Scraper Tool](https://chrome.google.com/webstore/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah). This scraper provided us with CSV files of scraped data from Beacon.
+Vanguard and Beacon are companies used by most cities in Iowa. They hold much of the state's housing data. This is why the data collection from these websites were of importance.
+
+Vanguard has a GIS tool available that allowed us to select portions of cities and download addresses and parcel numbers. Only data for Independence was available through Vanguard. Vanguard limits the number of parcels we can select at a time for download.
+
+Beacon has more protection against web scraping than Vanguard. Also, the GIS tool was not available for Beacon data. The process of downloading data one house at a time would be extremely time consuming. For example, Grundy Center, a city of around 2,000 people, has approximately 1,200 addresses. Collecting data for 1,200 addresses without automation would take a very long time.
+
+To scrape addresses and parcel numbers, we used the [Instant Data Scraper Tool](https://chrome.google.com/webstore/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah). This scraper provided us with CSV files of house data.
 
 Once the data had been scraped, we found that the CSV files provided us with a format that was not ideal.
 
@@ -66,21 +62,19 @@ Examples of issues we encountered with the CSV files:
 
 -   Many of the cells contained hidden characters.
 
--    New lines within the cells.
+-   New lines within the cells.
 
 To fix this file format, we used Excel's Text-to-Columns tool to organize text, and Excel functions to separate and combine sections, and the Excel Find and Replace tool to remove unwanted characters.
 
-In addition to re-formatting data, it was also necessary to create links for the Google Street View image collection process. Below is an example of a link to a Google Street View Image (excluding Google API key). To create links, Excel functions were used to concatenate the beginning part of the links (https://maps.googleapis.com/maps/api/streetview?size=800x800&location=), the address (303+I+AVE,+GRUNDY+CENTER+IOWA) and Google API key.
+In addition to re-formatting data, it was also necessary to create links for the Google Street View image collection process. Below is an example of a link to a Google Street View Image.
 
 **https://maps.googleapis.com/maps/api/streetview?size=800x800&location=303+I+AVE,+GRUNDY+CENTER+IOWA**
 
-These addresses were the main source for creating Google API links, our main source for images. If the addresses are incorrect, we wouldn't be able to pull the images.
-
-Link to more information [here](https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html#address-collection-and-cleaning){target="_blank"}.
+More information [here](https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html#address-collection-and-cleaning){target="_blank"}.
 
 ## Geographic Visualization
 
-#### What is GIS and how is it used in this project? 
+#### What is GIS and how is it used in this project?
 
 A Geographic Information System (GIS) is a spatial system that is used to analyze, display and store geographically referenced information. GIS uses data that is attached to a unique location and can be useful for identifying problems and trends.
 
@@ -92,7 +86,7 @@ In the future, it could be beneficial to utilize statistical analysis techniques
 
 #### Geocoding Addresses
 
-To visualize addresses for the communities, first we needed to geocode (provide latitude and longitude for each address). There are many types of software that can be used to geocode addresses.
+To visualize addresses for the communities, first we needed to geocode each address. Because GIS does not always know the exact location of an address, the latitude and longitude of addresses are needed. There are many types of software that can be used to geocode addresses.
 
 QGIS is an open-source GIS software. We first geocoded addresses by using the QGIS Plugin called MMQGIS. When using this method, the plugin would crash and fail to geocode all the addresses. Because of this, we geocoded addresses using R instead. Base code was from [storybench](https://www.storybench.org/geocode-csv-addresses-r/){target="_blank"}.
 
@@ -102,9 +96,15 @@ Below is an image of a CSV file with addresses latitude and longitude.
 
 More information [here](https://1angelinaevans.github.io/AngelinaEvansBlog/posts/Week6TeamBlog/Week6TeamBlog.html#mapping){target="_blank"}.
 
+#### Mapping the Data
+
+We first created maps in QGIS.
+
 ![](/images/siding_slater.png)
 
-We later realized we can use Tableau for better data connections and visualizations. We created a step by step process for creating a tableau dashboard showing the output from the AI Models and mapping it to the already geocoded addresses.
+We later realized we can use Tableau for better data connections and visualizations. Tableau is a software used for data visualization. Tableau was more appealing because of its ability to create maps and compare data between cities using the same software. ArcGIS is another viable option for mapping, but it requires a licence and for the reasons above, we chose to use Tableau.
+
+We created a step by step process for creating a tableau dashboard showing the output from the AI Models and mapping it to the already geocoded addresses.
 
 Click [here](https://1angelinaevans.github.io/AngelinaEvansBlog/posts/MappingHouseData/MappingHouseQuality.html){target="_blank"} for more information.
 

@@ -7,11 +7,15 @@
 
 ## About the Project
 
-In rural Midwestern communities, the presence of high-quality and affordable housing plays a crucial role in preserving a good quality of life and fostering the vitality of the region, particularly for individuals involved in agriculture. However, measuring the condition of housing in rural communities can be a complex and subjective task. To address these challenges, there is a pressing need for an Artificial Intelligence (AI) driven approach that can provide a more accurate and objective evaluation of housing quality, identify financing gaps, and optimize the allocation of local, state, and federal funds to maximize community benefits.
+Crucial to Midwestern rural vitality is a supply of good quality housing for residents of all ages and income levels. Crucial to effective rural housing policy development is a supply of good quality data describing local housing conditions.
 
-Utilizing web scraping techniques to collect images of houses from various assessor websites, an AI model can be developed to analyze and categorize housing features into good or poor quality. This can enable targeted investment strategies. It allows for the identification of houses in need of improvement and determines the areas where financial resources should be directed. By leveraging AI technology in this manner, the project seeks to streamline the housing evaluation process, eliminate subjective biases, and facilitate informed decision-making for housing investment and development initiatives in rural communities.
+Ideally, communities would have ready access to information about their local housing stock to identify needs, set priorities, and optimize allocation of resources and investments. Unfortunately, many small communities lack the capacity to systematically evaluate their housing stock.
 
-The goal of the project is to investigate the condition of existing housing stock in rural Midwestern communities and develop a thorough and objective evaluation of housing quality using AI.
+City and county property assessors' offices seem a logical source for obtaining local housing data; however, tapping into these assessor databases poses some challenges. Access to a community's full database may be restricted, as most city and county assessors now outsource data management to private firms. Even when accessible, the database may not be amenable to custom tabulations and targeted queries about specific housing conditions. In addition, the subjectivity of the assessment process introduces biases and inconsistences into the data themselves.
+
+Data science approaches including Artificial Intelligence (AI) models offer great potential for addressing these and other housing data challenges encountered by rural communities and researchers who study them. For example, image classification models could be used to rate the condition of selected exterior housing features, such as roof and siding, or to detect the presence of problems such as missing or damaged gutters or an overgrown landscape. Leveraging AI technology in this manner could streamline the housing evaluation process, eliminate subjective biases, and facilitate informed decision-making for housing investment and development initiatives in rural communities.
+
+The goal of this project is to investigate methods for conducting a thorough and objective evaluation of a community's housing stock using AI, and also to explore how such methods could be adapted for multi-community analysis of relationships between housing quality and other local attributes in rural areas.
 
 
 ## Presentation Blog
@@ -20,7 +24,7 @@ The goal of the project is to investigate the condition of existing housing stoc
 
 ## Links to Guides
 
-+ Creating demographic profiles: **Kailyn's blog post will go here.**
+
 + Evaluating cities: https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html
 + Mapping house quality of cities: https://1angelinaevans.github.io/AngelinaEvansBlog/posts/MappingHouseData/MappingHouseQuality.html
 + Guide to AI models: https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_AI_guide_w9/AI_guide.html

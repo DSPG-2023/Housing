@@ -61,7 +61,7 @@ Link to more information [here](https://gavinfishy.github.io/Gavin_DSPG_Blog/pos
 
 ### Image Collection
 
-Out of our five sites for scraping, we were able to get images from Zillow and Google Street View. Both sites presented challenges in gathering images. Because of the challenges, we decided to use WINVEST photos as well. In total, the image data came from four sites:
+Out of our five scraping sites, we got images from Zillow and Google Street View. Both sites presented challenges in gathering images. Because of the challenges, we decided to use WINVEST photos as well. In total, the image data came from four sites:
 
 -   Zillow
 
@@ -73,7 +73,7 @@ Out of our five sites for scraping, we were able to get images from Zillow and G
 
 #### Naming Convention
 
-Before we collected images, we created a standardized naming convention to maintain efficient organization. The base of our naming convention is **source_city_address**. In general, the first letter of the source or city represented it. Independence and New Hampton were adjusted to use the letter "D"and "H", respectively.
+Before we collected images, we created a standardized naming convention to maintain efficient organization. The base of our naming convention is **source_city_address**. In general, the first letter of the source or city represents it. Independence and New Hampton were adjusted to use the letter "D"and "H," respectively.
 
 | Source       | City              |
 |--------------|-------------------|
@@ -95,23 +95,23 @@ Here is an example of the naming convention in use:
 
 #### Web Scraping Zillow
 
-We scraped and downloaded image URLS for For Sale houses and recently Sold houses on Zillow. In total, we were able to scrape about one hundered images from Zillow. There were a lot more images available on Zillow that we weren't able to scrape.
+We scraped and downloaded image URLs for For Sale houses and recently Sold houses on Zillow. In total, we could scrape about one hundred images from Zillow. There were many more images available on Zillow that we couldn't scrape.
 
 **Challenges and Limitations of Scraping Zillow**
 
 -   Good images are only available for For Sale and recently Sold houses. Other house images on Zillow are taken from Google.
 
--   Images are stored in a carousel. The only image we were able to scrape was the first, and it wasn't always in image of the exterior.
+-   Images are stored in a carousel. The only image we could scrape was the first, which wasn't always an image of the exterior.
 
 -   Lazy loading. The term lazy loading refers to how a webpage loads its data. Because Zillow is lazy, it only loads the image data when the user scrolls down the page. When web scraping, only the loaded images are available. A more complicated process is needed to scrape a lazily loaded webpage.
 
-Zillow is a great source for image data if you are able to get around the lazy loading issue and grab all images from the carousel. Zillow images for For Sale homes are more recent than other sources.
+Zillow is a great source for image data if you can get around the lazy loading issue and grab all images from the carousel. Zillow images for For Sale homes are more recent than other sources.
 
 #### Scraping Google Street View
 
-In order to scrape images from Google Street View, a Google API key is required. It is included in the image URL to allow viewing of a specific house.
+A Google API key is required to scrape images from Google Street View. It is included in the image URL to allow viewing of a specific house.
 
-As discussed earlier, the address data scraped from Vanguard and Beacon was cleaned and stored in CSV files to create the image URLS for use with Google Street View. We wrote code to open each image URL in the CSV file and download the image.
+As discussed earlier, the address data scraped from Vanguard and Beacon was cleaned and stored in CSV files to create the image URLs for use with Google Street View. We wrote code to open each image URL in the CSV file and download the image.
 
 Here is an example of the code to download the image from Google Street View.
 
@@ -146,17 +146,17 @@ Click here for more information.
 
 **Challenges of Scraping Google Street View**
 
-During the process of gathering images from Google Street view, we encountered the following problems:
+During the process of gathering images from Google Street View, we encountered the following problems:
 
 -   Image downloading takes time. It takes upwards of an hour for a city of 2,000.
 
--   Blurred houses. Certain homeowners request Google to have their residences intentionally blurred on Google Street View to protect their privacy. Such images were ignored.
+-   Blurred houses. Certain homeowners request Google to intentionally blur their residences on Google Street View to protect their privacy. Such images were ignored.
 
--   Address inconsistencies in Independence that caused errors when scraping. Some houses had multiple house numbers listed, such as 100/101, while others had addresses like 100 1/2.
+-   Address inconsistencies in Independence that caused errors when scraping. Some houses listed multiple house numbers, such as 100/101, while others had addresses like 100 1/2.
 
 -   Duplicate images for different addresses.
 
--   Particular streets not mapped, particularly in New Hampton, resulting in no image available.
+-   Particular streets were not mapped, particularly in New Hampton, resulting in no image available.
 
 -   Images of inside of stores showing as an exterior house image.
 
@@ -172,7 +172,7 @@ Click here for more information on collecting images from Google Street View.
 
 #### Using a Spider to Collect Vanguard Information
 
-A spider is an automated version of web scraping that automatically goes page by page on a website. This reduces manual involvement in the scraping process and makes it more efficient.
+A spider is an automated version of web scraping that automatically goes page by page on a website. A spider reduces manual involvement in the scraping process and makes it more efficient.
 
 Aaron Case, our friend on the AI Grocery Team, built us a spider to scrape Vanguard data. We were able to grab the following information from Vanguard:
 

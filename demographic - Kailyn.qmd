@@ -1,0 +1,146 @@
+---
+title: "Demographic Analysis - Kailyn"
+---
+
+## Demographic Analysis
+
+### Profiling Using R Studio
+
+We constructed a demographic profile of the three WINVEST cities - Grundy Center, Independence, and New Hampton - using R Studio. A demographic profile is a type of demographic analysis that focuses on a specific area. They are built using demographic data. Demographic data are but are not limited to, data on **age**, **race**, **ethnicity**, **gender**, **marital status**, **income**, **education**, and **employment**.
+
+The following demographic data were used for the demographic profile of the communities:
+
+-   Population.
+
+-   Median income
+
+-   Median home value
+
+-   Median year home built
+
+-   Home ownership rates
+
+We chose these demographic data to give a well-rounded analysis of the housing demographics in our chosen communities and add context to the housing conditions we gathered.
+
+Our data came from the **United States Decennial Census** and the **American Community Survey (ACS)**. The U.S. census is one of the best places to gather demographic data because it counts every resident in the United States. It has a very low inaccuracy, but the U.S. census is only conducted every ten years. The American Community Survey (ACS) is your best bet for more recent data. The ACS has more detailed demographic data and is conducted every five years for the entirety of the United States and every year for places with a population over 65,000. The ACS does not count every individual resident in the United States and instead relies on surveying a proportion of the population to create estimates of the demographics. Thus, it can be inaccurate and provides a margin of error. It is best used for data on the changing population, housing, and workforce.
+
+To collect data in R Studio, we installed the *Tidyverse* and *Tidycensus* packages and loaded them with the `library()` function.
+
+```{r, eval = FALSE}
+install.packages("tidyverse") 
+install.packages("tidycensus")
+```
+
+```{r, message = FALSE, warning = FALSE}
+library(tidyverse) 
+library(tidycensus)
+```
+
+The *Tidyverse* package includes a range of functions that make coding in R Studio more user-friendly. It is not necessary for data collection, but it certainly does help. In contrast, the *Tidycensus* package is essential to data collection. The *Tidycensus* package lets you pull data directly from the Decennial Census and the ACS using the `get_decennial()` and `get_acs()` functions. You only need to specify three arguments to pull data: geography, year, and variable.
+
+```{r, eval = FALSE}
+get_decennial(geography = "state",
+              variable = "P001001",
+              year = 2010)  
+
+get_acs(geography = "region",
+        variable = "B19013_001",
+        year = 2010)
+```
+
+To visualize data in R Studio, we installed and loaded more packages: *ggplot2, scales,* and *ggthemes.*
+
+```{r, eval = FALSE}
+install.packages("ggplot2") 
+install.packages("scales") 
+install.packages("ggthemes")
+```
+
+```{r, message = FALSE}
+library(ggplot2) 
+library(scales) 
+library(ggthemes)
+```
+
+*The ggplot2* package is required to create a plot in R Studio. With *ggplot2* you get access to the function `ggplot(),` which allows you to create visualizations. `ggplot()` takes the arguments `data` and `mapping` to create a plot. `Mapping` refers to the x and y coordinates of our data. There are various geoms included in the *ggplot2* package that aid in creating a visualization. Here are some examples:
+
+| Geom             | Result       |
+|------------------|--------------|
+| geom_line()      | line graph   |
+| geom_point()     | scatter plot |
+| geom_histogram() | histogram    |
+| geom_bar()       | bar chart    |
+| geom_col()       | column chart |
+
+: Using the packages above, the following plots were made in R Studio:
+
+::: {layout-ncol="2"}
+![](/images/demographics/all_percent_change.png){width="498"}
+
+![](/images/demographics/pop_projection_cities.png){width="498"}
+
+![](/images/demographics/home_ownership.png){width="498"}
+:::
+
+![](/images/demographics/median_income.png)
+
+![](/images/demographics/median_value.png)
+
+![](/images/demographics/value_and_year_built.png){width="522"}
+
+Using the Infographics feature on ArcGIS Pro, we also created community summaries of Grundy Center, Independence, and New Hampton. These visualizations
+
+**Grundy Center**
+
+![](/images/grundy_center_community_summary%20(1).png){width="703"}
+
+**Independence**
+
+![](/images/independence_community_summary.png){width="703"}
+
+**New Hampton**
+
+![](/images/new_hampton_community_summary.png){width="703"}
+
+To make a community summary infographic you can check [here](https://kailynhogan.github.io/Kailyn_Hogan_DSPG_Blog/posts/Week_7/Week_7.html#monday){target="_blank"} for a guide.
+
+3.  Key findings and insights. 
+
+```{=html}
+<!-- -->
+```
+4.  Interpretation of demographic patterns and their implications. 
+
+### Collecting Data to Identify Study Communities
+
+To keep this project moving into other years, we decided to identify study communities in Iowa that could benefit from this project. All data collection was completed in R Studio using the Tidycensus and Tidyverse packages to pull data from the Decennial Census and American Community Survey (ACS).
+
+The following demographic data was collected:
+
+-   Age.
+
+    *The age of a community's population can be very telling of its growth. Communities that have a higher percentage of their population over the age of sixty-five than their population under eighteen could have issues with the younger generations moving away. A high median age could indicate the same issue.*
+
+-   Population size.
+
+    *Specifically, we were looking for communities with a population between 500 and 10,000. Communities with smaller populations are this project's main focus. We were particularly interested in any communities that had a declining population as that can indicate it is struggling.*
+
+-   Housing.
+
+    *A low median house value and high median house age can indicate a struggling community. A high median house age can reveal that new housing is not being built in the community, and the community is not growing.*
+
+-   Occupancy rates.
+
+    *Communities with low home ownership rates and high vacancy rates could have issues and be struggling. There is little room for community investment if residents cannot afford to buy their own homes.*
+
+-   Income.
+
+    *A low median income or a low percent change in income can indicate a struggling community. There is little room for community investment when residents have little income.*
+
+-   Jobs and employment.
+
+    *Employment statistics are important because there will only be money to invest in a community if people are employed. The percentage of the workforce that commuted to work gives information on where jobs are located. If people are commuting, there are not enough jobs in town. People also tend to move to where jobs are.*
+
+We were able to start the visualization process in Tableau for the population data. From this visualization we can pin point the communities in Iowa that have a concerning growth rate and population size.
+
+\[insert viz\]

@@ -1,13 +1,11 @@
 # NOTES 7/9 10:13 AM
-# finish manipulating the data (eg. changing to percentages)
+# finish manipulating the data (eg. changing to percentages) for tax data base and wac and rac
 # save all data frames as csv files to put into Tableau
 
 
 
 library(tidyverse)
 library(tidycensus)
-library(ggthemes)
-library(scales)
 
 
 ## starting with POPULATION data for all places in Iowa ##

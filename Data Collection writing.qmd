@@ -1,0 +1,222 @@
+---
+title: "Data Collection Section"
+---
+
+## Data Collection
+
+At first, we gathered house images manually from Kaggle, amassing a total of approximately 35,000 images. However, we needed more relevant images specific to Iowa, we decided to webscrape from other sources. Through this technique, we automated the process of acquiring images. Despite this improvement, we still had to manually sift through the gathered images, distinguishing those of high quality and suitable features for training our model from those of poorer quality.
+
+Based on the WINVEST project, the team decided to work with the communities of Grundy Center, New Hampton and Independence.
+
+### Web Scraping
+
+The Beacon website implemented restrictions that prohibits web scraping activities on their platform. One major thing to also note is Zillow owns Trulia.
+
+We resolved to web scraping from the following websites;
+
+-   Zillow
+-   Google Street View
+-   Vanguard
+-   Beacon
+-   Polk County Assessor Website
+
+Based on the WINVEST project, we collected house images of Independence, New Hampton, and Grundy Center. However, during the process of web scraping to gather images, we encountered the following problems;
+
+-   Blurred houses. Further investigation revealed that certain homeowners request Google to have their residences intentionally blurred on Google Street View. Such houses were ignored.
+
+-   "Address" inconsistencies in Independence. Some houses had multiple house numbers listed, such as 100/101, while others had addresses like 100 1/2.
+
+-   Duplicate images with different addresses.
+
+-   Particular streets are not mapped.
+
+-   Images of inside of stores showing as a house image.
+
+::: {layout-ncol="2"}
+![](/images/MicrosoftTeams-image%20(1).png){width="436"}
+
+![](/images/no_image.png){width="436"}
+:::
+
+### **Address Collection**
+
+-   Brief explanation of Beacon and Vanguard as data sources.
+
+-   Scraping process for Beacon.
+
+-   Scraping process for Vanguard.
+
+-   Data Cleaning and Challenges encountered.
+
+-   Importance of obtaining accurate and reliable data from these sources.
+
+-   
+
+![](/images/6beacon_select.png)
+
+### Image Collection
+
+#### Scrape Google Images - [Google Image Scraping](https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html#scrape-google-images){target="_blank"}
+
+```{R, eval=FALSE}
+# Ogden
+
+og_data <- read.csv("~/GitHub/Housing/complete links/ogden_urls.csv")
+
+urls_start <- og_data[, 1]
+
+urls_full <- paste(urls_start, "&key=", sep = "")
+
+urls_full_api_key <- paste(urls_full, api_key, sep = "")
+
+# creates folder and downloads all images
+
+dir.create("ogden_google_images_folder")
+
+for(i in seq_along(urls_full_api_key)) {
+
+___ file_path <- file.path("ogden_google_images_folder", paste0("G_OG_", og_data[i,6], "_.png"))
+
+___ download.file(urls_full_api_key[i], file_path, mode = "wb")
+
+___ print(file_path)
+
+___ print(i)
+
+}
+```
+
+#### Creating Google API Links - [Google API](https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html#creating-google-api-links){target="_blank"}
+
+![](/images/10use_link.png)
+
+#### 
+
+## Data Collection
+
+### What is Web Scraping? 
+
+Web scraping is like a digital tool that automatically collects information from websites, allowing us to gather data quickly without manual searching.
+
+Before starting any web scraping, our team had a plan to scrape the following websites for image, address, and attribute data:
+
+-   [**Zillow**](https://www.zillow.com/?utm_medium=cpc&utm_source=google&utm_content=1471764169%7C65545421228%7Caud-352785741564:kwd-570802407%7C603457706088%7C&semQue=null&gclid=EAIaIQobChMI-Nv7oPL3_wIVWSazAB0eyA9CEAAYASAAEgKaafD_BwE){target="_blank"}
+
+    Zillow is an online platform and app for real estate that allows users to search for homes, view property listings, and access data on home values and market trends.
+
+-   [**Trulia**](https://www.trulia.com/){target="_blank"}
+
+    Trulia is another online platform and app for real estate that helps users find homes, apartments, and other property listings, and provides information on neighborhoods and market trends.
+
+-   [**Realtor.com**](https://www.realtor.com/){target="_blank"}
+
+    Realtor.com is a website and app that offers a comprehensive database of property listings, allowing users to search for homes, apartments, and other real estate options. It also provides resources for finding real estate agents.
+
+-   **County Assessor Websites**
+
+    These are online portals provided by local government entities that offer property-related information, including property records, tax assessments, and maps. Users can access details about property ownership and tax information.
+
+-   [**Vanguard Appraisals, Inc**](https://www.iowaassessors.com/){target="_blank"}
+
+    Vanguard Appraisals, Inc is a company that specializes in providing property appraisal services and software solutions for assessment in cities, counties and township Assessment Offices.-
+
+-   [**Beacon**](https://beacon.schneidercorp.com/){target="_blank"} **by Schneider Geospatial**
+
+    This is a software platform used for property assessment and tax administration. It helps government agencies manage property data, valuation processes, and tax assessments by offering geospatial mapping, data analytics, and reporting capabilities.
+
+-   **Google Street View**
+
+    To scrape images from Google Street View using the Google API, you can utilize the Google Street View Image API. You would need desired coordinates or addresses to retrieve the Street View images, and then save the images obtained from the API response to your local storage or database for further use.
+
+Upon further reflection, we realized that Zillow owns Trulia. The major difference in the two sites is the Zestimate provided on Zillow. Because we were interested in the housing value, we chose to scrape Zillow out of the two.
+
+The following are the sites we did scrape:
+
+-   Zillow
+-   Polk County Assessor Website
+-   Vanguard
+-   Beacon
+-   Google Street View
+
+### Address Collection
+
+2.  Scraping process for Beacon 
+
+```{=html}
+<!-- -->
+```
+3.  Scraping process for Vanguard 
+
+```{=html}
+<!-- -->
+```
+4.  Data Cleaning and Challenges encountered 
+
+```{=html}
+<!-- -->
+```
+5.  Importance of obtaining accurate and reliable data from these sources 
+
+These addresses were the main source for creating Google API links, our main source for images. If the addresses are incorrect, we wouldn't be able to pull the images.
+
+6.  Link to more information [here](https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html#address-collection-and-cleaning){target="_blank"}.
+
+### Image Collection 
+
+brief intro.
+
+#### Naming Convention
+
+To ensure convenient access to the images collected from various sources, we devised a standardized naming convention: source_city_address
+
+| Source       | City              |
+|--------------|-------------------|
+| Z - Zillow   | H - New Hampton   |
+| G - Google   | D - Independence  |
+| V - Vanguard | G - Grundy Center |
+| B - Beacon   | S - Slater        |
+| W - WINVEST  |                   |
+
+: For example:
+
+-   Zillow
+-   New Hampton, Iowa
+-   311 W Main St
+
+**Result**: Z_H_311 W MAIN ST\_
+
+2.  Creating Google Street View Links with Google API 
+
+```{=html}
+<!-- -->
+```
+3.  Grabbing Google Street View Images 
+
+```{=html}
+<!-- -->
+```
+4.  Explanation of Zillow as a real estate data source 
+
+```{=html}
+<!-- -->
+```
+5.  Scraping Zillow 
+
+```{=html}
+<!-- -->
+```
+6.  Challenges and limitations of scraping Zillow 
+
+```{=html}
+<!-- -->
+```
+7.  Link to more information. 
+
+### Attribute Collection
+
+1.  Vanguard Spider 
+
+```{=html}
+<!-- -->
+```
+2.  Link to more information. 

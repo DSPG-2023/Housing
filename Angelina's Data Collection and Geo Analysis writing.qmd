@@ -77,3 +77,33 @@ In addition to re-formatting data, it was also necessary to create links for the
 These addresses were the main source for creating Google API links, our main source for images. If the addresses are incorrect, we wouldn't be able to pull the images.
 
 Link to more information [here](https://gavinfishy.github.io/Gavin_DSPG_Blog/posts/Gavin-Fisher_guide_w7/full_guide.html#address-collection-and-cleaning){target="_blank"}.
+
+## Geographic Visualization
+
+#### What is GIS and how is it used in this project? 
+
+A Geographic Information System (GIS) is a spatial system that is used to analyze, display and store geographically referenced information. GIS uses data that is attached to a unique location and can be useful for identifying problems and trends.
+
+More information [here](https://www.esri.com/en-us/what-is-gis/overview).
+
+Mapping our house quality output using GIS enables us to visualize the AI-model output for vegetation, siding, gutters, and roof characteristics. This will allow us to visualize locations of houses in good conditions versus poor condition. Visualization is one way to analyze geographic data, but is not the only way. In the future, it could be beneficial to utilize statistical analysis techniques to understand the spatial relationship between data and visualize clusters.
+
+#### Geocoding Addresses
+
+To visualize addresses for the communities, first we needed to geocode (provide latitude and longitude for each address). There many types of software that can be used to geocode addresses.
+
+Base code was from [storybench](https://www.storybench.org/geocode-csv-addresses-r/){target="_blank"}.
+
+More information [here](https://1angelinaevans.github.io/AngelinaEvansBlog/posts/Week6TeamBlog/Week6TeamBlog.html#mapping){target="_blank"}.
+
+![](/images/siding_slater.png)
+
+We later realized we can use Tableau for better data connections and visualizations. We created a step by step process for creating a tableau dashboard showing the output from the AI Models and mapping it to the already geocoded addresses.
+
+Click [here](https://1angelinaevans.github.io/AngelinaEvansBlog/posts/MappingHouseData/MappingHouseQuality.html){target="_blank"} for more information.
+
+### Tableau Dashboard
+
+![](/images/screenshot_dashboardnew.png){width="619"}
+
+#### [Tableau Dashboard](https://1angelinaevans.github.io/AngelinaEvansBlog/posts/House%20Quality%20Dashboards/HouseQualityDashboard.html){target="_blank"}

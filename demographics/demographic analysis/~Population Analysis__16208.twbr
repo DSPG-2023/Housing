@@ -4313,10 +4313,6 @@
           <aggregation value='true' />
         </view>
         <style>
-          <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.00xwftu1cyo4mn111lx5u1ylg2jc].[sum:Population:qk]' field-type='quantitative' max='155739' min='-9485' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.00xwftu1cyo4mn111lx5u1ylg2jc].[sum:Calculation_391813213792813056:qk]' field-type='quantitative' max='107.08268039485682' min='-80.411765076684873' range-type='fixed' scope='rows' type='space' />
-          </style-rule>
           <style-rule element='refline'>
             <format attr='fill-above' id='refline0' value='#00000000' />
             <format attr='fill-above' id='refline1' value='#00000000' />
@@ -4628,7 +4624,7 @@
       </cards>
       <simple-id uuid='{35128A2D-DFA6-41A2-A599-332E33A6B408}' />
     </window>
-    <window class='worksheet' name='Percent Population Change'>
+    <window class='worksheet' maximized='true' name='Percent Population Change'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4654,7 +4650,7 @@
       </viewpoint>
       <simple-id uuid='{0EDADA5A-4B9A-43B4-9701-48C687EC3B78}' />
     </window>
-    <window class='worksheet' maximized='true' name='Percent Population Change by Population Size'>
+    <window class='worksheet' name='Percent Population Change by Population Size'>
       <cards>
         <edge name='left'>
           <strip size='160'>

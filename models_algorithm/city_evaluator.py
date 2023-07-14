@@ -21,7 +21,7 @@ import sys
 # 6 = Elkhart
 city_being_evaluated = 3
 
-
+# folder files for each city
 if city_being_evaluated == 0:
     # main_folder = 'house_image_inputs_test'
     main_folder = os.path.expanduser("~/Documents/parent_folder_holder/address_folder_test")
@@ -48,7 +48,7 @@ folder_address_num = 0
 # print(image_folder_address)
 # sys.exit()
 
-
+# for each address folder of images call house_evaluator and feed it the folder
 for folder_name in os.listdir(main_folder):
     if os.path.isdir(os.path.join(main_folder, folder_name)):
         address_folder_path = os.path.join(main_folder, folder_name)
@@ -73,7 +73,7 @@ for folder_name in os.listdir(main_folder):
         # print(clear_image, rand_select, vegetation, vegetation_confidence, siding, siding_confidence, gutter, gutter_confidence)
 
 
-        # load csv file
+        # load csv file from each city
         if city_being_evaluated == 0:
             df = pd.read_csv('house_attributes_test.csv')
         elif city_being_evaluated == 1:

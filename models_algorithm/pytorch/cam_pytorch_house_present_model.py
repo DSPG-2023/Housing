@@ -1,17 +1,21 @@
+# This file was made by the DSPG AI Housing team summer of 2023
+# Made by Gavin
+# Uses CAM method to predict on training data and prints the heatmaps
+# This file both creates new files and produces the heatmap images
+
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torch.utils.data import DataLoader
-from torchvision import models, transforms, datasets
+from torchvision import transforms, datasets
 from PIL import Image
-import numpy as np
 import matplotlib.pyplot as plt
 import os
-import sklearn
 from sklearn.model_selection import train_test_split
 
-
+# seed can change this is just so it stays consistent
 torch.manual_seed(42)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -159,7 +163,7 @@ class HousePresenceModelWithCAM(nn.Module):
         self.gradients = None
         
     def forward(self, x):
-        # x = self.conv_layers(x)
+        # clone is neccesary here or you don't get updated images
         x = self.conv_layers(x.clone())
         self.feature_maps = x.clone().detach() 
         x.register_hook(self.save_gradients)  

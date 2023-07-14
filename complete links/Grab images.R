@@ -8,19 +8,25 @@ library(magrittr)
 
 
 # Elkhart
+# replace csv with csv for certain city
 eh_data <- read.csv("~/GitHub/Housing/complete links/elkhart_urls.csv")
+# grabbing from first column which has url links
 urls_start <- eh_data[, 1]
+# places &key= to end of url
 urls_full <- paste(urls_start, "&key=", sep = "")
+# adds api key
 urls_full_api_key <- paste(urls_full, api_key, sep = "")
+# new folder. Images in this folder will never be deleted so if you rerun this it will simply add more images so go delete this every run.
 dir.create("elkhart_google_images_folder")
+# grabs all images
 for(i in seq_along(urls_full_api_key)) {
+  # creates path with naming convention and grabs address from csv
   file_path <- file.path("elkhart_google_images_folder", paste0("G_EH_", eh_data[i,5], "_.png"))
+  # downloads the images
   download.file(urls_full_api_key[i], file_path, mode = "wb")
   print(file_path)
   print(i)
 }
-
-
 
 
 

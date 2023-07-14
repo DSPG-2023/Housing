@@ -20,11 +20,14 @@ image_files = glob('../models_algorithm/single_house_image_inputs/*')
 plt.imshow(Image.open(np.random.choice(image_files)))
 plt.show()
 
+# prebuilt model using imagenet dataset
 resnet = ResNet50(input_shape = (224, 224, 3), weights = 'imagenet', include_top = True)
 resnet.summary()
-activation_layer = resnet.get_layer('conv5_block3_out') # last activation layer
+# last activation layer
+activation_layer = resnet.get_layer('conv5_block3_out') 
 model = Model(inputs = resnet.input, outputs = activation_layer.output)
-final_dense = resnet.get_layer('predictions') # last dense layer
+# last dense layer
+final_dense = resnet.get_layer('predictions') 
 W = final_dense.get_weights()[0]
 
 while True:
